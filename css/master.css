@@ -1,12 +1,13 @@
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 body {
-  background-color: #94C3C5;
+  background-color: #A4B2D8;
   font-family: sans-serif;
+  padding: 0 4% 0 4%;
 }
 
 h1 {
-  color: #2C4C4C;
+  color: #3B404C;
   font-family: sans-serif;
   font-size: 18px;
   font-weight: normal;
@@ -19,6 +20,9 @@ h1 {
 h2 {
   margin-top: 20px;
   padding-top: 50px;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  line-height: 28px;
 }
 
 header {
@@ -31,7 +35,7 @@ header {
 header figure img {
   border: 4px solid #2C4C4C;
   border-radius: 50%;
-  width: 50%;
+  width: 40%;
 }
 
 #actual {
@@ -56,9 +60,21 @@ figure {
   margin: 0px;
   background-color: #D0D3D4;
   text-align: center;
-  color: #353839;
+  color: #1B75BB;
 }
 
 #anterior img {
   width: 100%;
+}
+
+#contacto {
+  height: 700px;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+}
+
+.texto_reducir {
+  font-size: 90%;
+  font-weight: normal;
 }
