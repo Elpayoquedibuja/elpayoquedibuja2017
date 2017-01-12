@@ -1,11 +1,12 @@
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 body {
-  background-color: #A4B2D8;
+  background-color: #A4B2D8;/*#D7E0F4;*/
   font-family: sans-serif;
   padding: 0 4% 0 4%;
   margin: 40px auto 40px auto;
 }
+
 
 h1 {
   color: #3B404C;
@@ -37,7 +38,7 @@ header {
   width: 100%;
   text-align: center;
   margin-bottom: 100px;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 header figure img {
@@ -101,7 +102,12 @@ figure {
 @media only screen and (min-width: 768px)
 {
 
+#principal {
+  background-color: #A4B2D8;
+}
+
 body {
+  background-color: #D7E0F4;
   max-width: 60%;
   border: 1px solid #698793;
   padding: 0;
