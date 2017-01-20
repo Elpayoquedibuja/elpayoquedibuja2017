@@ -67,9 +67,11 @@ header figure img {
 
 #actual {
 
-  background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
-  background-repeat: repeat-x;
+  /*background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
+  background-repeat: repeat-x;*/
   background-color: white;
+  border: 1px solid gray;
+  width: 80%;
   height: 700px;
   text-align: center;
   width: 100%;
@@ -96,21 +98,30 @@ figure {
 }
 
 #anterior {
-  height: auto;
   width: 100%;
+  height: 700px;
   margin: 0px;
-  background-color: #D0D3D4;
+  background-color: white; /* #D0D3D4; */
   text-align: center;
   color: #1B75BB;
-  padding: 0 3% 50px 3%;
+  padding: 0% 3% 50px 3%;
 }
 
 #actual h2 {
   border-bottom: 1px solid #ff5eaa;
 }
 
+#actual h3 {
+  font-size: 40px;
+}
+
 #anterior h2 {
   border-bottom: 1px solid #1b75bb;
+}
+
+#anterior h3 {
+  font-size: 30px;
+  vertical-align: bottom;
 }
 
 #otros1 h2 {
@@ -118,24 +129,23 @@ figure {
 }
 
 #ilustracion-olentzero-grupo {
-  background-color: #6D6E70;
+  /*background-color: #6D6E70;*/
 }
 
-#olentzero {
+/*#olentzero {
   background-image: url("../img/olentzero-fnd-01.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
-}
+}*/
 
 #olentzero img {
-  width: 80%;
+  padding-top: 20%;
+  width: 40%;
 
 }
 
-#anterior figure img {
-
-
-
+#actual figure img {
+  width: 50%;
 }
 
 #izena img {
