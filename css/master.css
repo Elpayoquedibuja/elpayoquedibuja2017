@@ -66,7 +66,6 @@ header figure img {
 
 
 #actual {
-
   /*background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
   background-repeat: repeat-x;*/
   background-color: white;
@@ -79,9 +78,30 @@ header figure img {
   padding: 0 3% 50px 3%;
 }
 
+#actual h2 {
+  border-bottom: 1px solid #ff5eaa;
+}
+
+#actual h3 {
+  padding: 0 8%;
+  font-size: 30px;
+}
+
+#actual figure img {
+  width: 50%;
+}
+
+#contacto {
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  margin-top: 50px;
+}
+
 #otros1 {
   background-color: white;
-  height: 800px;
+  height: 780px;
   text-align: center;
   width: 100%;
   color: #48BAC1;
@@ -92,6 +112,10 @@ header figure img {
   width: 90%;
 }
 
+#otros1 h3 {
+  font-size: 20px;
+}
+
 figure {
   width: 100%;
   margin: 0px;
@@ -99,30 +123,46 @@ figure {
 
 #anterior {
   width: 100%;
-  height: 700px;
+  height: 780px;
   margin: 0px;
   background-color: white; /* #D0D3D4; */
   text-align: center;
   color: #1B75BB;
   padding: 0% 3% 50px 3%;
+
 }
 
-#actual h2 {
-  border-bottom: 1px solid #ff5eaa;
-}
 
-#actual h3 {
-  font-size: 40px;
-}
 
 #anterior h2 {
   border-bottom: 1px solid #1b75bb;
 }
 
 #anterior h3 {
+  padding: 0 8%;
   font-size: 30px;
-  vertical-align: bottom;
 }
+
+#anterior img {
+  padding-top: 5%;
+  width: 50%;
+
+
+}
+
+#logo {
+  width: 100%;
+  height: 220px;
+  margin: 0px;
+  text-align: center;
+  color: #1B75BB;
+
+}
+
+#logo img {
+  width: 80%;
+}
+
 
 #otros1 h2 {
   border-bottom: 1px solid #48BAC1;
@@ -138,15 +178,9 @@ figure {
   background-size: 100% auto;
 }*/
 
-#olentzero img {
-  padding-top: 20%;
-  width: 40%;
 
-}
 
-#actual figure img {
-  width: 50%;
-}
+
 
 #izena img {
   width: 100%;
@@ -154,13 +188,7 @@ figure {
 
 
 
-#contacto {
-  height: 400px;
-  width: 100%;
-  margin: 0px;
-  text-align: center;
-  margin-top: 50px;
-}
+
 
 .texto_reducir {
   font-size: 90%;
