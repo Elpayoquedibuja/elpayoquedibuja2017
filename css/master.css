@@ -90,6 +90,7 @@ p {
   display: inline-block;
   margin: 0px;
   vertical-align: top;
+  visibility: visible;
 }
 
 #ampliar img {
