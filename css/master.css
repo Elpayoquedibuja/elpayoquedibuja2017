@@ -81,6 +81,17 @@ header figure img {
   width: 50%;
 }
 
+#ampliar {
+  height: 50px;
+  display: inline-block;
+  margin: 0px;
+  vertical-align: top;
+}
+
+#ampliar img {
+  width: 20%;
+}
+
 #anterior {
   background-color: white; /* #D0D3D4; */
   color: #1B75BB;
@@ -104,6 +115,10 @@ header figure img {
 #anterior img {
   padding-top: 5%;
   width: 50%;
+}
+
+#cartel-jone img {
+  width: 90%;
 }
 
 #contacto {
@@ -151,9 +166,9 @@ header figure img {
   font-size: 20px;
 }
 
-#otros1 img {
-  width: 90%;
-}
+
+
+
 
 .texto_reducir {
   font-size: 90%;
