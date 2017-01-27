@@ -3,8 +3,8 @@
 body {
   background-color: #A4B2D8;/*#D7E0F4;*/
   font-family: sans-serif;
-  padding: 0 4% 0 4%;
   margin: 40px auto 40px auto;
+  padding: 0 4% 0 4%;
 }
 
 
@@ -16,37 +16,37 @@ h1 {
 }
 
 figure {
-  width: 100%;
   margin: 0px;
+  width: 100%;
 }
 
 footer {
   height: 100px;
-  width: 100%;
   color: #3B404C;
   text-align: center;
+  width: 100%;
 }
 
 h2 {
+  line-height: 28px;
   margin-top: 20px;
   padding-top: 50px;
   width: 100%;
-  line-height: 28px;
 }
 
 header h2, header h3  {
   color: #20447F;
   padding-top: 0;
-  margin-top: 0;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 
 header {
-  width: 100%;
-  text-align: center;
   margin-bottom: 100px;
   padding-top: 50px;
+  text-align: center;
+  width: 100%;
 }
 
 header figure img {
@@ -55,18 +55,16 @@ header figure img {
   width: 40%;
 }
 
-
 #actual {
   /*background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
   background-repeat: repeat-x;*/
   background-color: white;
   border: 1px solid gray;
-  width: 80%;
+  color: #FF5EAA;
   height: 700px;
+  padding: 0 3% 50px 3%;
   text-align: center;
   width: 100%;
-  color: #FF5EAA;
-  padding: 0 3% 50px 3%;
 }
 
 #actual h2 {
@@ -75,8 +73,8 @@ header figure img {
 }
 
 #actual h3 {
-  padding: 0 8%;
   font-size: 30px;
+  padding: 0 8%;
 }
 
 #actual figure img {
@@ -167,8 +165,8 @@ header figure img {
 
 body {
   background-color: #D7E0F4;
-  max-width: 60%;
   border: none;
+  max-width: 60%;
   padding: 0;
 }
 
@@ -176,7 +174,7 @@ header figure img {
   width: 20%;
 }
 h1, h3 {
-    padding: 0 20% 0 20%;
+  padding: 0 20% 0 20%;
   }
 
 #anterior {
