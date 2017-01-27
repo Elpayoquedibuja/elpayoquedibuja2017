@@ -133,7 +133,7 @@ p {
   background-color: white;
   text-align: left;
   overflow: hidden;
-  transition-duration: 0.5s;
+  transition-duration: 1s;
 }
 
 #contacto {
@@ -181,7 +181,7 @@ p {
   font-size: 20px;
 }
 
-.ampliar_btn {
+.mostrar_mano {
   cursor: pointer;
 }
 
@@ -190,6 +190,10 @@ p {
 .texto_reducir {
   font-size: 90%;
   font-weight: normal;
+}
+
+.ocultar_info {
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px)
