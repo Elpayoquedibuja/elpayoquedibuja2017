@@ -15,12 +15,9 @@ h1 {
   font-weight: normal;
 }
 
-#actual h2 {
-  color: #FF5EAA;
-}
-
-#otros1 h2 {
-  color: #48BAC1;
+figure {
+  width: 100%;
+  margin: 0px;
 }
 
 footer {
@@ -42,12 +39,6 @@ header h2, header h3  {
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-
-
-header h3 {
-
 }
 
 
@@ -80,6 +71,7 @@ header figure img {
 
 #actual h2 {
   border-bottom: 1px solid #ff5eaa;
+  color: #FF5EAA;
 }
 
 #actual h3 {
@@ -91,104 +83,79 @@ header figure img {
   width: 50%;
 }
 
-#contacto {
-  height: 100px;
-  width: 100%;
-  margin: 0px;
-  text-align: center;
-  margin-top: 50px;
-}
-
-#otros1 {
-  background-color: white;
-  height: 780px;
-  text-align: center;
-  width: 100%;
-  color: #48BAC1;
-  padding: 0 3% 50px 3%;
-}
-
-#otros1 img {
-  width: 90%;
-}
-
-#otros1 h3 {
-  font-size: 20px;
-}
-
-figure {
-  width: 100%;
-  margin: 0px;
-}
-
 #anterior {
-  width: 100%;
+  background-color: white; /* #D0D3D4; */
+  color: #1B75BB;
   height: 780px;
   margin: 0px;
-  background-color: white; /* #D0D3D4; */
-  text-align: center;
-  color: #1B75BB;
   padding: 0% 3% 50px 3%;
+  text-align: center;
+  width: 100%;
 
 }
-
-
 
 #anterior h2 {
   border-bottom: 1px solid #1b75bb;
 }
 
 #anterior h3 {
-  padding: 0 8%;
   font-size: 30px;
+  padding: 0 8%;
 }
 
 #anterior img {
   padding-top: 5%;
   width: 50%;
+}
 
+#contacto {
+  height: 100px;
+  margin: 0px;
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+}
 
+#izena img {
+  width: 100%;
 }
 
 #logo {
-  width: 100%;
+  color: #1B75BB;
   height: 220px;
   margin: 0px;
   text-align: center;
-  color: #1B75BB;
-
+  width: 100%;
 }
 
 #logo img {
   width: 80%;
 }
 
-
 #otros1 h2 {
   border-bottom: 1px solid #48BAC1;
 }
 
-#ilustracion-olentzero-grupo {
-  /*background-color: #6D6E70;*/
-}
-
-/*#olentzero {
-  background-image: url("../img/olentzero-fnd-01.png");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-}*/
-
-
-
-
-
-#izena img {
+#otros1 {
+  background-color: white;
+  color: #48BAC1;
+  height: 780px;
+  padding: 0 3% 50px 3%;
+  text-align: center;
   width: 100%;
 }
 
+#otros1 h2 {
+  color: #48BAC1;
+}
 
+#otros1 h3 {
+  font-size: 20px;
+}
 
-
+#otros1 img {
+  width: 90%;
+}
 
 .texto_reducir {
   font-size: 90%;
@@ -197,10 +164,6 @@ figure {
 
 @media only screen and (min-width: 768px)
 {
-
-#principal {
-  background-color: #A4B2D8;
-}
 
 body {
   background-color: #D7E0F4;
@@ -220,14 +183,12 @@ h1, h3 {
     height: 1100px;
   }
 
+#principal {
+    background-color: #A4B2D8;
+  }
+
 #olentzero img {
   width: 60%;
-
 }
-
-
-
-
-
 
 }
