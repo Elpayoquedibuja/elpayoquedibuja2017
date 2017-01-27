@@ -132,6 +132,7 @@ p {
   background-color: white;
   text-align: left;
   overflow: hidden;
+  transition-duration: 0.5s;
 }
 
 #contacto {
