@@ -1,5 +1,6 @@
+alert("hola, miJavascript.js");
 function mostrar(){
-  var estadoDelCursor = document.getElementById('oculto').style.height;
+  var estadoDelCursor = document.getElementById('cartel-jone-info').style.height;
 
     document.getElementById('cartel-jone-info').style.height = '900px';
 
