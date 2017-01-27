@@ -55,6 +55,10 @@ header figure img {
   width: 40%;
 }
 
+p {
+  font-size: 18px;
+}
+
 #actual {
   /*background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
   background-repeat: repeat-x;*/
@@ -121,6 +125,14 @@ header figure img {
   width: 90%;
 }
 
+#cartel-jone-info {
+  padding-top: 20px;
+  width: 100%;
+  height: 900px;
+  background-color: white;
+  text-align: left;
+}
+
 #contacto {
   height: 100px;
   margin: 0px;
@@ -152,7 +164,7 @@ header figure img {
 #otros1 {
   background-color: white;
   color: #48BAC1;
-  height: 780px;
+  height: auto;
   padding: 0 3% 50px 3%;
   text-align: center;
   width: 100%;
