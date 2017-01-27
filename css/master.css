@@ -2,7 +2,7 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 body {
   background-color: #A4B2D8;/*#D7E0F4;*/
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 40px auto 40px auto;
   padding: 0 4% 0 4%;
 }
