@@ -41,9 +41,14 @@ header h2, header h3  {
   margin-top: 0;
 }
 
+h2 {
+  text-align: left;
+}
+
 h3 {
-  font-size: 30px;
-  line-height: 32px;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: left;
 }
 
 
@@ -76,12 +81,10 @@ p {
 }
 
 #actual h2 {
-  border-bottom: 1px solid #ff5eaa;
   color: #FF5EAA;
 }
 
 #actual h3 {
-  font-size: 30px;
   padding: 0 8%;
 }
 
@@ -181,6 +184,11 @@ p {
 
 .aumentar_el_padding {
   padding: 0 9% 0 9%;
+}
+
+.links {
+  font-size: 16px;
+  text-align: left;
 }
 
 .mostrar_mano {
