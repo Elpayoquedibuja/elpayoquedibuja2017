@@ -13,8 +13,10 @@ function ocultar() {
 
 }
 
-function ocultarImg() {
+function ocultarImg_dcha() {
+     document.getElementById('jone-img').style.left = '420px';
+}
 
-     document.getElementById('stone-img').style.left = '420px';
-
+function ocultarImg_izda() {
+     document.getElementById('jone-img').style.left = '-420px';
 }

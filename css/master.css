@@ -153,6 +153,42 @@ p {
   width: 100%;
 }
 
+#izquierda {
+  width: auto;
+  position: relative;
+  top: -280px;
+  left: -120px;
+  height: 50px;
+  background-color: rgba(50, 50, 51, 0.5);
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
+#izquierda img, #derecha img {
+  cursor: pointer;
+}
+
+#derecha {
+  width: auto;
+  position: relative;
+  top: -280px;
+  left: 120px;
+  height: 50px;
+  background-color: rgba(50, 50, 51, 0.5);
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+#jone-img {
+  position: relative;
+  left: 0;
+  height: auto;
+  transition-duration: 1s;
+}
+
 #logo {
   color: #1B75BB;
   height: 220px;
