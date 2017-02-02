@@ -159,6 +159,7 @@ p {
   width: 40px;
   color: white;
   position: relative;
+  cursor: pointer;
   top: -280px;
   left: -120px;
   font-size: 40px;
