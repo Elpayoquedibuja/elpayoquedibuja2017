@@ -170,6 +170,10 @@ p {
   cursor: pointer;
 }
 
+#dcha_btn {
+  cursor: pointer;
+}
+
 #derecha {
   width: auto;
   position: relative;
@@ -182,11 +186,13 @@ p {
   margin: 0;
 }
 
-#jone-img {
+#galeria {
   position: relative;
   left: 0;
   height: auto;
   transition-duration: 1s;
+  opacity: 1;
+  visibility: visible;
 }
 
 #logo {
@@ -226,7 +232,14 @@ p {
   padding: 0 9% 0 9%;
 }
 
-.header {
+.mi_nombre {
+  text-align: center;
+  margin: 0 0 0 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+.mi_nombre h2 {
   text-align: center;
 }
 
@@ -244,6 +257,10 @@ p {
 .texto_reducir {
   font-size: 90%;
   font-weight: normal;
+}
+
+.texto_reducir_low {
+  font-size: 1.2rem;
 }
 
 .ocultar_info {
