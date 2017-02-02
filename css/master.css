@@ -175,15 +175,25 @@ p {
 }
 
 #derecha {
-  width: auto;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 40px;
+  font-size: 40px;
   position: relative;
   top: -280px;
-  left: 120px;
+  left: 160px;
   height: 50px;
   background-color: rgba(50, 50, 51, 0.5);
   display: inline-block;
   vertical-align: top;
   margin: 0;
+  padding-left: 2%;
+}
+
+#derecha:visited, #derecha:active, #derecha:focus {
+  border: none;
+  outline: none;
 }
 
 #galeria {

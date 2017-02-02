@@ -19,7 +19,6 @@ function ocultarImg_dcha() {
      document.getElementById('galeria').style.left = '420px';
      document.getElementById('galeria').style.opacity= 0;
      document.getElementById('derecha').style.opacity = 0.5;
-     document.getElementById('dcha_btn').style.cursor = 'none';
      setTimeout(cambioImg_y_la_situo_a_la_izq, 1000);
 }
 
