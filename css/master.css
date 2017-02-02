@@ -154,16 +154,25 @@ p {
 }
 
 #izquierda {
+  border: none;
   width: auto;
+  width: 40px;
+  color: white;
   position: relative;
   top: -280px;
   left: -120px;
+  font-size: 40px;
   height: 50px;
   background-color: rgba(50, 50, 51, 0.5);
   display: inline-block;
   vertical-align: top;
   margin: 0;
   padding: 0;
+  padding-left: 1%;
+}
+
+#izquierda:focus {
+  border: none;
 }
 
 #izquierda img, #derecha img {
@@ -182,7 +191,7 @@ p {
   font-size: 40px;
   position: relative;
   top: -280px;
-  left: 160px;
+  left: 120px;
   height: 50px;
   background-color: rgba(50, 50, 51, 0.5);
   display: inline-block;
