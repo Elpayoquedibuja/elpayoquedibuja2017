@@ -210,6 +210,18 @@ p {
   visibility: visible;
 }
 
+#jone-png-vmovil {
+  display: block;
+}
+
+#jone-png1 {
+  display: none;
+}
+
+#jone-png2 {
+  display: none;
+}
+
 #logo {
   color: #1B75BB;
   height: 220px;
@@ -299,9 +311,36 @@ header figure img {
 h1, h3 {
   padding: 0 20% 0 20%;
   }
-
+#ampliar {
+  visibility: hidden;
+}
 #anterior {
     height: 1100px;
+  }
+
+#btn_ocultar_info_jone {
+  display: block;
+  visibility: hidden;
+}
+
+#cartel-jone-info {
+  height: auto;
+  overflow: visible;
+}
+
+#jone-png-vmovil {
+      display: none;
+      width: 45%;
+    }
+
+#jone-png1 {
+    display: inline-block;
+    width: 45%;
+  }
+
+#jone-png2 {
+    display: inline-block;
+    width: 45%;
   }
 
 #principal {
