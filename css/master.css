@@ -88,7 +88,7 @@ p {
   width: 50%;
 }
 
-#actual, #anterior, #otros1 {
+#actual, #anterior, #otros1m {
   padding: 0 3% 50px 3%;
 }
 
@@ -222,11 +222,11 @@ p {
   width: 80%;
 }
 
-#otros1 h2 {
+#otros1m h2 {
   border-bottom: 1px solid #48BAC1;
 }
 
-#otros1 {
+#otros1m {
   background-color: white;
   color: #48BAC1;
   height: auto;
@@ -235,7 +235,7 @@ p {
   width: 100%;
 }
 
-#otros1 h2 {
+#otros1m h2 {
   color: #48BAC1;
 }
 
