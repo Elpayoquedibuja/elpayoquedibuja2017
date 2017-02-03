@@ -1,4 +1,3 @@
-var num = 1;
 
 function mostrar(){
   var estadoDelCursor = document.getElementById('cartel-jone-info').style.height;
