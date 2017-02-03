@@ -62,3 +62,30 @@ function mostrar_nueva_IMG(){
 /* Fin hacia la derecha. Ya funciona */
 
 /* NUEVO HACIA LA IZQUIERDA */
+
+function atras() {
+  num --;
+  if (num<1){
+        num=4;
+        }
+        setTimeout(ocultarImg_izda, 500);
+}
+
+function ocultarImg_izda() {
+    document.getElementById('galeria').style.left = '-420px';
+    document.getElementById('galeria').style.opacity= 0;
+    setTimeout(cambioImg_y_la_situo_a_la_dcha, 500);
+}
+
+function cambioImg_y_la_situo_a_la_dcha() {
+    document.getElementById('galeria').style.left = '420px';
+    setTimeout(mostrar_nueva_IMG, 500);
+}
+
+function mostrar_nueva_IMG(){
+    var foto=document.getElementById("galeria");
+    foto.src = "img/jone"+num+".png";
+    document.getElementById('galeria').style.opacity= 1;
+    document.getElementById('galeria').style.left = '0px';
+
+}
