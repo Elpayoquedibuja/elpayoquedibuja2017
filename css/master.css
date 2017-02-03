@@ -1,5 +1,6 @@
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
 body {
   background-color: #A4B2D8;/*#D7E0F4;*/
   font-family: 'Open Sans', sans-serif;
@@ -8,21 +9,14 @@ body {
 }
 
 
-h1 {
-  color: #3B404C;
-  font-family: sans-serif;
-  font-size: 18px;
-  font-weight: normal;
-}
-
 figure {
   margin: 0px;
   width: 100%;
 }
 
 footer {
-  height: 100px;
   color: #3B404C;
+  height: 100px;
   text-align: center;
   width: 100%;
 }
@@ -31,18 +25,15 @@ h2 {
   line-height: 28px;
   margin-top: 20px;
   padding-top: 50px;
+  text-align: left;
   width: 100%;
 }
 
-header h2, header h3  {
-  color: #20447F;
-  padding-top: 0;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-h2 {
-  text-align: left;
+h1 {
+  color: #3B404C;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 h3 {
@@ -51,13 +42,20 @@ h3 {
   text-align: left;
 }
 
-
 header {
   margin-bottom: 100px;
   padding-top: 50px;
   text-align: center;
   width: 100%;
 }
+
+header h2, header h3  {
+  color: #20447F;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
 
 header figure img {
   border: 4px solid #2C4C4C;
@@ -70,8 +68,6 @@ p {
 }
 
 #actual {
-  /*background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
-  background-repeat: repeat-x;*/
   background-color: white;
   border: 1px solid gray;
   color: #FF5EAA;
@@ -96,18 +92,6 @@ p {
   padding: 0 3% 50px 3%;
 }
 
-#ampliar {
-  height: 50px;
-  display: inline-block;
-  margin: 0px;
-  vertical-align: top;
-  visibility: visible;
-}
-
-#ampliar img {
-  width: 20%;
-}
-
 #anterior {
   background-color: white; /* #D0D3D4; */
   color: #1B75BB;
@@ -127,18 +111,30 @@ p {
   width: 50%;
 }
 
+#ampliar {
+  height: 50px;
+  display: inline-block;
+  margin: 0px;
+  vertical-align: top;
+  visibility: visible;
+}
+
+#ampliar img {
+  width: 20%;
+}
+
 #cartel-jone img {
   width: 90%;
 }
 
 #cartel-jone-info {
-  padding-top: 20px;
-  width: 100%;
-  height: 10px;
   background-color: white;
-  text-align: left;
+  height: 10px;
   overflow: hidden;
+  padding-top: 20px;
+  text-align: left;
   transition-duration: 1s;
+  width: 100%;
 }
 
 #contacto {
@@ -184,20 +180,20 @@ p {
 }
 
 #derecha {
+  background-color: rgba(50, 50, 51, 0.5);
   border: none;
   color: white;
   cursor: pointer;
-  width: auto;
-  font-size: 40px;
-  position: relative;
-  top: -280px;
-  left: 120px;
-  height: 50px;
-  background-color: rgba(50, 50, 51, 0.5);
   display: inline-block;
-  vertical-align: top;
+  font-size: 40px;
+  height: 50px;
+  left: 120px;
   margin: 0;
   padding-left: 0;
+  position: relative;
+  top: -280px;
+  vertical-align: top;
+  width: auto;
 }
 
 #derecha:focus {
@@ -206,11 +202,11 @@ p {
 }
 
 #galeria {
-  position: relative;
   left: 0;
   height: auto;
-  transition-duration: 0.5s;
   opacity: 1;
+  position: relative;
+  transition-duration: 0.5s;
   visibility: visible;
 }
 
@@ -252,9 +248,9 @@ p {
 }
 
 .mi_nombre {
-  text-align: center;
   margin: 0 0 0 0;
   padding-right: 0;
+  text-align: center;
   width: 100%;
 }
 
@@ -299,6 +295,7 @@ body {
 header figure img {
   width: 20%;
 }
+
 h1, h3 {
   padding: 0 20% 0 20%;
   }
