@@ -317,6 +317,16 @@ h1, h3 {
 #anterior {
     height: 1100px;
   }
+#actual {
+  border: none;
+}
+
+#actual, #anterior {
+  width: 49%;
+  height: 800px;
+  vertical-align: top;
+  display: inline-block;
+}
 
 #btn_ocultar_info_jone {
   display: block;
@@ -326,6 +336,14 @@ h1, h3 {
 #cartel-jone-info {
   height: auto;
   overflow: visible;
+}
+
+#logo{
+  background-color: red;
+}
+
+#logo img {
+  width: 40%;
 }
 
 #jone-png-vmovil {
@@ -344,7 +362,7 @@ h1, h3 {
   }
 
 #principal {
-    background-color: #A4B2D8;
+    background-color: white;
   }
 
 #olentzero img {
