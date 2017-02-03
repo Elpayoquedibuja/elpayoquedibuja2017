@@ -210,7 +210,7 @@ p {
   position: relative;
   left: 0;
   height: auto;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   opacity: 1;
   visibility: visible;
 }

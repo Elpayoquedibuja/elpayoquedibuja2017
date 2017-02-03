@@ -15,74 +15,50 @@ function ocultar() {
 
 }
 
+/* EJEMPLO TAL CUAL */
+// function adelante() {
+//   num ++;
+//   if (num>4){
+//         num=1;
+//         }
+//         var foto=document.getElementById("galeria");
+//         foto.src = "img/jone"+num+".png";
+// }
+/* EJEMPLO TAL CUAL */
+
+/* NUEVO HACIA LA DERECHA!!!!!!!! */
+
+function adelante() {
+  num ++;
+  if (num>4){
+        num=1;
+        }
+        setTimeout(ocultarImg_dcha, 500);
+}
+
 function volver_a_empezar(){
-  ocultarImg_dcha();
+    ocultarImg_dcha();
 }
 
 function ocultarImg_dcha() {
-      if (num<4) {
-      document.getElementById('galeria').style.left = '420px';
-      document.getElementById('galeria').style.opacity= 0;
-      setTimeout(cambioImg_y_la_situo_a_la_izq, 1000);
-      }
-}
-
-function ocultarImg_izda() {
-      if (num<4) {
-      document.getElementById('galeria').style.left = '-420px';
-      document.getElementById('galeria').style.opacity= 0;
-      setTimeout(cambioImg_y_la_situo_a_la_dcha, 1000);
-      }
-
+    document.getElementById('galeria').style.left = '420px';
+    document.getElementById('galeria').style.opacity= 0;
+    setTimeout(cambioImg_y_la_situo_a_la_izq, 500);
 }
 
 function cambioImg_y_la_situo_a_la_izq() {
-    var cartel = document.getElementById("galeria");
-    galeria.src = "img/jone"+num+".png";
     document.getElementById('galeria').style.left = '-420px';
-    num++;
-    setTimeout(Img_aparece_desde_la_izq, 1000);
+    setTimeout(mostrar_nueva_IMG, 500);
 }
 
-function cambioImg_y_la_situo_a_la_dcha() {
-    var cartel = document.getElementById("galeria");
-    galeria.src = "img/jone"+num+".png";
-    document.getElementById('galeria').style.left = '420px';
-    num++;
-    setTimeout(Img_aparece_desde_la_dcha, 1000);
-}
-
-function Img_aparece_desde_la_izq() {
-
-    var cartel = document.getElementById("galeria");
-    galeria.src = "img/jone"+num+".png";
-    document.getElementById('galeria').style.opacity = 1;
-    document.getElementById('galeria').style.left = '10px';
-    if (num==4) {
-        num=1;
-        document.getElementById('derecha').style.opacity= 0;
-    }
-  }
-
-  function Img_aparece_desde_la_dcha() {
-
-    var cartel = document.getElementById("galeria");
-    galeria.src = "img/jone"+num+".png";
-    document.getElementById('galeria').style.opacity = 1;
-    document.getElementById('galeria').style.left = '10px';
-    if (num==4) {
-        num=1;
-        document.getElementById('derecha').style.opacity= 0;
-    }
-}
-
-function vuelvo_a_empezar() {
-    console.log("estoy en Img_aparece_desde_la_izq:"+ num);
-    galeria.src = "img/jone"+num+".png";
-    alert("estoy aquí otra vez al principio, no?");
-
-    document.getElementById('galeria').style.opacity = 0.5;
-    document.getElementById('galeria').style.left = '10px';
-
+function mostrar_nueva_IMG(){
+    var foto=document.getElementById("galeria");
+    foto.src = "img/jone"+num+".png";
+    document.getElementById('galeria').style.opacity= 1;
+    document.getElementById('galeria').style.left = '0px';
 
 }
+
+/* Fin hacia la derecha. Ya funciona */
+
+/* NUEVO HACIA LA IZQUIERDA */
