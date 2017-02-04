@@ -328,6 +328,18 @@ h1, h3 {
   display: inline-block;
 }
 
+#actual {
+  border-right: 1px dotted gray;
+}
+
+#actual h2, #anterior h2, #actual h3, #anterior h3, #otros1m h2, #otros1m {
+  color: #2278F4;
+}
+
+h2 {
+  color: #2278F4;
+}
+
 #btn_ocultar_info_jone {
   display: block;
   visibility: hidden;
