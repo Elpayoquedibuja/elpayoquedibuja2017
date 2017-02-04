@@ -2,7 +2,7 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-  background-color: #A4B2D8;/*#D7E0F4;*/
+  background-color: #A4B2D8; /*#D7E0F4;*/
   font-family: 'Open Sans', sans-serif;
   margin: 40px auto 40px auto;
   padding: 0 4% 0 4%;
@@ -102,13 +102,13 @@ p {
 }
 
 #anterior h2 {
-  border-bottom: 1px solid #1b75bb;
+
 }
 
 
 #anterior img {
   padding-top: 5%;
-  width: 50%;
+  width: 40%;
 }
 
 #ampliar {
@@ -232,6 +232,25 @@ p {
 
 #logo img {
   width: 80%;
+}
+
+#mi-nombre {
+  text-align: center;
+  width: 100%;
+}
+
+#nombre {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-align: center;
+  width: 100%;
+}
+
+#nombre h2 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 #otros1m h2 {
@@ -374,7 +393,7 @@ h2 {
 
 #principal {
     background-color: white;
-    height: 2000px;
+    height: 3000px;
   }
 
 #proyectos {
@@ -382,7 +401,11 @@ h2 {
 }
 
 #olentzero img {
-  width: 60%;
+  width: 50%;
+}
+
+#otros1m {
+  height: 1400px;
 }
 
 }
