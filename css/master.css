@@ -323,7 +323,7 @@ h1, h3 {
 
 #actual, #anterior {
   width: 49%;
-  height: 800px;
+  height: 600px;
   vertical-align: top;
   display: inline-block;
 }
@@ -334,8 +334,7 @@ h1, h3 {
 }
 
 #cartel-jone-info {
-  height: auto;
-  overflow: visible;
+  height: 1000px;
 }
 
 #logo{
@@ -363,7 +362,12 @@ h1, h3 {
 
 #principal {
     background-color: white;
+    height: 2000px;
   }
+
+#proyectos {
+    text-align: center;
+}
 
 #olentzero img {
   width: 60%;
