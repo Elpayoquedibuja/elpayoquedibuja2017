@@ -2,7 +2,7 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-  background-color: #A4B2D8; /*#D7E0F4;*/
+  background-color: #1B1C1C; /*#D7E0F4;*/
   font-family: 'Open Sans', sans-serif;
   margin: 40px auto 40px auto;
   padding: 0 4% 0 4%;
@@ -30,7 +30,7 @@ h2 {
 }
 
 h1 {
-  color: #3B404C;
+  color: #D6D6D6;
   font-family: sans-serif;
   font-size: 18px;
   font-weight: normal;
@@ -50,7 +50,7 @@ header {
 }
 
 header h2, header h3  {
-  color: #20447F;
+  color: #AAAAAA;
   margin-bottom: 0;
   margin-top: 0;
   padding-top: 0;
@@ -70,14 +70,14 @@ p {
 #actual {
   background-color: white;
   border: 1px solid gray;
-  color: #FF5EAA;
+  color: #464747;
   height: 600px;
   text-align: center;
   width: 100%;
 }
 
 #actual h2 {
-  color: #FF5EAA;
+  color: #464747;
 }
 
 #actual h3 {
@@ -94,15 +94,15 @@ p {
 
 #anterior {
   background-color: white; /* #D0D3D4; */
-  color: #1B75BB;
-  height: 640px;
+  color: #464747;
+  height: 570px;
   margin: 0px;
   text-align: center;
   width: 100%;
 }
 
 #anterior h2 {
-
+ color: #464747;
 }
 
 
@@ -138,7 +138,7 @@ p {
 }
 
 #contacto {
-  height: 100px;
+  height: 0px;
   margin: 0px;
   margin-top: 50px;
   text-align: center;
@@ -228,6 +228,7 @@ p {
   margin: 0px;
   text-align: center;
   width: 100%;
+  background-color: red;
 }
 
 #logo img {
@@ -253,13 +254,11 @@ p {
   margin: 0;
 }
 
-#otros1m h2 {
-  border-bottom: 1px solid #48BAC1;
-}
+
 
 #otros1m {
   background-color: white;
-  color: #48BAC1;
+  color: #464747;
   height: auto;
   padding: 0 3% 50px 3%;
   text-align: center;
@@ -267,7 +266,7 @@ p {
 }
 
 #otros1m h2 {
-  color: #48BAC1;
+  color: #464747;
 }
 
 .aumentar_el_margin_bottom {
@@ -327,6 +326,14 @@ header figure img {
   width: 20%;
 }
 
+h1 {
+  color: #464747;
+}
+
+header h2 {
+  color: #2278F4;
+}
+
 h1, h3 {
   padding: 0 20% 0 20%;
   }
@@ -370,6 +377,7 @@ h2 {
 
 #logo{
   background-color: red;
+  height: 320px;
 }
 
 #logo img {
