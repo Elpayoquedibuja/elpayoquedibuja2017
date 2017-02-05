@@ -88,7 +88,7 @@ p {
   width: 50%;
 }
 
-#actual, #anterior, #otros1m {
+#actual, #anterior, #proyecto_con_jone {
   padding: 0 3% 50px 3%;
 }
 
@@ -262,7 +262,7 @@ p {
 
 
 
-#otros1m {
+#proyecto_con_jone {
   background-color: white;
   color: #464747;
   height: auto;
@@ -271,7 +271,7 @@ p {
   width: 100%;
 }
 
-#otros1m h2 {
+#proyecto_con_jone h2 {
   color: #464747;
 }
 
@@ -368,7 +368,7 @@ h1, h3 {
   border-right: 1px dotted gray;
 }
 
-#actual h2, #anterior h2, #actual h3, #anterior h3, #otros1m h2, #otros1m {
+#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone {
   color: #2278F4;
 }
 
@@ -422,7 +422,7 @@ h2 {
   width: 50%;
 }
 
-#otros1m {
+#proyecto_con_jone {
   height: 1400px;
 }
 
