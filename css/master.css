@@ -95,7 +95,7 @@ p {
 #anterior {
   background-color: white; /* #D0D3D4; */
   color: #464747;
-  height: 570px;
+  height: 520px;
   margin: 0px;
   text-align: center;
   width: 100%;
@@ -121,6 +121,11 @@ p {
 
 #ampliar img {
   width: 20%;
+}
+
+#ampliar_btn:focus {
+    outline: none;
+    border: none;
 }
 
 #cartel-jone img {
@@ -212,6 +217,7 @@ p {
 
 #jone-png-vmovil {
   display: block;
+  margin-top: 20px;
 }
 
 #jone-png1 {
@@ -240,7 +246,7 @@ p {
   width: 100%;
 }
 
-#mostrar_proyecto_con_jone {
+#mostrar_proyecto_con_jone_div_btn {
   height: 90px;
   width: 100%;
   text-align: center;
@@ -265,10 +271,12 @@ p {
 #proyecto_con_jone {
   background-color: white;
   color: #464747;
-  height: auto;
-  padding: 0 3% 50px 3%;
+  height: 0;
+  overflow: hidden;
+  padding: 0 3% 0 3%; /* padding: 0 3% 50px 3%; */
   text-align: center;
   width: 100%;
+  transition-duration: 0.5s;
 }
 
 #proyecto_con_jone h2 {
