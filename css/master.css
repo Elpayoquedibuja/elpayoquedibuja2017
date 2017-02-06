@@ -423,6 +423,11 @@ h2 {
     width: 45%;
   }
 
+  #nombre {
+    background-image: url(../img/lineas-h1-vt-01.png);
+    background-repeat: repeat;
+  }
+
 #principal {
     background-color: white;
     height: 3000px;
