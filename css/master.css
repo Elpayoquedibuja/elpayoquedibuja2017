@@ -253,11 +253,13 @@ p {
 }
 
 #nombre {
-  padding: 0;
+  padding: 10px 0 10px 0;
   margin: 0;
   border: 0;
   text-align: center;
   width: 100%;
+  background-image: url(../img/lineas-h1-01.png);
+  background-repeat: repeat;
 }
 
 #nombre h2 {
@@ -293,6 +295,10 @@ p {
 
 .aumentar_el_padding {
   padding: 0 9% 0 9%;
+}
+
+.aumentar_el_padding_left {
+  padding-left: 30px;
 }
 
 .mi_nombre {
