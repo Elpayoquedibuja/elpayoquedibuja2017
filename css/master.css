@@ -312,6 +312,10 @@ p {
   text-align: center;
 }
 
+.negrita {
+  font-weight: bold;
+}
+
 .links {
   font-size: 16px;
   text-align: left;
@@ -354,6 +358,10 @@ h1 {
   color: #464747;
 }
 
+h2 {
+  color: #2278F4;
+}
+
 header h2 {
   color: #2278F4;
 }
@@ -386,8 +394,9 @@ h1, h3 {
   color: #2278F4;
 }
 
-h2 {
-  color: #2278F4;
+#ampliar_btn {
+  height: 0px;
+  display: none;
 }
 
 #btn_ocultar_info_jone {
@@ -396,7 +405,7 @@ h2 {
 }
 
 #cartel-jone-info {
-  height: 1000px;
+  height: 1300px;
   padding: 0 20%;
 }
 
@@ -424,7 +433,8 @@ h2 {
     width: 45%;
   }
 
-  #nombre {
+
+#nombre {
     background-image: url(../img/lineas-h1-vt-01.png);
     background-repeat: repeat;
   }
@@ -443,7 +453,11 @@ h2 {
 }
 
 #proyecto_con_jone {
-  height: 1400px;
+  height: 1500px;
+}
+
+.aumentar_el_margin_top {
+  margin-top: 0;
 }
 
 }
