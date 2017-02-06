@@ -25,6 +25,7 @@ function ocultar() {
 
 function mostrar_proyecto_con_jone(){
   if (estado==1) {
+    document.getElementById('ampliar').style.visibility = 'visible';
     document.getElementById('proyecto_con_jone').style.height = '800px';
     /* Cambiar el icono de la fotografía */
     var icono=document.getElementById("ampliar_btn");
