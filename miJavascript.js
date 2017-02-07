@@ -43,6 +43,7 @@ function mostrar(){
     document.getElementById('cartel-jone-info').style.height = '1000px';
     document.getElementById('proyecto_con_jone').style.height = '1660px';
     document.getElementById('ampliar').style.visibility = 'hidden';
+    document.getElementById('ampliar').style.height = '0px';
     document.getElementById('btn_ocultar_info_jone').style.display = 'visible';
 
 }
@@ -53,9 +54,19 @@ function ocultar() {
     document.getElementById('cartel-jone-info').style.height = '0px';
     document.getElementById('proyecto_con_jone').style.overflow = 'hidden';
     document.getElementById('ampliar').style.visibility = 'visible';
+    document.getElementById('ampliar').style.height = '50px';
     var icono=document.getElementById("ampliar_btn");
     icono.src = "img/ampliar_info-oscuro-01.png";
     estado = 1;
 
 
+}
+
+/* Funciones para mostrar los datos que hay en la sección LOGO */
+
+function mostrar_datos_del_logo() {
+  document.getElementById('datos_web_empresa').style.display = 'block';
+  document.getElementById('logo').style.height = '450px';
+  var icono=document.getElementById("ampliar_logo_info_btn");
+  icono.src = "img/ampliar_info-logo2-01.png";
 }

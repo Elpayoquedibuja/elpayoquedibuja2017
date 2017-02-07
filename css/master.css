@@ -128,6 +128,18 @@ p {
     border: none;
 }
 
+#ampliar_logo_info {
+  height: 50px;
+  display: inline-block;
+  margin: 0px;
+  vertical-align: top;
+  visibility: visible;
+}
+
+#ampliar_logo_info_btn {
+}
+
+
 #cartel-jone img {
   width: 90%;
 }
@@ -148,6 +160,10 @@ p {
   margin-top: 50px;
   text-align: center;
   width: 100%;
+}
+
+#datos_web_empresa {
+  display: none;
 }
 
 #izena img {
@@ -230,14 +246,14 @@ p {
 
 #logo {
   color: #1B75BB;
-  height: 220px;
+  height: 320px;
   margin: 0px;
   text-align: center;
   width: 100%;
   background-color: red;
 }
 
-#logo img {
+#logo_img {
   width: 80%;
 }
 
@@ -289,6 +305,10 @@ p {
   text-align: left;
 }
 
+.aumentar_el_texto {
+  font-size: 140%;
+}
+
 .aumentar_el_margin_bottom {
   margin-bottom: 90px;
 }
@@ -303,6 +323,10 @@ p {
 
 .aumentar_el_padding_left {
   padding-left: 30px;
+}
+
+.color_white {
+  color: #DEDEE0;
 }
 
 .mi_nombre {
@@ -325,16 +349,20 @@ p {
   text-align: left;
 }
 
+.margin_bottom_eliminar {
+  padding-bottom: 0;
+}
+
 .mostrar_mano {
   cursor: pointer;
 }
-
-
 
 .texto_reducir {
   font-size: 90%;
   font-weight: normal;
 }
+
+
 
 .texto_reducir_low {
   font-size: 1.2rem;
