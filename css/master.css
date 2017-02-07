@@ -462,6 +462,7 @@ h1, h3 {
 #logo{
   background-color: red;
   height: 360px;
+  padding-left: 10px;
 }
 
 #logo_img {
