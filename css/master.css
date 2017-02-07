@@ -404,8 +404,11 @@ header h2 {
   color: #2278F4;
 }
 
+h3 {
+}
+
 h1, h3 {
-  padding: 0 20% 0 20%;
+  padding: 0 20% 0 0;
   }
 #ampliar {
   visibility: hidden;
@@ -433,8 +436,9 @@ h1, h3 {
 }
 
 #ampliar_btn {
-  height: 0px;
-  display: none;
+  height: 50px;
+  margin-top: 30px;
+  display: inline-block;
 }
 
 #ampliar_logo_info_btn {
@@ -443,7 +447,7 @@ h1, h3 {
 
 #btn_ocultar_info_jone {
   display: block;
-  visibility: hidden;
+  visibility: vivi;
 }
 
 #cartel-jone-info {
@@ -475,6 +479,10 @@ h1, h3 {
     width: 45%;
   }
 
+#mostrar_proyecto_con_jone_div_btn figure {
+  text-align: center;
+}
+
 
 #nombre {
     background-image: url(../img/lineas-h1-vt-01.png);
@@ -496,6 +504,10 @@ h1, h3 {
 
 #proyecto_con_jone {
   height: 1500px;
+}
+
+#titulo-jone {
+  padding-left: 20%;
 }
 
 .aumentar_el_margin_top {
