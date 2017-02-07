@@ -1,4 +1,5 @@
 var estado = 1;
+var estado_logo = 1;
 
 /*
   proyecto_con_jone' es el section que contiene el cartel,
@@ -65,8 +66,14 @@ function ocultar() {
 /* Funciones para mostrar los datos que hay en la sección LOGO */
 
 function mostrar_datos_del_logo() {
+  if (estado_logo==1){
   document.getElementById('datos_web_empresa').style.display = 'block';
-  document.getElementById('logo').style.height = '450px';
+  document.getElementById('logo').style.height = '350px';
   var icono=document.getElementById("ampliar_logo_info_btn");
   icono.src = "img/ampliar_info-logo2-01.png";
+  estado_logo++;
+  }
+  else {
+
+  }
 }

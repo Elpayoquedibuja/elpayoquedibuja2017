@@ -134,9 +134,11 @@ p {
   margin: 0px;
   vertical-align: top;
   visibility: visible;
+  vertical-align: bottom;
 }
 
 #ampliar_logo_info_btn {
+  width: 10%;
 }
 
 
@@ -329,6 +331,10 @@ p {
   color: #DEDEE0;
 }
 
+.margin_top_eliminar {
+  margin-top: 0;
+}
+
 .mi_nombre {
   margin: 0 0 0 0;
   padding-right: 0;
@@ -431,6 +437,10 @@ h1, h3 {
   display: none;
 }
 
+#ampliar_logo_info_btn {
+
+}
+
 #btn_ocultar_info_jone {
   display: block;
   visibility: hidden;
@@ -446,7 +456,7 @@ h1, h3 {
   height: 320px;
 }
 
-#logo img {
+#logo_img {
   width: 40%;
 }
 
