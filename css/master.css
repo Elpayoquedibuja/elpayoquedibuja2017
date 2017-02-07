@@ -119,8 +119,8 @@ p {
   visibility: visible;
 }
 
-#ampliar img {
-  width: 20%;
+#ampliar_descripcion_btn{
+  width: 15%;
 }
 
 #ampliar_btn:focus {
@@ -441,6 +441,10 @@ h1, h3 {
   display: inline-block;
 }
 
+#ampliar_descripcion_btn {
+  width: 10%;
+}
+
 #ampliar_logo_info_btn {
   width: 4%;
 }
@@ -495,7 +499,7 @@ h1, h3 {
 
 #principal {
     background-color: white;
-    height: 3000px;
+    height: 1600px;
   }
 
 #proyectos {
