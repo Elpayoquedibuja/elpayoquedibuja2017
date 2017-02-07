@@ -438,7 +438,7 @@ h1, h3 {
 }
 
 #ampliar_logo_info_btn {
-
+  width: 4%;
 }
 
 #btn_ocultar_info_jone {
@@ -453,7 +453,7 @@ h1, h3 {
 
 #logo{
   background-color: red;
-  height: 320px;
+  height: 360px;
 }
 
 #logo_img {
