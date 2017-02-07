@@ -40,9 +40,10 @@ function mostrar_proyecto_con_jone(){
 
 function mostrar(){
     var estadoDelCursor = document.getElementById('cartel-jone-info').style.height;
-    document.getElementById('cartel-jone-info').style.height = '900px';
+    document.getElementById('cartel-jone-info').style.height = '1000px';
     document.getElementById('proyecto_con_jone').style.height = '1660px';
     document.getElementById('ampliar').style.visibility = 'hidden';
+    document.getElementById('btn_ocultar_info_jone').style.display = 'visible';
 
 }
 
