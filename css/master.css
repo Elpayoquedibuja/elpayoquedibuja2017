@@ -479,6 +479,10 @@ h1, h3 {
     width: 45%;
   }
 
+#mostrar_proyecto_con_jone_div_btn {
+  margin-bottom: 50px;
+}
+
 #mostrar_proyecto_con_jone_div_btn figure {
   text-align: center;
 }
@@ -503,7 +507,7 @@ h1, h3 {
 }
 
 #proyecto_con_jone {
-  height: 1500px;
+  height: 0px;
 }
 
 #titulo-jone {
