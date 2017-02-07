@@ -285,6 +285,10 @@ p {
   color: #464747;
 }
 
+.alinear_a_la_izquierda {
+  text-align: left;
+}
+
 .aumentar_el_margin_bottom {
   margin-bottom: 90px;
 }
