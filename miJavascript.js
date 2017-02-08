@@ -42,11 +42,11 @@ function mostrar_proyecto_con_jone(){
 function mostrar(){
     var estadoDelCursor = document.getElementById('cartel-jone-info').style.height;
     document.getElementById('cartel-jone-info').style.height = '1000px';
-    document.getElementById('proyecto_con_jone').style.height = '1660px';
+    document.getElementById('proyecto_con_jone').style.height = '1690px';
     document.getElementById('ampliar').style.visibility = 'hidden';
     document.getElementById('ampliar').style.height = '0px';
     document.getElementById('btn_ocultar_info_jone').style.display = 'visible';
-    document.getElementById("ampliar-info").innerHTML='A principios de 2017, colaboración con Jone García. Diseño del cartel y descripción';
+    document.getElementById("ampliar-info").innerHTML='A principios de 2017, colaboración con Jone García. Diseño del cartel y descripción.';
 
 }
 
@@ -60,6 +60,7 @@ function ocultar() {
     var icono=document.getElementById("ampliar_btn");
     icono.src = "img/ampliar_info-oscuro-01.png";
     estado = 1;
+    document.getElementById("ampliar-info").innerHTML=' ';
 
 
 }
