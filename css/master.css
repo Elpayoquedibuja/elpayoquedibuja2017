@@ -23,8 +23,8 @@ footer {
 
 h2 {
   line-height: 28px;
-  margin-top: 20px;
-  padding-top: 50px;
+  margin-top: 0px;
+  padding-top: 40px;
   text-align: left;
   width: 100%;
 }
@@ -92,11 +92,18 @@ p {
   padding: 0 3% 50px 3%;
 }
 
+#actual figure, #anterior figure {
+  height: 250px;
+  width: 304px;
+
+}
+
 #anterior {
   background-color: white; /* #D0D3D4; */
   color: #464747;
-  height: 520px;
+  height: 600px;
   margin: 0px;
+  margin-top: 20px;
   text-align: center;
   width: 100%;
 }
@@ -106,9 +113,9 @@ p {
 }
 
 
-#anterior img {
+#anterior figure img {
   padding-top: 5%;
-  width: 40%;
+  width: 50%;
 }
 
 #ampliar {
