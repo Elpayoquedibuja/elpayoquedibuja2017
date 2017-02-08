@@ -46,7 +46,7 @@ function mostrar(){
     document.getElementById('ampliar').style.visibility = 'hidden';
     document.getElementById('ampliar').style.height = '0px';
     document.getElementById('btn_ocultar_info_jone').style.display = 'visible';
-    document.getElementById("ampliar-info").innerHTML='A principios de 2017, colaboración con Jone García. Diseño del cartel y descripción.';
+    document.getElementById("ampliar-info").innerHTML='A principios de 2017, colaboración con Jone García. Propuesta para la descripción y el diseño del cartel.';
 
 }
 

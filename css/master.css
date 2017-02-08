@@ -395,6 +395,7 @@ body {
   background-color: #D7E0F4;
   border: none;
   padding: 0;
+  max-width: 1100px;
 }
 
 header {
