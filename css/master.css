@@ -384,7 +384,6 @@ p {
 body {
   background-color: #D7E0F4;
   border: none;
-  max-width: 1250px;
   padding: 0;
 }
 
@@ -429,7 +428,7 @@ h3 {
 
 #actual, #anterior {
   width: 49%;
-  height: 600px;
+  height: 500px;
   vertical-align: top;
   display: inline-block;
   margin-top: 20px;
