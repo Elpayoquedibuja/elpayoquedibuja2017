@@ -95,7 +95,10 @@ p {
 #actual figure, #anterior figure {
   height: 250px;
   width: 304px;
+}
 
+#actual h3, #anterior h3 {
+  height: 60px;
 }
 
 #anterior {
