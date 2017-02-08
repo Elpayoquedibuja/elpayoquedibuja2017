@@ -404,12 +404,14 @@ header h2 {
   color: #2278F4;
 }
 
-h3 {
+h1 {
+  padding: 0 20% 0 20%;
 }
 
-h1, h3 {
+h3 {
   padding: 0 20% 0 0;
-  }
+}
+
 #ampliar {
   visibility: hidden;
 }
