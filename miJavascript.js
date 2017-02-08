@@ -41,8 +41,8 @@ function mostrar_proyecto_con_jone(){
 
 function mostrar(){
     var estadoDelCursor = document.getElementById('cartel-jone-info').style.height;
-    document.getElementById('cartel-jone-info').style.height = '1000px';
-    document.getElementById('proyecto_con_jone').style.height = '1690px';
+    document.getElementById('cartel-jone-info').style.height = '1100px';
+    document.getElementById('proyecto_con_jone').style.height = '1750px';
     document.getElementById('ampliar').style.visibility = 'hidden';
     document.getElementById('ampliar').style.height = '0px';
     document.getElementById('btn_ocultar_info_jone').style.display = 'visible';
