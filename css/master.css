@@ -384,7 +384,7 @@ p {
 body {
   background-color: #D7E0F4;
   border: none;
-  max-width: 60%;
+  max-width: 1250px;
   padding: 0;
 }
 
@@ -440,14 +440,6 @@ h3 {
   width: 304px;
 
 }
-
-
-
-/*#proyectos {
-  background-image: url("../img/proyectos_linea_bg-01.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}*/
 
 #actual {
   background-image: url("../img/proyectos_linea_bg-01.png");
