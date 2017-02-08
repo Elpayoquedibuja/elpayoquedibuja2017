@@ -388,6 +388,10 @@ body {
   padding: 0;
 }
 
+header {
+  margin-bottom: 0px;
+}
+
 header figure img {
   width: 20%;
 }
@@ -398,6 +402,7 @@ h1 {
 
 h2 {
   color: #2278F4;
+  padding-top: 0px;
 }
 
 header h2 {
@@ -427,6 +432,7 @@ h3 {
   height: 600px;
   vertical-align: top;
   display: inline-block;
+  margin-top: 20px;
 }
 
 #actual figure, #anterior figure {
@@ -435,12 +441,19 @@ h3 {
 
 }
 
-#actual {
-  border-right: 1px dotted gray;
-}
 
-#anterior {
-  border-left: 1px dotted gray;
+
+/*#proyectos {
+  background-image: url("../img/proyectos_linea_bg-01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}*/
+
+#actual {
+  background-image: url("../img/proyectos_linea_bg-01.png");
+  background-repeat: no-repeat;
+  background-size: contain;;
+
 }
 
 #actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone {
