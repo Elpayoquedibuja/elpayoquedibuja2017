@@ -77,7 +77,7 @@ function mostrar_datos_del_logo() {
   }
   else {
     document.getElementById('datos_web_empresa').style.display = 'none';
-    document.getElementById('logo').style.height = '280px';
+    document.getElementById('logo').style.height = 'auto';
     var icono=document.getElementById("ampliar_logo_info_btn");
     icono.src = "img/ampliar_info-logo-01.png";
     estado_logo = 1;
