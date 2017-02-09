@@ -16,7 +16,7 @@ var num = 1;
 
 function adelante() {
   num ++;
-  if (num>4){
+  if (num>5){
         num=1;
         }
         setTimeout(ocultarImg_dcha, 500);

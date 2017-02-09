@@ -149,6 +149,7 @@ p {
   vertical-align: top;
   visibility: visible;
   vertical-align: bottom;
+  text-align: right;
 }
 
 #ampliar_logo_info_btn {
@@ -249,7 +250,7 @@ p {
 
 #jone-png-vmovil {
   display: block;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 #jone-png1 {
@@ -281,7 +282,8 @@ p {
 #mostrar_proyecto_con_jone_div_btn {
   height: 90px;
   width: 100%;
-  text-align: center;
+  text-align: right;
+  background-color: #3C3B3C;
 }
 
 #nombre {
