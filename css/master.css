@@ -98,17 +98,17 @@ p {
 }
 
 #anterior figure {
-  height: 550px;
+  height: auto;
 }
 
 #actual h3, #anterior h3 {
-  height: 60px;
+  height: auto;
 }
 
 #anterior {
   background-color: white; /* #D0D3D4; */
   color: #464747;
-  height: 880px;
+  height: auto;
   margin: 0px;
   margin-top: 20px;
   text-align: center;
@@ -449,11 +449,17 @@ h3 {
   margin-top: 50px;
 }
 
-#actual figure, #anterior figure {
+#actual figure {
   height: 250px;
+  width: 304px;
+}
+
+#anterior figure {
+  height: auto;
   width: 304px;
 
 }
+
 
 #actual {
   background-image: url("../img/proyectos_linea_bg-01.png");
