@@ -445,7 +445,7 @@ h3 {
 
 #actual, #anterior {
   width: 49%;
-  height: 500px;
+  height: auto;
   vertical-align: top;
   display: inline-block;
   margin-top: 50px;
