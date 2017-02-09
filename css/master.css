@@ -456,10 +456,14 @@ h3 {
   width: 304px;
 }
 
+
 #anterior figure {
   height: auto;
   width: 304px;
+}
 
+#anterior figure img {
+  width: 49%;
 }
 
 
