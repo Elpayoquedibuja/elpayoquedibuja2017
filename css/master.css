@@ -183,6 +183,8 @@ p {
   display: none;
 }
 
+
+
 #izena img {
   width: 100%;
 }
@@ -283,8 +285,39 @@ p {
 #mostrar_proyecto_con_jone_div_btn {
   height: 90px;
   width: 100%;
-  text-align: right;
   background-color: #3C3B3C;
+}
+
+#icono, #texto {
+  display: inline-block;
+}
+
+#icono {
+  /*background-color: red;*/
+  vertical-align: bottom;
+  text-align: right;
+  width: 37.75px;
+  height: 90px;
+}
+
+#icono img {
+  vertical-align: middle;
+  height: 90px;
+}
+
+#texto {
+  /*background-color: yellow;*/
+  color: #C3C4C9;
+  height: 90px;
+  padding-left: 3%;
+  text-align: left;
+  width: 88%;
+}
+
+
+#icono, #texto {
+  height: 90px;
+  line-height: 49px;
 }
 
 #nombre {
@@ -296,6 +329,8 @@ p {
   background-image: url(../img/lineas-h1-01.png);
   background-repeat: repeat;
 }
+
+
 
 #nombre h2 {
   text-align: center;
