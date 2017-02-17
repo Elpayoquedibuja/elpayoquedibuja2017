@@ -18,7 +18,7 @@ var estado_logo = 1;
 function mostrar_proyecto_con_jone(){
   if (estado==1) {
     document.getElementById('ampliar').style.visibility = 'visible';
-    document.getElementById('proyecto_con_jone').style.height = '900px';
+    document.getElementById('proyecto_con_jone').style.height = '700px';
     document.getElementById('cartel-jone-info').style.height = '0px'; /*
     Inicializamos a 0 para evitar que al abrir por sengunda vez se vea
     el primero de los iconos */
@@ -50,9 +50,27 @@ function mostrar(){
 
 }
 
+/* Primer botón ocultar */
+
 function ocultar() {
 
     document.getElementById('proyecto_con_jone').style.height = '0px';
+    document.getElementById('cartel-jone-info').style.height = '0px';
+    document.getElementById('proyecto_con_jone').style.overflow = 'hidden';
+    document.getElementById('ampliar').style.visibility = 'visible';
+    document.getElementById('ampliar').style.height = '50px';
+    var icono=document.getElementById("ampliar_btn");
+    icono.src = "img/ampliar_info-oscuro-01.png";
+    estado = 1;
+    document.getElementById("ampliar-info").innerHTML=' ';
+
+}
+
+/* Segundo botón ocultar */
+
+function ocultar_descripcion() {
+
+    document.getElementById('proyecto_con_jone').style.height = '700px';
     document.getElementById('cartel-jone-info').style.height = '0px';
     document.getElementById('proyecto_con_jone').style.overflow = 'hidden';
     document.getElementById('ampliar').style.visibility = 'visible';

@@ -88,7 +88,7 @@ p {
   width: 50%;
 }
 
-#actual, #anterior, #proyecto_con_jone {
+#actual, #proyecto_con_jone {
   padding: 0 3% 50px 3%;
 }
 
@@ -106,9 +106,8 @@ p {
 }
 
 #anterior {
-  background-color: white; /* #D0D3D4; */
-  background-image: url("../img/olentzero-01.png");
-  background-size: 100%;
+  background-color: #E0E0DA; /* #D0D3D4; */
+  background-image: url("../img/olentzero-02.png");
   background-repeat: no-repeat;
   color: #464747;
   height: auto;
@@ -121,7 +120,7 @@ p {
 }
 
 #anterior h2 {
-  height: 600px;
+
 }
 
 #anterior h2 {
@@ -174,7 +173,7 @@ p {
   background-color: white;
   height: 10px;
   overflow: hidden;
-  padding-top: 20px;
+  padding-top: 0px;
   text-align: left;
   transition-duration: 1s;
   width: 100%;
@@ -417,6 +416,10 @@ p {
 }
 
 .margin_bottom_eliminar {
+  margin-bottom: 0;
+}
+
+.padding_bottom_eliminar {
   padding-bottom: 0;
 }
 
