@@ -97,6 +97,10 @@ p {
   width: 100%;
 }
 
+#actual_ampliar_info {
+  display: none;
+}
+
 #anterior figure {
   height: auto;
 }
@@ -272,7 +276,7 @@ p {
   display: none;
 }
 
-#jone-png2, #jone-png3 {
+#jone-png2, #jone-png3, #jone-png4 {
   display: none;
 }
 
@@ -490,25 +494,47 @@ h3 {
   visibility: hidden;
 }
 #anterior {
-    height: 1100px;
-    background: none;
+  height: 1100px;
+  background: none;
   }
 #actual {
   border: none;
-}
-
-#actual, #anterior {
-  width: 49%;
-  height: auto;
   vertical-align: top;
-  display: inline-block;
-  margin-top: 50px;
 }
 
 #actual figure {
-  height: 250px;
-  width: 304px;
+  width: 100%;
+  text-align: left;
+  height: auto;
 }
+
+#actual figure img {
+  width: 100%;
+}
+
+#actual_ampliar_info {
+  width: 38%;
+  height: auto;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+#actual_ampliar_info figure {
+  vertical-align: bottom;
+}
+
+#actual_ampliar_info img {
+  vertical-align: bottom;
+  width: 70%;
+}
+
+#actual, #anterior {
+  width: 60%;
+  height: auto;
+  vertical-align: top;
+  display: inline-block;
+}
+
 
 
 #anterior figure {
@@ -521,14 +547,7 @@ h3 {
 }
 
 
-#actual {
-  background-image: url("../img/proyectos_linea_bg-01.png");
-  background-repeat: no-repeat;
-  background-size: contain;;
-
-}
-
-#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone {
+#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3 {
   color: #2278F4;
 }
 
@@ -572,24 +591,38 @@ h3 {
 }
 
 #jone-png-vmovil {
-      display: none;
-      width: 45%;
+  display: none;
+  width: 45%;
     }
+
+#jone_vTablet {
+  background-color: red;
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+}
 
 #jone-png1 {
     display: inline-block;
-    width: 25%;
+    width: 48%;
+    background-color: yellow;
+    vertical-align: top;
   }
 
 #jone-png2 {
     display: inline-block;
-    width: 25%;
+    width: 45%;
   }
 
 #jone-png3 {
     display: inline-block;
-    width: 25%;
+    width: 45%;
   }
+
+#jone-png4 {
+      display: none;
+      width: 20%;
+    }
 
 #mostrar_proyecto_con_jone_div_btn {
   margin-bottom: 50px;
@@ -628,6 +661,7 @@ document.getElementById('cartel-jone-info').style.height = '0px'; /*
 
 #proyecto_con_jone {
   height: 700px;
+  padding: 0;
 }
 
 #titulo-jone {
