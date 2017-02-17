@@ -75,9 +75,7 @@ function ocultar_descripcion() {
     document.getElementById('proyecto_con_jone').style.overflow = 'hidden';
     document.getElementById('ampliar').style.visibility = 'visible';
     document.getElementById('ampliar').style.height = '50px';
-    var icono=document.getElementById("ampliar_btn");
-    icono.src = "img/ampliar_info-oscuro-01.png";
-    estado = 1;
+    estado = 2;
     document.getElementById("ampliar-info").innerHTML=' ';
 
 
