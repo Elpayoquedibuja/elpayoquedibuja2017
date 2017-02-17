@@ -139,6 +139,7 @@ p {
   margin: 0px;
   vertical-align: top;
   visibility: visible;
+  text-align: right;
 }
 
 #ampliar_descripcion_btn{
@@ -162,6 +163,10 @@ p {
 
 #ampliar_logo_info_btn {
   width: 10%;
+}
+
+#btn_ocultar_info_jone {
+  text-align: right;
 }
 
 
