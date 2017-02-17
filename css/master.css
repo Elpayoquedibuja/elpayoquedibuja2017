@@ -272,7 +272,7 @@ p {
   display: none;
 }
 
-#jone-png2 {
+#jone-png2, #jone-png3 {
   display: none;
 }
 
@@ -491,6 +491,7 @@ h3 {
 }
 #anterior {
     height: 1100px;
+    background: none;
   }
 #actual {
   border: none;
@@ -529,6 +530,10 @@ h3 {
 
 #actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone {
   color: #2278F4;
+}
+
+#ampliar {
+  visibility: visible;
 }
 
 #ampliar_btn {
@@ -573,17 +578,30 @@ h3 {
 
 #jone-png1 {
     display: inline-block;
-    width: 45%;
+    width: 25%;
   }
 
 #jone-png2 {
     display: inline-block;
-    width: 45%;
+    width: 25%;
+  }
+
+#jone-png3 {
+    display: inline-block;
+    width: 25%;
   }
 
 #mostrar_proyecto_con_jone_div_btn {
   margin-bottom: 50px;
+  display: none;
 }
+
+/*
+document.getElementById('ampliar').style.visibility = 'visible';
+document.getElementById('proyecto_con_jone').style.height = '700px';
+document.getElementById('cartel-jone-info').style.height = '0px'; /*
+
+*/
 
 #mostrar_proyecto_con_jone_div_btn figure {
   text-align: center;
@@ -609,7 +627,7 @@ h3 {
 }
 
 #proyecto_con_jone {
-  height: 0px;
+  height: 700px;
 }
 
 #titulo-jone {
