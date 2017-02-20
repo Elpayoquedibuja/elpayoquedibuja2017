@@ -512,6 +512,8 @@ h3 {
 
 #mi-profesion h1 {
   font-size: 28px;
+  text-indent: 30px;
+  letter-spacing: -1px;
   font-style: italic;
   color: gray;
   text-align: left;
@@ -536,6 +538,7 @@ h3 {
 #actual {
   border: none;
   vertical-align: top;
+  margin-top: 80px;
 }
 
 #actual figure {
