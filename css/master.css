@@ -574,6 +574,12 @@ h3 {
   display: inline-block;
 }
 
+#anterior {
+  width: 100%;
+  background-color: #8DD3D8;
+  padding: 60px 3% 50px 3%;
+}
+
 
 
 #anterior figure {
@@ -635,7 +641,7 @@ h3 {
     }
 
 #jone_vTablet {
-  background-color: red;
+  background-color: #EBD9E9;
   width: 48%;
   display: inline-block;
   vertical-align: top;
