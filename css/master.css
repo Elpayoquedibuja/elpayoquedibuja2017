@@ -490,6 +490,42 @@ h3 {
   padding: 0 20% 0 0;
 }
 
+#mi-foto {
+  display: inline-block;
+  width: 40%;
+  float: left;
+  text-align: right;
+  padding: 0 5% 0 0;
+
+}
+
+#mi-foto img {
+  width: 40%;
+}
+
+#mi-profesion {
+  display: inline-block;
+  width: 60%;
+  float: rigth;
+
+}
+
+#mi-profesion h1 {
+  font-size: 28px;
+  font-style: italic;
+  color: gray;
+  text-align: left;
+  padding: 0 20% 0 0;
+}
+
+#mi-nombre {
+  text-align: left;
+  display: block;;
+  width: 100%;
+  float: left;
+  padding: 0 15%;
+}
+
 #ampliar {
   visibility: hidden;
 }
@@ -644,6 +680,7 @@ document.getElementById('cartel-jone-info').style.height = '0px'; /*
 #nombre {
     background-image: url(../img/lineas-h1-vt-01.png);
     background-repeat: repeat;
+    background-size: 10%;
   }
 
 #principal {
