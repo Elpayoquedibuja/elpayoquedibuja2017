@@ -132,7 +132,7 @@ p {
 }
 
 
-#anterior figure img {
+#olentzero1 figure img {
   padding-top: 5%;
   width: 100%;
 }
@@ -355,6 +355,10 @@ p {
   margin: 0;
 }
 
+#olentzero2 {
+  display: none;
+}
+
 
 
 #proyecto_con_jone {
@@ -532,7 +536,7 @@ h3 {
   visibility: hidden;
 }
 #anterior {
-  height: 1100px;
+  height: auto;
   background: none;
   }
 #actual {
@@ -567,7 +571,7 @@ h3 {
   width: 70%;
 }
 
-#actual, #anterior {
+#actual {
   width: 60%;
   height: auto;
   vertical-align: top;
@@ -580,15 +584,41 @@ h3 {
   padding: 60px 3% 50px 3%;
 }
 
-
-
-#anterior figure {
-  height: auto;
-  width: 304px;
+#olentzero1 {
+  display: inline-block;
+  vertical-align: top;
+  width: 55%;
+  background-color: #8DD3D8;
 }
 
-#anterior figure img {
-  width: 49%;
+#olentzero img {
+  width: 30%;
+}
+
+#olentzero2 {
+  vertical-align: bottom;
+  display: inline-block;
+  width: 44%;
+  background-color: #8DD3D8;
+  padding: 0 10% 160px 10%;
+}
+
+#olentzero2 img {
+  width: 40%;
+}
+
+#olentzero2-header img {
+  width: 60%;
+}
+
+#olentzero2 h1 {
+  font-weight: bold;
+  font-size: 29px;
+  padding: 0;
+}
+
+#olentzero1, #olentzero2 {
+  height: auto;
 }
 
 
