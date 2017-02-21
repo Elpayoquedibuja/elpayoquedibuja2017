@@ -359,6 +359,10 @@ p {
   display: none;
 }
 
+#olentzero3, #consejos1, #consejos2, #consejos3, #consejos4 {
+  display: none;
+}
+
 
 
 #proyecto_con_jone {
@@ -598,9 +602,44 @@ h3 {
 #olentzero2 {
   vertical-align: bottom;
   display: inline-block;
+  visibility: hidden;
   width: 44%;
   background-color: #8DD3D8;
   padding: 0 10% 160px 10%;
+}
+
+#olentzero3 {
+  display: block;
+  background-color: #8DD3D8;
+
+}
+
+#consejos1, #consejos2, #consejos3{
+  width: 26%;
+  height: 300px;
+  background-color: #8DD3D8;
+  display: inline-block;
+  padding: 0 5%;
+  vertical-align: top;
+  color: #2278F4;
+  margin-bottom: 100px;
+}
+
+#consejos4 {
+  display: inline-block;
+  width: 20%;
+  background-color: #8DD3D8;
+  color: #2278F4;
+  height: 300px;
+  padding-top: 150px;
+}
+
+#consejos1 img, #consejos2 img, #consejos3 img {
+  width: 50%;
+}
+
+#consejos1 h2 {
+  text-align: center;
 }
 
 #olentzero2 img {
