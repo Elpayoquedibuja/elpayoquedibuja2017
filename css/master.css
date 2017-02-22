@@ -499,6 +499,11 @@ h3 {
   padding: 0 20% 0 0;
 }
 
+#proyecto_actual {
+  background-color: white;
+  height: auto;
+}
+
 #mi-foto {
   display: block;
   width: 100%;
