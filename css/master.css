@@ -412,6 +412,8 @@ p {
   margin-top: 0;
 }
 
+
+
 .mi_nombre {
   margin: 0 0 0 0;
   padding-right: 0;
@@ -502,6 +504,7 @@ h3 {
 #proyecto_actual {
   background-color: white;
   height: auto;
+  padding-bottom: 100px;
 }
 
 #mi-foto {
@@ -595,6 +598,7 @@ h3 {
   width: 100%;
   background-color: #8DD3D8;
   padding: 60px 3% 50px 3%;
+  margin-top: 0;
 }
 
 #olentzero1 {
@@ -620,7 +624,7 @@ h3 {
 #olentzero3 {
   display: block;
   background-color: #8DD3D8;
-
+  padding-bottom: 120px;
 }
 
 #consejos1, #consejos2, #consejos3{
@@ -634,6 +638,10 @@ h3 {
   margin-bottom: 100px;
 }
 
+#consejos1 {
+  padding: 0 0 0 3%;
+}
+
 #consejos4 {
   display: inline-block;
   width: 20%;
@@ -644,7 +652,7 @@ h3 {
 }
 
 #consejos1 img, #consejos2 img, #consejos3 img {
-  width: 80%;
+  width: 100%;
 }
 
 #consejos1 h2 {
@@ -656,7 +664,7 @@ h3 {
 }
 
 #olentzero2-header img {
-  width: 60%;
+  width: 80%;
 }
 
 #olentzero2 h1 {
