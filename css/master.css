@@ -792,8 +792,9 @@ document.getElementById('cartel-jone-info').style.height = '0px'; /*
 }
 
 #proyecto_con_jone {
-  height: 700px;
+  height: 1700px;
   padding: 0;
+  padding-top: 120px;
 }
 
 #titulo-jone {
