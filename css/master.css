@@ -71,7 +71,7 @@ p {
   background-color: white;
   border: 1px solid gray;
   color: #464747;
-  height: 600px;
+  height: auto;
   text-align: center;
   width: 100%;
 }
@@ -88,11 +88,11 @@ p {
   width: 50%;
 }
 
-#actual, #proyecto_con_jone {
+#actual, #proyecto_con_jone, #anterior {
   padding: 0 3% 50px 3%;
 }
 
-#actual figure, #anterior figure {
+figure, #anterior figure {
   height: 250px;
   width: 100%;
 }
@@ -119,7 +119,6 @@ p {
   margin-top: 20px;
   text-align: center;
   width: 100%;
-  height: 800px;
 
 }
 
@@ -129,6 +128,14 @@ p {
 
 #anterior h2 {
  color: #464747;
+}
+
+#anteriorPrincipal {
+
+}
+
+#anteriorTablets {
+  display: none;
 }
 
 
@@ -353,6 +360,10 @@ p {
   text-align: center;
   padding: 0;
   margin: 0;
+}
+
+#olentzero1 {
+
 }
 
 #olentzero2 {
@@ -601,11 +612,25 @@ h3 {
   margin-top: 0;
 }
 
+#anteriorPrincipal {
+  display: inline-block;
+  width: 60%;
+  vertical-align: bottom;
+
+}
+
+#anteriorTablets {
+  display: inline-block;
+  width: 34%;
+  vertical-align: top;
+}
+
 #olentzero1 {
   display: inline-block;
   vertical-align: top;
-  width: 55%;
+  width: 100%;
   background-color: #8DD3D8;
+  margin-bottom: 20px;
 }
 
 #olentzero img {
@@ -624,6 +649,7 @@ h3 {
 #olentzero3 {
   display: block;
   background-color: #8DD3D8;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
