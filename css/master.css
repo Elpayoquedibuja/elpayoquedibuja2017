@@ -93,7 +93,7 @@ p {
 }
 
 figure, #anterior figure {
-  height: 250px;
+  height: auto;
   width: 100%;
 }
 
@@ -207,6 +207,9 @@ figure, #anterior figure {
   display: none;
 }
 
+  #header-consejos {
+    display: none;
+  }
 
 
 #izena img {
@@ -512,6 +515,18 @@ h3 {
   padding: 0 20% 0 0;
 }
 
+#header-consejos {
+  display: block;
+  width: 100%;
+  padding: 0 20% 100px 20%;
+  padding-bottom: 100px;
+
+}
+
+#header-consejos h2 {
+  text-align: center;
+}
+
 #proyecto_actual {
   background-color: white;
   height: auto;
@@ -609,7 +624,7 @@ h3 {
   width: 100%;
   background-color: #8DD3D8;
   padding: 60px 3% 50px 3%;
-  margin-top: 0;
+  margin-top: 50px;
 }
 
 #anteriorPrincipal {
@@ -649,7 +664,7 @@ h3 {
 #olentzero3 {
   display: block;
   background-color: #8DD3D8;
-  padding-top: 120px;
+  padding-top: 20px;
   padding-bottom: 120px;
 }
 
@@ -690,7 +705,7 @@ h3 {
 }
 
 #olentzero2-header img {
-  width: 80%;
+  width: 100%;
 }
 
 #olentzero2 h1 {
