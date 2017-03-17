@@ -523,7 +523,7 @@ h3 {
 
 }
 
-#header-consejos h2 {
+#header-consejos h2, #header-consejos p {
   text-align: center;
 }
 
