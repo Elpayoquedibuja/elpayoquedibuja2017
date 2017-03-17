@@ -64,6 +64,7 @@ header figure img {
 }
 
 p {
+  color: #AAAAAA;
   font-size: 18px;
 }
 
@@ -390,8 +391,19 @@ figure, #anterior figure {
   transition-duration: 0.5s;
 }
 
+
 #proyecto_con_jone h2 {
   color: #464747;
+}
+
+#sectores{
+  color: #AAAAAA;
+  list-style-type: none;
+}
+
+#sectores {
+  color: red;
+  font-size: 12px;
 }
 
 .alinear_a_la_izquierda {
@@ -836,6 +848,11 @@ document.getElementById('cartel-jone-info').style.height = '0px'; /*
   height: 1700px;
   padding: 0;
   padding-top: 120px;
+}
+
+#sectores {
+  color: #5B9FD3;
+  font-size: 13px;
 }
 
 #titulo-jone {
