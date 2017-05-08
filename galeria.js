@@ -39,7 +39,7 @@ function cambioImg_y_la_situo_a_la_izq() {
 
 function mostrar_nueva_IMG(){
     var foto=document.getElementById("galeria");
-    foto.src = "img/jone"+num+".png";
+    foto.src = "img/jone"+num+".jpg";
     document.getElementById('galeria').style.opacity= 1;
     document.getElementById('galeria').style.left = '0px';
 
@@ -70,7 +70,7 @@ function cambioImg_y_la_situo_a_la_dcha() {
 
 function mostrar_nueva_IMG(){
     var foto=document.getElementById("galeria");
-    foto.src = "img/jone"+num+".png";
+    foto.src = "img/jone"+num+".jpg";
     document.getElementById('galeria').style.opacity= 1;
     document.getElementById('galeria').style.left = '0px';
 
