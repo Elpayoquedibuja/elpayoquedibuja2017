@@ -89,7 +89,7 @@ p {
   width: 50%;
 }
 
-#actual, #proyecto_con_jone, #anterior {
+#actual, #ni-naiz, #anterior {
   padding: 0 3% 50px 3%;
 }
 
@@ -378,22 +378,16 @@ figure, #anterior figure {
   display: none;
 }
 
-
-
-#proyecto_con_jone {
-  background-color: white;
-  color: #464747;
-  height: 0;
-  overflow: hidden;
-  padding: 0 3% 0 3%; /* padding: 0 3% 50px 3%; */
-  text-align: center;
-  width: 100%;
-  transition-duration: 0.5s;
+#ni-naiz {
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    margin-top: 20px;
 }
 
-
-#proyecto_con_jone h2 {
-  color: #464747;
+#ni-naiz-principal img {
+  width: 80%;
 }
 
 #sectores{
@@ -793,6 +787,7 @@ document.getElementById('cartel-jone-info').style.height = '0px'; /*
     background-repeat: repeat;
     background-size: 10%;
   }
+
 
 #principal {
     background-color: white;
