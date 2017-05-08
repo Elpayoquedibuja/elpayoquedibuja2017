@@ -111,9 +111,7 @@ figure, #anterior figure {
 }
 
 #anterior {
-  background-color: #E0E0DA; /* #D0D3D4; */
-  background-image: url("../img/olentzero-02.png");
-  background-repeat: no-repeat;
+  background-color: white;
   color: #464747;
   height: auto;
   margin: 0px;
