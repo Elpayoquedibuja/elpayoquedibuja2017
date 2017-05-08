@@ -783,7 +783,18 @@ document.getElementById('cartel-jone-info').style.height = '0px'; /*
 
 */
 
+#ni-naiz {
+  height: 800px;
+}
 
+#ni-naiz h2 {
+  margin-top: 20px;
+  padding-top: 50px;
+}
+
+#ni-naiz img {
+  width: 40%;
+}
 #nombre {
     background-image: url(../img/lineas-h1-vt-01.png);
     background-repeat: repeat;
