@@ -194,6 +194,10 @@ figure, #anterior figure {
   width: 100%;
 }
 
+#cohete img {
+  width: 30%;
+}
+
 #contacto {
   height: 0px;
   margin: 0px;
@@ -665,6 +669,7 @@ h3 {
   margin-bottom: 20px;
 }
 
+
 #olentzero img {
   width: 30%;
 }
@@ -683,6 +688,10 @@ h3 {
   background-color: #8DD3D8;
   padding-top: 20px;
   padding-bottom: 120px;
+}
+
+#cohete img {
+  width: 15%;
 }
 
 #consejos1, #consejos2, #consejos3{
