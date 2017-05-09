@@ -138,7 +138,7 @@ figure, #anterior figure {
 }
 
 
-#olentzero1 figure img {
+#anterior figure img {
   padding-top: 5%;
   width: 100%;
 }
@@ -364,9 +364,6 @@ figure, #anterior figure {
   margin: 0;
 }
 
-#olentzero1 {
-
-}
 
 #olentzero2 {
   display: none;
@@ -521,6 +518,16 @@ h1 {
 
 h3 {
   padding: 0 20% 0 0;
+  text-align: left;
+}
+
+#anterior {
+  text-align: left;
+  text-align: center;
+}
+
+#anterior figure {
+  text-align: left;
 }
 
 #header-consejos {
@@ -650,7 +657,7 @@ h3 {
   vertical-align: top;
 }
 
-#olentzero1 {
+#anterior {
   display: inline-block;
   vertical-align: top;
   width: 100%;
@@ -724,9 +731,7 @@ h3 {
   padding: 0;
 }
 
-#olentzero1, #olentzero2 {
-  height: auto;
-}
+
 
 
 #actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3 {
@@ -811,8 +816,16 @@ document.getElementById('cartel-jone-info').style.height = '0px'; /*
     text-align: center;
 }
 
+#neskatxo figure img {
+  width: 45%;
+}
+
+#anterior figure {
+  text-align: center;
+}
+
 #olentzero img {
-  width: 100%;
+  width: 20%;
 }
 
 
