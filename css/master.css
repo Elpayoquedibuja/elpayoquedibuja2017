@@ -523,8 +523,10 @@ h1 {
 h3 {
   padding: 0 20% 0 0;
   text-align: left;
+}
 
-
+.texto_reducir_low {
+  font-size: 1rem;
 }
 
 #anterior {
@@ -829,6 +831,11 @@ document.getElementById('cartel-jone-info').style.height = '0px'; /*
 
 #neskatxo figure img {
   width: 40%;
+}
+
+#sectores {
+  font-size: 14px;
+  font-weight: bold;
 }
 
 #anterior figure {
