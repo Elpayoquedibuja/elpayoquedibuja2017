@@ -140,7 +140,7 @@ figure, #anterior figure {
 
 #anterior figure img {
   padding-top: 5%;
-  width: 100%;
+  width: 70%;
 }
 
 #ampliar {
@@ -192,6 +192,10 @@ figure, #anterior figure {
   text-align: left;
   transition-duration: 1s;
   width: 100%;
+}
+
+#cohete img {
+  width: 50%;
 }
 
 #contacto {
@@ -376,7 +380,7 @@ figure, #anterior figure {
 #ni-naiz {
     text-align: center;
     width: 100%;
-    height: 700px;
+    height: auto;
     background-color: white;
     margin-top: 20px;
 }
@@ -519,6 +523,8 @@ h1 {
 h3 {
   padding: 0 20% 0 0;
   text-align: left;
+
+
 }
 
 #anterior {
@@ -665,6 +671,7 @@ h3 {
   margin-bottom: 20px;
 }
 
+
 #olentzero img {
   width: 30%;
 }
@@ -683,6 +690,10 @@ h3 {
   background-color: #8DD3D8;
   padding-top: 20px;
   padding-bottom: 120px;
+}
+
+#cohete img {
+  width: 22%;
 }
 
 #consejos1, #consejos2, #consejos3{
@@ -789,7 +800,7 @@ document.getElementById('cartel-jone-info').style.height = '0px'; /*
 */
 
 #ni-naiz {
-  height: 800px;
+  height: auto;
 }
 
 #ni-naiz h2 {
@@ -817,7 +828,7 @@ document.getElementById('cartel-jone-info').style.height = '0px'; /*
 }
 
 #neskatxo figure img {
-  width: 45%;
+  width: 40%;
 }
 
 #anterior figure {
