@@ -380,7 +380,7 @@ figure, #anterior figure {
 #ni-naiz {
     text-align: center;
     width: 100%;
-    height: 700px;
+    height: auto;
     background-color: white;
     margin-top: 20px;
 }
@@ -691,7 +691,7 @@ h3 {
 }
 
 #cohete img {
-  width: 15%;
+  width: 22%;
 }
 
 #consejos1, #consejos2, #consejos3{
@@ -798,7 +798,7 @@ document.getElementById('cartel-jone-info').style.height = '0px'; /*
 */
 
 #ni-naiz {
-  height: 800px;
+  height: auto;
 }
 
 #ni-naiz h2 {
