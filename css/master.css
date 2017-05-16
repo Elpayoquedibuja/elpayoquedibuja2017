@@ -293,9 +293,19 @@ figure, #anterior figure {
   display: none;
 }
 
+#iconos {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto 0 auto;
 
+
+}
+
+#iconos figure {
+  text-align: right;
+}
 #iconos figure img {
-  width: 20%;
+  width: 32%;
 }
 
 
