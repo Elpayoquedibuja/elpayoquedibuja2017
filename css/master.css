@@ -293,6 +293,10 @@ figure, #anterior figure {
   display: none;
 }
 
+#iconos figure img {
+  width: 20%;
+}
+
 #logo {
   color: #1B75BB;
   height: auto;
@@ -781,6 +785,8 @@ h3 {
   padding-left: 5%;
   height: 1300px;
 }
+
+
 
 #logo{
   background-color: red;
