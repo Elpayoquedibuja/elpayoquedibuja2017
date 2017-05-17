@@ -14,18 +14,15 @@ figure {
   width: 100%;
 }
 
+figure, #anterior figure {
+  height: auto;
+  width: 100%;
+}
+
 footer {
   color: #3B404C;
   height: 100px;
   text-align: center;
-  width: 100%;
-}
-
-h2 {
-  line-height: 28px;
-  margin-top: 0px;
-  padding-top: 40px;
-  text-align: left;
   width: 100%;
 }
 
@@ -34,6 +31,14 @@ h1 {
   font-family: sans-serif;
   font-size: 18px;
   font-weight: normal;
+}
+
+h2 {
+  line-height: 28px;
+  margin-top: 0px;
+  padding-top: 40px;
+  text-align: left;
+  width: 100%;
 }
 
 h3 {
@@ -55,7 +60,6 @@ header h2, header h3  {
   margin-top: 0;
   padding-top: 0;
 }
-
 
 header figure img {
   border: 4px solid #2C4C4C;
@@ -91,11 +95,6 @@ p {
 
 #actual, #ni-naiz, #anterior {
   padding: 0 3% 50px 3%;
-}
-
-figure, #anterior figure {
-  height: auto;
-  width: 100%;
 }
 
 #actual_ampliar_info {
@@ -179,21 +178,6 @@ figure, #anterior figure {
   text-align: right;
 }
 
-
-#cartel-jone img {
-  width: 90%;
-}
-
-#cartel-jone-info {
-  background-color: white;
-  height: 10px;
-  overflow: hidden;
-  padding-top: 0px;
-  text-align: left;
-  transition-duration: 1s;
-  width: 100%;
-}
-
 #cohete img {
   width: 50%;
 }
@@ -210,51 +194,75 @@ figure, #anterior figure {
   display: none;
 }
 
-  #header-consejos {
-    display: none;
-  }
+#dcha_btn {
+  cursor: pointer;
+}
+
+#derecha {
+  background-color: rgba(50, 50, 51, 0.5);
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 40px;
+  height: 50px;
+  left: 120px;
+  margin: 0;
+  padding-left: 0;
+  position: relative;
+  top: -280px;
+  vertical-align: top;
+  width: auto;
+}
+
+#derecha:focus {
+  /*border: none;*/
+  outline: none;
+}
+
+#header-consejos {
+  display: none;
+}
 
 #iconos {
   width: 100%;
 }
 
 #icono1, #icono2, #icono3 {
-    display: inline-block;
-    width: 32%;
-  }
+  display: inline-block;
+  width: 32%;
+}
 
-  #icono1 img, #icono2 img, #icono3 img {
-      width: 100%;
-      display: inline-block;
-    }
+#icono1 img, #icono2 img, #icono3 img {
+  width: 100%;
+  display: inline-block;
+}
 
 #icono1 {
-    
-  }
+
+}
 
 #icono2 {
 
-  }
+}
 
 #icono3 {
 
-  }
+}
 
 #iconos {
-    background-color: white;
-    margin: 0 auto 0 auto;
+  background-color: white;
+  margin: 0 auto 0 auto;
+}
 
-
-  }
 
 #iconos figure {
-    text-align: right;
+  text-align: right;
   }
+
 #iconos figure img {
-    width: 100%;
-  }
-
-
+  width: 100%;
+}
 
 #izena img {
   width: 100%;
@@ -286,32 +294,6 @@ figure, #anterior figure {
   cursor: pointer;
 }
 
-#dcha_btn {
-  cursor: pointer;
-}
-
-#derecha {
-  background-color: rgba(50, 50, 51, 0.5);
-  border: none;
-  color: white;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 40px;
-  height: 50px;
-  left: 120px;
-  margin: 0;
-  padding-left: 0;
-  position: relative;
-  top: -280px;
-  vertical-align: top;
-  width: auto;
-}
-
-#derecha:focus {
-  /*border: none;*/
-  outline: none;
-}
-
 #galeria {
   left: 0;
   height: auto;
@@ -333,9 +315,6 @@ figure, #anterior figure {
 #jone-png2, #jone-png3, #jone-png4 {
   display: none;
 }
-
-
-
 
 #logo {
   color: #1B75BB;
@@ -394,6 +373,22 @@ figure, #anterior figure {
   line-height: 49px;
 }
 
+#ni-naiz {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#ni-naiz h2 {
+  color: #464747;
+}
+
+#ni-naiz-principal img {
+  width: 80%;
+}
+
 #nombre {
   padding: 10px 0 10px 0;
   margin: 0;
@@ -421,21 +416,6 @@ figure, #anterior figure {
   display: none;
 }
 
-#ni-naiz {
-    text-align: center;
-    width: 100%;
-    height: auto;
-    background-color: white;
-    margin-top: 20px;
-}
-
-#ni-naiz h2 {
-  color: #464747;
-}
-
-#ni-naiz-principal img {
-  width: 80%;
-}
 
 #sectores{
   color: #AAAAAA;
@@ -475,11 +455,18 @@ figure, #anterior figure {
   color: #DEDEE0;
 }
 
+.links {
+  font-size: 16px;
+  text-align: left;
+}
+
 .margin_top_eliminar {
   margin-top: 0;
 }
 
-
+.margin_bottom_eliminar {
+  margin-bottom: 0;
+}
 
 .mi_nombre {
   margin: 0 0 0 0;
@@ -492,25 +479,20 @@ figure, #anterior figure {
   text-align: center;
 }
 
+.mostrar_mano {
+  cursor: pointer;
+}
+
 .negrita {
   font-weight: bold;
 }
 
-.links {
-  font-size: 16px;
-  text-align: left;
-}
-
-.margin_bottom_eliminar {
-  margin-bottom: 0;
+.ocultar_info {
+  text-align: center;
 }
 
 .padding_bottom_eliminar {
   padding-bottom: 0;
-}
-
-.mostrar_mano {
-  cursor: pointer;
 }
 
 .texto_reducir {
@@ -518,15 +500,10 @@ figure, #anterior figure {
   font-weight: normal;
 }
 
-
-
 .texto_reducir_low {
   font-size: 1.2rem;
 }
 
-.ocultar_info {
-  text-align: center;
-}
 
 @media only screen and (min-width: 768px)
 {
