@@ -799,6 +799,10 @@ h3 {
   height: 1300px;
 }
 
+#iconos figure img {
+  width: 20%;
+}
+
 
 
 #logo{
@@ -848,9 +852,6 @@ document.getElementById('cartel-jone-info').style.height = '0px'; /*
     text-align: center;
 }
 
-#neskatxo figure img {
-  width: 40%;
-}
 
 #sectores {
   font-size: 14px;
@@ -861,8 +862,12 @@ document.getElementById('cartel-jone-info').style.height = '0px'; /*
   text-align: center;
 }
 
-#olentzero img {
-  width: 20%;
+#neskatxo #olentzero img {
+  width: 40%;
+}
+
+#iconos figure img {
+  margin: 0 5%;
 }
 
 
