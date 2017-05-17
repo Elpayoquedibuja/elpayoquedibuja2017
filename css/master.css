@@ -358,6 +358,18 @@ p {
   height: 90px;
 }
 
+#iconos {
+  width: 84%;
+}
+
+#icono1, #icono2, #icono3 {
+
+}
+
+#icono1-txt, #icono2-txt, #icono3-txt {
+  display: none;
+}
+
 #texto {
   /*background-color: yellow;*/
   color: #C3C4C9;
@@ -804,13 +816,50 @@ h3 {
   height: 1300px;
 }
 
+#iconos {
+  width: 85%;
+}
+
 #iconos figure img {
   width: 70%;
+}
+
+#icono1-txt {
+  display: block;
+  /*background-color: yellow;*/
+}
+
+#icono2-txt {
+  display: block;
+  /*background-color: red;*/
+}
+
+#icono3-txt {
+  display: block;
+  /*background-color: green;*/
+}
+
+#icono1-txt, #icono2-txt, #icono3-txt {
+  vertical-align: top;
 }
 
 #icono1 {
 
 }
+
+#icono2 {
+
+}
+
+#icono3 {
+
+}
+
+#icono1, #icono2, #icono3 {
+  vertical-align: top;
+}
+
+
 
 
 
