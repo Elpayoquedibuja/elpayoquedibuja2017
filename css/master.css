@@ -214,6 +214,47 @@ figure, #anterior figure {
     display: none;
   }
 
+#iconos {
+  width: 100%;
+}
+
+#icono1, #icono2, #icono3 {
+    display: inline-block;
+    width: 32%;
+  }
+
+  #icono1 img, #icono2 img, #icono3 img {
+      width: 100%;
+      display: inline-block;
+    }
+
+#icono1 {
+    
+  }
+
+#icono2 {
+
+  }
+
+#icono3 {
+
+  }
+
+#iconos {
+    background-color: white;
+    margin: 0 auto 0 auto;
+
+
+  }
+
+#iconos figure {
+    text-align: right;
+  }
+#iconos figure img {
+    width: 100%;
+  }
+
+
 
 #izena img {
   width: 100%;
@@ -293,20 +334,6 @@ figure, #anterior figure {
   display: none;
 }
 
-#iconos {
-  background-color: white;
-  width: 80%;
-  margin: 0 auto 0 auto;
-
-
-}
-
-#iconos figure {
-  text-align: right;
-}
-#iconos figure img {
-  width: 32%;
-}
 
 
 
@@ -746,6 +773,8 @@ h3 {
 #consejos1 h2 {
   text-align: center;
 }
+
+
 
 #olentzero2 img {
   width: 40%;
