@@ -562,84 +562,12 @@ h3 {
   text-align: left;
 }
 
+.aumentar_el_margin_top {
+  margin-top: 0;
+}
+
 .texto_reducir_low {
   font-size: 1rem;
-}
-
-#ampliar_logo_info {
-  visibility: hidden;
-}
-
-#anterior {
-  text-align: left;
-  text-align: center;
-}
-
-#anterior figure {
-  text-align: left;
-}
-
-#datos_web_empresa {
-    display: block;
-}
-
-#header-consejos {
-  display: block;
-  width: 100%;
-  padding: 0 20% 100px 20%;
-  padding-bottom: 100px;
-
-}
-
-#header-consejos h2, #header-consejos p {
-  text-align: center;
-}
-
-#proyecto_actual {
-  background-color: white;
-  height: auto;
-  padding-bottom: 100px;
-}
-
-#mi-foto {
-  display: block;
-  width: 100%;
-  float: left;
-  text-align: center;
-  padding: 0 0 0 3%;
-  margin-bottom: 20px;
-
-}
-
-#mi-foto img {
-  width: 15%;
-}
-
-#mi-profesion {
-  display: block;
-  width: 100%;
-  padding: 0 20%;
-  margin-top: 100px;
-
-}
-
-#mi-profesion h1 {
-  font-size: 20px;
-  text-indent: 20px;
-  letter-spacing: 0px;
-  font-style: normal;
-  color: gray;
-  text-align: center;
-  padding: 0 8% 0 8%;
-  width: 100%;
-}
-
-#mi-nombre {
-  text-align: center;
-  display: block;;
-  width: 100%;
-  float: left;
-  padding: 0 15%;
 }
 
 #ampliar {
@@ -650,7 +578,35 @@ h3 {
 #anterior {
   height: auto;
   background: none;
-  }
+}
+
+#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3 {
+  color: #2278F4;
+}
+
+#ampliar {
+  visibility: visible;
+}
+
+#ampliar_btn {
+  height: 50px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+#ampliar_descripcion_btn {
+  width: 10%;
+}
+
+#ampliar_logo_info_btn {
+  width: 4%;
+}
+
+#btn_ocultar_info_jone {
+  display: block;
+  visibility: vivi;
+}
+
 #actual {
   border: none;
   vertical-align: top;
@@ -697,6 +653,10 @@ h3 {
   margin-top: 50px;
 }
 
+#anterior figure {
+  text-align: center;
+}
+
 #anteriorPrincipal {
   display: inline-block;
   width: 60%;
@@ -710,7 +670,10 @@ h3 {
   vertical-align: top;
 }
 
+
 #anterior {
+  text-align: left;
+  text-align: center;
   display: inline-block;
   vertical-align: top;
   width: 100%;
@@ -718,29 +681,33 @@ h3 {
   margin-bottom: 20px;
 }
 
-
-#olentzero img {
-  width: 30%;
-}
-
-#olentzero2 {
-  vertical-align: bottom;
-  display: inline-block;
+#ampliar_logo_info {
   visibility: hidden;
-  width: 44%;
-  background-color: #8DD3D8;
-  padding: 0 10% 160px 10%;
 }
 
-#olentzero3 {
-  display: block;
-  background-color: #8DD3D8;
-  padding-top: 20px;
-  padding-bottom: 120px;
+#anterior figure {
+  text-align: left;
 }
 
 #cohete img {
   width: 22%;
+}
+
+#consejos1 {
+  padding: 0 0 0 3%;
+}
+
+#consejos1 h2 {
+  text-align: center;
+}
+
+#consejos4 {
+  display: inline-block;
+  width: 20%;
+  background-color: #8DD3D8;
+  color: #2278F4;
+  height: 300px;
+  padding-top: 150px;
 }
 
 #consejos1, #consejos2, #consejos3{
@@ -754,78 +721,24 @@ h3 {
   margin-bottom: 100px;
 }
 
-#consejos1 {
-  padding: 0 0 0 3%;
-}
-
-#consejos4 {
-  display: inline-block;
-  width: 20%;
-  background-color: #8DD3D8;
-  color: #2278F4;
-  height: 300px;
-  padding-top: 150px;
-}
-
 #consejos1 img, #consejos2 img, #consejos3 img {
   width: 100%;
 }
 
-#consejos1 h2 {
-  text-align: center;
+#datos_web_empresa {
+    display: block;
 }
 
-
-#olentzero2 img {
-  width: 40%;
-}
-
-#olentzero2-header img {
-  width: 100%;
-}
-
-#olentzero2 h1 {
-  font-weight: bold;
-  font-size: 29px;
-  padding: 0;
-}
-
-
-
-
-#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3 {
-  color: #2278F4;
-}
-
-#ampliar {
-  visibility: visible;
-}
-
-#ampliar_btn {
-  height: 50px;
-  margin-top: 30px;
-  display: inline-block;
-}
-
-#ampliar_descripcion_btn {
-  width: 10%;
-}
-
-#ampliar_logo_info_btn {
-  width: 4%;
-}
-
-#btn_ocultar_info_jone {
+#header-consejos {
   display: block;
-  visibility: vivi;
+  width: 100%;
+  padding: 0 20% 100px 20%;
+  padding-bottom: 100px;
+
 }
 
-#cartel-jone-info {
-  display: inline-block;
-  float: right;
-  width: 50%;
-  padding-left: 5%;
-  height: 1300px;
+#header-consejos h2, #header-consejos p {
+  text-align: center;
 }
 
 #iconos {
@@ -851,29 +764,19 @@ h3 {
   /*background-color: green;*/
 }
 
-#icono1-txt, #icono2-txt, #icono3-txt {
-  vertical-align: top;
-}
-
-#icono1 {
-
-}
-
-#icono2 {
-
-}
-
-#icono3 {
-
-}
-
 #icono1, #icono2, #icono3 {
   vertical-align: top;
 }
 
+#icono1-txt, #icono2-txt, #icono3-txt {
+  vertical-align: top;
+}
 
 
 
+#iconos figure img {
+  margin: 0 5%;
+}
 
 #logo{
   background-color: red;
@@ -886,13 +789,53 @@ h3 {
   width: 40%;
 }
 
+#mi-foto {
+  display: block;
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 0 0 0 3%;
+  margin-bottom: 20px;
 
-/*
-document.getElementById('ampliar').style.visibility = 'visible';
-document.getElementById('proyecto_con_jone').style.height = '700px';
-document.getElementById('cartel-jone-info').style.height = '0px'; /*
+}
 
-*/
+#mi-foto img {
+  width: 15%;
+}
+
+#mi-nombre {
+  text-align: center;
+  display: block;;
+  width: 100%;
+  float: left;
+  padding: 0 15%;
+}
+
+#mi-profesion {
+  display: block;
+  width: 100%;
+  padding: 0 20%;
+  margin-top: 100px;
+
+}
+
+
+#mi-profesion h1 {
+  font-size: 20px;
+  text-indent: 20px;
+  letter-spacing: 0px;
+  font-style: normal;
+  color: gray;
+  text-align: center;
+  padding: 0 8% 0 8%;
+  width: 100%;
+}
+
+
+
+#neskatxo #olentzero img {
+  width: 40%;
+}
 
 #ni-naiz {
   height: auto;
@@ -906,12 +849,57 @@ document.getElementById('cartel-jone-info').style.height = '0px'; /*
 #ni-naiz img {
   width: 40%;
 }
+
 #nombre {
     background-image: url(../img/lineas-h1-vt-01.png);
     background-repeat: repeat;
     background-size: 10%;
-  }
+}
 
+#olentzero img {
+  width: 30%;
+}
+
+#olentzero2 {
+  vertical-align: bottom;
+  display: inline-block;
+  visibility: hidden;
+  width: 44%;
+  background-color: #8DD3D8;
+  padding: 0 10% 160px 10%;
+}
+
+#olentzero2 h1 {
+  font-weight: bold;
+  font-size: 29px;
+  padding: 0;
+}
+
+#olentzero2-header img {
+  width: 100%;
+}
+
+#olentzero2 img {
+  width: 40%;
+}
+
+#olentzero3 {
+  display: block;
+  background-color: #8DD3D8;
+  padding-top: 20px;
+  padding-bottom: 120px;
+}
+
+#proyecto_actual {
+  background-color: white;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+#titulo-jone {
+  display: none;
+  padding-left: 20%;
+}
 
 #principal {
     background-color: white;
@@ -928,26 +916,4 @@ document.getElementById('cartel-jone-info').style.height = '0px'; /*
   font-weight: bold;
 }
 
-#anterior figure {
-  text-align: center;
-}
-
-#neskatxo #olentzero img {
-  width: 40%;
-}
-
-#iconos figure img {
-  margin: 0 5%;
-}
-
-
-#titulo-jone {
-  display: none;
-  padding-left: 20%;
-}
-
-.aumentar_el_margin_top {
-  margin-top: 0;
-}
-
-}
+} /* Fin del mediaquery */
