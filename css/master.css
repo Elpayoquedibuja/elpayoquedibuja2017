@@ -194,6 +194,10 @@ p {
   display: none;
 }
 
+#icono-google img {
+  width: 30px;
+}
+
 #dcha_btn {
   cursor: pointer;
 }
@@ -562,6 +566,10 @@ h3 {
   font-size: 1rem;
 }
 
+#ampliar_logo_info {
+  visibility: hidden;
+}
+
 #anterior {
   text-align: left;
   text-align: center;
@@ -569,6 +577,10 @@ h3 {
 
 #anterior figure {
   text-align: left;
+}
+
+#datos_web_empresa {
+    display: block;
 }
 
 #header-consejos {
