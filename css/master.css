@@ -8,7 +8,6 @@ body {
   padding: 0 4% 0 4%;
 }
 
-
 figure {
   margin: 0px;
   width: 100%;
@@ -68,7 +67,6 @@ header figure img {
 }
 
 p {
-
   font-size: 18px;
 }
 
@@ -121,21 +119,12 @@ p {
 }
 
 #anterior h2 {
-
-}
-
-#anterior h2 {
  color: #464747;
-}
-
-#anteriorPrincipal {
-
 }
 
 #anteriorTablets {
   display: none;
 }
-
 
 #anterior figure img {
   padding-top: 5%;
@@ -146,9 +135,9 @@ p {
   height: 50px;
   display: inline-block;
   margin: 0px;
+  text-align: right;
   vertical-align: top;
   visibility: visible;
-  text-align: right;
 }
 
 #ampliar_descripcion_btn{
@@ -156,18 +145,18 @@ p {
 }
 
 #ampliar_btn:focus {
-    outline: none;
-    border: none;
+  border: none;
+  outline: none;
 }
 
 #ampliar_logo_info {
-  height: 50px;
   display: inline-block;
+  height: 50px;
   margin: 0px;
+  text-align: right;
   vertical-align: top;
   visibility: visible;
   vertical-align: bottom;
-  text-align: right;
 }
 
 #ampliar_logo_info_btn {
@@ -229,6 +218,8 @@ p {
 }
 
 #iconos {
+  background-color: white;
+  margin: 0 auto 0 auto;
   width: 100%;
 }
 
@@ -241,24 +232,6 @@ p {
   width: 100%;
   display: inline-block;
 }
-
-#icono1 {
-
-}
-
-#icono2 {
-
-}
-
-#icono3 {
-
-}
-
-#iconos {
-  background-color: white;
-  margin: 0 auto 0 auto;
-}
-
 
 #iconos figure {
   text-align: right;
@@ -278,9 +251,9 @@ p {
   color: white;
   cursor: pointer;
   display: inline-block;
-  left: -120px;
   font-size: 40px;
   height: 50px;
+  left: -120px;
   margin: 0;
   padding: 0;
   padding-left: 0;
@@ -299,12 +272,39 @@ p {
 }
 
 #galeria {
-  left: 0;
   height: auto;
+  left: 0;
   opacity: 1;
   position: relative;
   transition-duration: 0.5s;
   visibility: visible;
+}
+
+#icono {
+  /*background-color: red;*/
+  vertical-align: bottom;
+  text-align: right;
+  width: 37.75px;
+  height: 90px;
+}
+
+#icono img {
+  vertical-align: middle;
+  height: 90px;
+}
+
+#icono, #texto {
+  display: inline-block;
+  height: 90px;
+  line-height: 49px;
+}
+
+#iconos {
+  width: 84%;
+}
+
+#icono1-txt, #icono2-txt, #icono3-txt {
+  display: none;
 }
 
 #jone-png-vmovil {
@@ -321,13 +321,13 @@ p {
 }
 
 #logo {
+  background-color: red;
   color: #1B75BB;
   height: auto;
   margin: 0px;
+  padding-bottom: 50px;
   text-align: center;
   width: 100%;
-  background-color: red;
-  padding-bottom: 50px;
 }
 
 #logo_img {
@@ -340,61 +340,17 @@ p {
 }
 
 #mostrar_proyecto_con_jone_div_btn {
+  background-color: #3C3B3C;
   height: 90px;
   width: 100%;
-  background-color: #3C3B3C;
-}
-
-#icono, #texto {
-  display: inline-block;
-}
-
-#icono {
-  /*background-color: red;*/
-  vertical-align: bottom;
-  text-align: right;
-  width: 37.75px;
-  height: 90px;
-}
-
-#icono img {
-  vertical-align: middle;
-  height: 90px;
-}
-
-#iconos {
-  width: 84%;
-}
-
-#icono1, #icono2, #icono3 {
-
-}
-
-#icono1-txt, #icono2-txt, #icono3-txt {
-  display: none;
-}
-
-#texto {
-  /*background-color: yellow;*/
-  color: #C3C4C9;
-  height: 90px;
-  padding-left: 3%;
-  text-align: left;
-  width: 78%;
-}
-
-
-#icono, #texto {
-  height: 90px;
-  line-height: 49px;
 }
 
 #ni-naiz {
-    text-align: center;
-    width: 100%;
-    height: auto;
-    background-color: white;
-    margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin-top: 20px;
 }
 
 #ni-naiz h2 {
@@ -406,16 +362,14 @@ p {
 }
 
 #nombre {
-  padding: 10px 0 10px 0;
-  margin: 0;
-  border: 0;
-  text-align: center;
-  width: 100%;
   background-image: url(../img/lineas-h1-01.png);
   background-repeat: repeat;
+  border: 0;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  width: 100%;
 }
-
-
 
 #nombre h2 {
   text-align: center;
@@ -423,6 +377,13 @@ p {
   margin: 0;
 }
 
+#texto {
+  color: #C3C4C9;
+  height: 90px;
+  padding-left: 3%;
+  text-align: left;
+  width: 78%;
+}
 
 #olentzero2 {
   display: none;
@@ -431,7 +392,6 @@ p {
 #olentzero3, #consejos1, #consejos2, #consejos3, #consejos4 {
   display: none;
 }
-
 
 #sectores{
   color: #AAAAAA;
@@ -527,8 +487,8 @@ p {
 body {
   background-color: #D7E0F4;
   border: none;
-  padding: 0;
   max-width: 1100px;
+  padding: 0;
 }
 
 header {
@@ -542,6 +502,7 @@ header figure img {
 
 h1 {
   color: #464747;
+  padding: 0 25% 0 25%;
 }
 
 h2 {
@@ -549,26 +510,15 @@ h2 {
   padding-top: 0px;
 }
 
-header h2 {
-  color: #2278F4;
-}
-
-h1 {
-  padding: 0 25% 0 25%;
-}
-
 h3 {
   padding: 0 20% 0 0;
   text-align: left;
 }
 
-.aumentar_el_margin_top {
-  margin-top: 0;
+header h2 {
+  color: #2278F4;
 }
 
-.texto_reducir_low {
-  font-size: 1rem;
-}
 
 #ampliar {
   display: inline-block;
@@ -702,23 +652,23 @@ h3 {
 }
 
 #consejos4 {
-  display: inline-block;
-  width: 20%;
   background-color: #8DD3D8;
   color: #2278F4;
+  display: inline-block;
   height: 300px;
   padding-top: 150px;
+  width: 20%;
 }
 
 #consejos1, #consejos2, #consejos3{
-  width: 26%;
-  height: 300px;
   background-color: #8DD3D8;
+  color: #2278F4;
   display: inline-block;
+  height: 300px;
+  margin-bottom: 100px;
   padding: 0 5%;
   vertical-align: top;
-  color: #2278F4;
-  margin-bottom: 100px;
+  width: 26%;
 }
 
 #consejos1 img, #consejos2 img, #consejos3 img {
@@ -731,9 +681,9 @@ h3 {
 
 #header-consejos {
   display: block;
-  width: 100%;
   padding: 0 20% 100px 20%;
   padding-bottom: 100px;
+  width: 100%;
 
 }
 
@@ -751,17 +701,14 @@ h3 {
 
 #icono1-txt {
   display: block;
-  /*background-color: yellow;*/
 }
 
 #icono2-txt {
   display: block;
-  /*background-color: red;*/
 }
 
 #icono3-txt {
   display: block;
-  /*background-color: green;*/
 }
 
 #icono1, #icono2, #icono3 {
@@ -772,8 +719,6 @@ h3 {
   vertical-align: top;
 }
 
-
-
 #iconos figure img {
   margin: 0 5%;
 }
@@ -781,8 +726,8 @@ h3 {
 #logo{
   background-color: red;
   height: auto;
-  padding-left: 10px;
   padding-bottom: 50px;
+  padding-left: 10px;
 }
 
 #logo_img {
@@ -791,11 +736,11 @@ h3 {
 
 #mi-foto {
   display: block;
-  width: 100%;
   float: left;
   text-align: center;
-  padding: 0 0 0 3%;
   margin-bottom: 20px;
+  padding: 0 0 0 3%;
+  width: 100%;
 
 }
 
@@ -804,34 +749,31 @@ h3 {
 }
 
 #mi-nombre {
-  text-align: center;
   display: block;;
-  width: 100%;
   float: left;
   padding: 0 15%;
+  text-align: center;
+  width: 100%;
 }
 
 #mi-profesion {
   display: block;
-  width: 100%;
-  padding: 0 20%;
   margin-top: 100px;
-
+  padding: 0 20%;
+  width: 100%;
 }
 
 
 #mi-profesion h1 {
   font-size: 20px;
-  text-indent: 20px;
-  letter-spacing: 0px;
   font-style: normal;
   color: gray;
-  text-align: center;
+  letter-spacing: 0px;
   padding: 0 8% 0 8%;
+  text-align: center;
+  text-indent: 20px;
   width: 100%;
 }
-
-
 
 #neskatxo #olentzero img {
   width: 40%;
@@ -851,9 +793,9 @@ h3 {
 }
 
 #nombre {
-    background-image: url(../img/lineas-h1-vt-01.png);
-    background-repeat: repeat;
-    background-size: 10%;
+  background-image: url(../img/lineas-h1-vt-01.png);
+  background-repeat: repeat;
+  background-size: 10%;
 }
 
 #olentzero img {
@@ -861,12 +803,12 @@ h3 {
 }
 
 #olentzero2 {
-  vertical-align: bottom;
   display: inline-block;
-  visibility: hidden;
-  width: 44%;
   background-color: #8DD3D8;
   padding: 0 10% 160px 10%;
+  vertical-align: bottom;
+  visibility: hidden;
+  width: 44%;
 }
 
 #olentzero2 h1 {
@@ -875,12 +817,12 @@ h3 {
   padding: 0;
 }
 
-#olentzero2-header img {
-  width: 100%;
-}
-
 #olentzero2 img {
   width: 40%;
+}
+
+#olentzero2-header img {
+  width: 100%;
 }
 
 #olentzero3 {
@@ -914,6 +856,15 @@ h3 {
 #sectores {
   font-size: 14px;
   font-weight: bold;
+}
+
+
+.aumentar_el_margin_top {
+  margin-top: 0;
+}
+
+.texto_reducir_low {
+  font-size: 1rem;
 }
 
 } /* Fin del mediaquery */
