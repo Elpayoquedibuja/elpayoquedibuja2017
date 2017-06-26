@@ -52,7 +52,6 @@ h4 {
 
 header {
   width: 100%;
-  background-color: yellow;
   height: 500px;
 }
 
@@ -487,6 +486,7 @@ body {
 header {
   text-align: left;
   margin-bottom: 0px;
+  background-color: yellow;
 }
 
 header figure img {
@@ -495,12 +495,28 @@ header figure img {
 
 h1 {
   color: #464747;
-  padding: 0 25% 0 25%;
+  font-size: 40px;
+  padding-top: 0px;
+  padding-left: 2%;
+}
+
+blockquote::first-letter {
+  font-size: 60px;
+}
+
+#soy {
+  padding: 3%;
+  text-align: left;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 h2 {
   color: #2278F4;
   padding-top: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  padding-top: 120px;
 }
 
 h3 {
