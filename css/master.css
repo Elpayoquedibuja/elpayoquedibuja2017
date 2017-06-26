@@ -54,7 +54,7 @@ h2 {
   line-height: 28px;
   margin-top: 0px;
   padding-top: 40px;
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
@@ -71,16 +71,29 @@ h4 {
 header {
   padding-top: 40px;
   width: 100%;
-  height: 400px;
+  height: 500px;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+
+header ul li:nth-child(2) {
+  font-size: 18px;
 }
 
 p {
   font-size: 18px;
 }
 
+
+
+
+
 #actual {
   background-color: white;
-  border: 1px solid gray;
   color: #464747;
   height: auto;
   text-align: center;
@@ -100,8 +113,8 @@ p {
   width: 50%;
 }
 
-#actual, #ni-naiz, #anterior {
-  padding: 0 3% 50px 3%;
+#proyecto_actual, #ni-naiz, #anterior {
+  padding: 0 3% 90px 3%;
 }
 
 #actual_ampliar_info {
@@ -417,6 +430,10 @@ p {
   padding: 0 4% 0 4%;
 }
 
+#proyecto_actual {
+  background-color: white;
+}
+
 #sectores{
   color: #AAAAAA;
   list-style-type: none;
@@ -445,6 +462,7 @@ p {
 
 .aumentar_el_padding {
   padding: 0 9% 0 9%;
+  margin: 0;
 }
 
 .aumentar_el_padding_left {
@@ -532,6 +550,20 @@ header h1 {
   padding-top: 0px;
   padding-left: 2%;
   text-align: left;
+  padding-left: 5%;
+}
+
+header ul {
+
+}
+
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li:nth-child(1):after {
+  content: ".";
 }
 
 blockquote::first-letter {
@@ -577,7 +609,7 @@ header h2 {
   background: none;
 }
 
-#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3 {
+#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3, #ni-naiz h2, #ni-naiz {
   color: #2278F4;
 }
 
@@ -641,12 +673,13 @@ header h2 {
   height: auto;
   vertical-align: top;
   display: inline-block;
+  margin-top: 0;
 }
 
 #anterior {
   width: 100%;
   background-color: #8DD3D8;
-  padding: 60px 3% 50px 3%;
+  /*padding: 60px 3% 50px 3%;*/
   margin-top: 50px;
 }
 
@@ -828,7 +861,7 @@ header h2 {
 
 #ni-naiz h2 {
   margin-top: 20px;
-  padding-top: 50px;
+
 }
 
 #ni-naiz img {
@@ -877,9 +910,7 @@ header h2 {
 }
 
 #proyecto_actual {
-  background-color: white;
   height: auto;
-  padding-bottom: 100px;
 }
 
 #titulo-jone {
