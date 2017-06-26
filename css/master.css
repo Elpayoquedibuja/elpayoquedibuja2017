@@ -51,23 +51,9 @@ h4 {
 }
 
 header {
-  margin-bottom: 100px;
-  padding-top: 50px;
-  text-align: center;
   width: 100%;
-}
-
-header h2, header h3  {
-  color: #AAAAAA;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-top: 0;
-}
-
-header figure img {
-  border: 4px solid #2C4C4C;
-  border-radius: 50%;
-  width: 40%;
+  background-color: yellow;
+  height: 500px;
 }
 
 p {
@@ -354,7 +340,7 @@ p {
   width: 100%;
   height: auto;
   background-color: white;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 #ni-naiz h2 {
@@ -633,7 +619,7 @@ header h2 {
   vertical-align: top;
   width: 100%;
   background-color: white;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 #ampliar_logo_info {
@@ -850,7 +836,6 @@ header h2 {
 }
 
 #principal {
-    background-color: white;
     height: 1600px;
   }
 
