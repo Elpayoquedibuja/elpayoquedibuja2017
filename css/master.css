@@ -69,7 +69,7 @@ h4 {
 }
 
 header {
-  padding-top: 40px;
+  padding-top: 80px;
   width: 100%;
   height: 450px;
 }
@@ -78,10 +78,15 @@ header ul {
   list-style: none;
   margin: 0;
   text-align: center;
+  padding-left: 0;
 }
 
 header ul li:nth-child(2) {
   font-size: 18px;
+}
+
+header h1 {
+  border-right: 1px dotted #999;
 }
 
 p {
