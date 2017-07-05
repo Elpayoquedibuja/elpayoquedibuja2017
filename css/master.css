@@ -433,6 +433,8 @@ p {
 #principal {
   margin: 0 auto;
   padding: 0 4% 0 4%;
+  background-color: #E8E6E7;
+  padding-top: 90px;
 }
 
 #proyecto_actual {
