@@ -106,8 +106,6 @@ p {
 
 
 
-
-
 #actual {
   background-color: white;
   color: #464747;
@@ -687,7 +685,7 @@ header h2 {
   background: none;
 }
 
-#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3, #ni-naiz h2, #ni-naiz {
+#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3, #ni-naiz h2, #ni-naiz, #tesla h2, #tesla h3 {
   color: #2278F4;
 }
 
@@ -1016,6 +1014,10 @@ header h2 {
 #sectores {
   font-size: 14px;
   font-weight: bold;
+}
+
+#tesla iframe {
+  width: 70%;
 }
 
 
