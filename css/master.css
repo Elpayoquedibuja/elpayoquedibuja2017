@@ -2,7 +2,7 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-  background-color: #1B1C1C; /*#D7E0F4;*/
+  background-color: red; /*#D7E0F4;*/
   font-family: 'Open Sans', sans-serif;
   width: 100%;
 }
@@ -25,7 +25,7 @@ footer {
 }
 
 h1 {
-  color: #D6D6D6;
+  color: #fff;
   font-family: sans-serif;
   font-size: 18px;
   font-weight: normal;
@@ -34,7 +34,7 @@ h1 {
 header h1 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #D6D6D6;
+  color: #fff;
   font-size: 18px;
   padding: 0 4%;
   font-weight: normal;
@@ -45,7 +45,7 @@ header h2 {
   line-height: 23px;
   background-image: url(../img/lineas-h1-01.png);
   background-repeat: repeat;
-  color: #ADA9A9;
+  color: #fff;
   padding: 10px 0 10px 0;
 
 }
@@ -129,7 +129,7 @@ p {
   width: 50%;
 }
 
-#proyecto_actual, #ni-naiz, #anterior {
+#proyecto_actual, #ni-naiz, #anterior, #humor {
   padding: 0 3% 90px 3%;
 }
 
@@ -318,6 +318,12 @@ p {
   visibility: visible;
 }
 
+#humor {
+  background-color: white;
+  height: auto;
+  margin-top: 20px;
+}
+
 #icono {
   /*background-color: red;*/
   vertical-align: bottom;
@@ -444,7 +450,6 @@ p {
 #principal {
   margin: 0 auto;
   padding: 0 4% 0 4%;
-  background-color: #E8E6E7;
   padding-top: 90px;
 }
 
@@ -461,6 +466,35 @@ p {
   color: red;
   font-size: 12px;
 }
+
+/*** Tesla */
+
+#tesla{
+  background-color: white;
+  color: #464747;
+  height: auto;
+  text-align: center;
+  width: 100%;
+}
+
+#tesla iframe {
+  width: 100%;
+}
+
+#tesla h2 {
+  color: #464747;
+}
+
+#tesla h3 {
+  padding: 0 8%;
+}
+
+#tesla figure img {
+  width: 50%;
+}
+
+
+/* Fin tesla */
 
 .alinear_a_la_izquierda {
   text-align: left;
@@ -967,13 +1001,14 @@ header h2 {
     height: 1600px;
     margin: 40px auto 40px auto;
     max-width: 1100px;
+
   }
 
 #proyectos {
     text-align: center;
 }
 
-#proyecto_actual, #ni-naiz, #anterior {
+#proyecto_actual, #ni-naiz, #anterior, #humor {
   padding-top: 70px;
 }
 
