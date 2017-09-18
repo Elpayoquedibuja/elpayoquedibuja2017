@@ -58,6 +58,16 @@ h2 {
   width: 100%;
 }
 
+header #profesiones  h3 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #D6D6D6;
+  font-size: 18px;
+  padding: 120 4%;
+  font-weight: normal;
+  padding-top: 60px;
+}
+
 h3 {
   font-size: 20px;
   line-height: 22px;
@@ -71,8 +81,8 @@ h4 {
 header {
   padding-top: 80px;
   width: 100%;
-  height: 450px;
-  padding-bottom: 60px;
+  height: auto;
+  padding-bottom: 90px;
 }
 
 header ul {
@@ -527,6 +537,14 @@ p {
   width: 100%;
 }
 
+.pantallas {
+  font-size: 90%;
+  font-weight: normal;
+  width: 100%;
+}
+
+
+
 .texto_reducir_low {
   font-size: 1.2rem;
 }
@@ -560,6 +578,23 @@ header h1 {
   padding-left: 2%;
   text-align: left;
   padding-left: 5%;
+}
+
+#profesiones {
+
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+}
+
+header #profesiones h3 {
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  color: #1E86F7;
+  font-size: 16px;
+  padding-right: 5%;
+
 }
 
 header ul {
