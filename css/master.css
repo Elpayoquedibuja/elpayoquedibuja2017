@@ -253,6 +253,10 @@ p {
   display: none;
 }
 
+#humor h3 {
+  text-align: center;
+}
+
 #iconos {
   background-color: white;
   margin: 0 auto 0 auto;
@@ -467,7 +471,7 @@ p {
 
 /*** Tesla */
 
-#tesla{
+.youtube {
   background-color: white;
   color: #464747;
   height: auto;
@@ -475,22 +479,22 @@ p {
   width: 100%;
 }
 
-#tesla iframe {
-  width: 100%;
-}
-
-#tesla h2 {
+.youtube h2 {
   color: #464747;
 }
 
-#tesla h3 {
+.youtube h3 {
   padding: 0 8%;
 }
 
-#tesla figure img {
+.youtube figure img {
   width: 50%;
 }
 
+.youtube iframe {
+  margin-top: 4rem;
+  width: 100%;
+}
 
 /* Fin tesla */
 
@@ -685,7 +689,7 @@ header h2 {
   background: none;
 }
 
-#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3, #ni-naiz h2, #ni-naiz, #tesla h2, #tesla h3 {
+#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3, #ni-naiz h2, #ni-naiz, .youtube h2, .youtube h3 {
   color: #2278F4;
 }
 
@@ -1016,17 +1020,16 @@ header h2 {
   font-weight: bold;
 }
 
-#tesla iframe {
-  width: 70%;
-}
-
-
 .aumentar_el_margin_top {
   margin-top: 0;
 }
 
 .texto_reducir_low {
   font-size: 1rem;
+}
+
+.youtube iframe {
+  width: 70%;
 }
 
 } /* Fin del mediaquery */
