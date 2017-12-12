@@ -2,7 +2,7 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-  background-color: red; /*#D7E0F4;*/
+  background-color: #e64a19; /*#D7E0F4;*/
   font-family: 'Open Sans', sans-serif;
   width: 100%;
 }
@@ -34,7 +34,7 @@ h1 {
 header h1 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #fff;
+  color: #212121;
   font-size: 18px;
   padding: 0 4%;
   font-weight: normal;
@@ -43,9 +43,9 @@ header h1 {
 header h2 {
   font-size: 23px;
   line-height: 23px;
-  background-image: url(../img/lineas-h1-01.png);
+  /*background-image: url(../img/lineas-h1-01.png);*/
   background-repeat: repeat;
-  color: #fff;
+  color: #1565c0;
   padding: 10px 0 10px 0;
 
 }
@@ -61,7 +61,7 @@ h2 {
 header #profesiones  h3 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #D6D6D6;
+  color: white;
   font-size: 18px;
   padding: 120 4%;
   font-weight: normal;
