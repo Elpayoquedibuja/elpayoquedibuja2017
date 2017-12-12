@@ -2,7 +2,7 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-  background-color: #e64a19; /*#D7E0F4;*/
+  background-color: #eeeeee; /*#D7E0F4;*/
   font-family: 'Open Sans', sans-serif;
   width: 100%;
 }
@@ -31,11 +31,19 @@ h1 {
   font-weight: normal;
 }
 
+header {
+  padding-top: 0;
+  height: 500px;
+  text-align: left;
+  margin-bottom: 0px;
+  background-color: yellow;
+}
+
 header h1 {
-  text-align: center;
+  text-align: left;
   font-family: 'Roboto', sans-serif;
   color: #212121;
-  font-size: 18px;
+  font-size: 28px;
   padding: 0 4%;
   font-weight: normal;
 }
@@ -50,6 +58,8 @@ header h2 {
 
 }
 
+
+
 h2 {
   line-height: 28px;
   margin-top: 0px;
@@ -61,7 +71,7 @@ h2 {
 header #profesiones  h3 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: white;
+  color: #1565c0;
   font-size: 18px;
   padding: 120 4%;
   font-weight: normal;
@@ -85,15 +95,28 @@ header {
   padding-bottom: 90px;
 }
 
+
+
+
+
 header ul {
   list-style: none;
   margin: 0;
-  text-align: center;
+  text-align: left;
   padding-left: 0;
 }
 
 header ul li:nth-child(2) {
   font-size: 18px;
+}
+
+header ul li:nth-child(1):after {
+  content: ".";
+}
+
+
+header ul li {
+  display: inline-block;
 }
 
 header h1 {
@@ -585,6 +608,10 @@ p {
   font-size: 1.2rem;
 }
 
+.youtube figure img {
+  width: 80%;
+}
+
 
 @media only screen and (min-width: 768px)
 {
@@ -637,14 +664,6 @@ header ul {
   text-align: left;
 }
 
-
-header ul li {
-  display: inline-block;
-}
-
-header ul li:nth-child(1):after {
-  content: ".";
-}
 
 blockquote::first-letter {
   font-size: 60px;
