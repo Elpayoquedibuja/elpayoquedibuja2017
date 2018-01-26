@@ -154,8 +154,9 @@ p {
   width: 50%;
 }
 
-#proyecto_actual, #ni-naiz, #anterior, #humor {
-  padding: 0 3% 90px 3%;
+/*sections Añade el nombre del nuevo section AQUÍ*/
+#proyecto_actual, #ni-naiz, #anterior, #humor, #carteles {
+  padding: 4% 3% 90px 3%;
 }
 
 #actual_ampliar_info {
@@ -228,6 +229,28 @@ p {
 
 #btn_ocultar_info_jone {
   text-align: right;
+}
+
+#carteles {
+  background-color: white;
+  color: #464747;
+  height: auto;
+  text-align: center;
+  width: 100%;
+}
+
+#carteles h3 {
+  margin-top: 3%;
+}
+
+#carteles figure img {
+  width: 100%;
+  height: auto;
+}
+
+#carteles figure {
+  padding: 0;
+  margin: 0;
 }
 
 #cohete img {
@@ -725,7 +748,8 @@ header h2 {
   background: none;
 }
 
-#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3, #ni-naiz h2, #ni-naiz, .youtube h2, .youtube h3 {
+/*sections Añade el nombre del nuevo section AQUÍ*/
+#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3, #ni-naiz h2, #ni-naiz, .youtube h2, .youtube h3, #carteles h2, #carteles h3 {
   color: #2278F4;
 }
 
@@ -834,6 +858,11 @@ header h2 {
 
 #anterior figure {
   text-align: center;
+}
+
+#carteles figure img {
+  height: 95vh;
+  width: auto;
 }
 
 #cohete img {
