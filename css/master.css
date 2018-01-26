@@ -554,6 +554,11 @@ p {
   color: #DEDEE0;
 }
 
+.intros {
+  color: #263238;
+  padding-left: 1rem;
+}
+
 .links {
   font-size: 16px;
   text-align: left;
@@ -594,7 +599,7 @@ p {
   padding-bottom: 0;
 }
 
-/* .sin_padding Está al final */
+
 
 .texto_reducir {
   font-size: 90%;
@@ -618,11 +623,7 @@ p {
   width: 80%;
 }
 
-h3 .sin_padding {
-  padding: 0;
-  background-color: red;
-  text-align: left;
-}
+
 
 
 @media only screen and (min-width: 768px)
@@ -796,7 +797,7 @@ header h2 {
   width: 100%;
   background-color: #8DD3D8;
   /*padding: 0 3% 0 3%;*/
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 #anterior figure {
