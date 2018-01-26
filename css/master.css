@@ -41,11 +41,14 @@ header {
 
 header h1 {
   text-align: left;
-  font-family: 'Roboto', sans-serif;
-  color: #212121;
+  /* font-family: 'Open Sans'; */
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Abel', sans-serif;
+  color: #424242;
   font-size: 28px;
   padding: 0 4%;
-  font-weight: normal;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 header h2 {
@@ -89,7 +92,8 @@ h4 {
 }
 
 header {
-  padding-top: 80px;
+  padding-top: 30px;
+  padding-left: 10px;
   width: 100%;
   height: auto;
   padding-bottom: 90px;
@@ -116,7 +120,7 @@ header ul li:nth-child(1):after {
 
 
 header ul li {
-  display: inline-block;
+  display: block;
 }
 
 header h1 {
@@ -664,6 +668,10 @@ header ul {
   text-align: left;
 }
 
+header ul li {
+  display: inline-block;
+}
+
 
 blockquote::first-letter {
   font-size: 60px;
@@ -1049,6 +1057,11 @@ header h2 {
 
 .youtube iframe {
   width: 70%;
+}
+
+.youtube {
+  width: 45%;
+  display: inline-block;
 }
 
 } /* Fin del mediaquery */
