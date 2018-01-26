@@ -594,6 +594,8 @@ p {
   padding-bottom: 0;
 }
 
+/* .sin_padding Está al final */
+
 .texto_reducir {
   font-size: 90%;
   font-weight: normal;
@@ -614,6 +616,12 @@ p {
 
 .youtube figure img {
   width: 80%;
+}
+
+h3 .sin_padding {
+  padding: 0;
+  background-color: red;
+  text-align: left;
 }
 
 
