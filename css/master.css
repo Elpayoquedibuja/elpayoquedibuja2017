@@ -103,14 +103,18 @@ header {
 
 
 header ul {
+  font-family: 'Abel', sans-serif;
+  font-size: 2rem;
   list-style: none;
   margin: 0;
   text-align: left;
-  padding-left: 0;
+  padding-left: 2%;
 }
 
 header ul li:nth-child(2) {
-  font-size: 18px;
+  font-size: 20px;
+  margin-top: 0.6rem;
+
 }
 
 header ul li:nth-child(1):after {
@@ -506,6 +510,10 @@ p {
 
 #proyecto_actual {
   background-color: white;
+}
+
+#profesiones {
+  padding: 0 5%;
 }
 
 #sectores{
