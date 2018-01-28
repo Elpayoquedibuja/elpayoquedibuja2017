@@ -66,9 +66,17 @@ header h2 {
 h2 {
   line-height: 28px;
   margin-top: 0px;
-  padding-top: 40px;
   text-align: left;
   width: 100%;
+}
+
+.sin_margin-bottom {
+
+  margin-bottom: 0;
+}
+
+.con_margin-bottom {
+  margin-bottom: 20px;
 }
 
 header #profesiones  h3 {
@@ -78,7 +86,6 @@ header #profesiones  h3 {
   font-size: 18px;
   padding: 120 4%;
   font-weight: normal;
-  padding-top: 60px;
 }
 
 h3 {
@@ -89,6 +96,13 @@ h3 {
 
 h4 {
   color: #046380;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -459,7 +473,6 @@ p {
   width: 100%;
   height: auto;
   background-color: white;
-  margin-top: 50px;
 }
 
 #ni-naiz h2 {
@@ -514,6 +527,7 @@ p {
 
 #profesiones {
   padding: 0 10%;
+  margin-top: 80px;
 }
 
 #sectores{
@@ -534,6 +548,7 @@ p {
   height: auto;
   text-align: center;
   width: 100%;
+  padding-bottom: 2rem;
 }
 
 .youtube h2 {
@@ -585,7 +600,7 @@ p {
 }
 
 .intros {
-  color: #263238;
+  color: #424242;
   padding-left: 1rem;
 }
 
@@ -1079,7 +1094,7 @@ header h2 {
   }
 
 #proyectos {
-    text-align: center;
+    /* text-align: center; */
 }
 
 #proyecto_actual, #ni-naiz, #anterior, #humor {
