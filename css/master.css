@@ -172,7 +172,7 @@ p {
 }
 
 /*sections Añade el nombre del nuevo section AQUÍ*/
-#proyecto_actual, #ni-naiz, #anterior, #humor, #carteles {
+#proyecto_actual, #ni-naiz, #anterior, #humor, #carteles, #editorial {
   padding: 4% 3% 90px 3%;
 }
 
@@ -314,6 +314,22 @@ p {
 #derecha:focus {
   /*border: none;*/
   outline: none;
+}
+
+/* Copia y pega este section y sustituyelo por el nuevo section */
+#editorial {
+  background-color: white;
+  color: #464747;
+  height: auto;
+  margin: 0px;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+
+}
+
+#editorial img {
+  width: 100%;
 }
 
 #header-consejos {
@@ -772,7 +788,7 @@ header h2 {
 }
 
 /*sections Añade el nombre del nuevo section AQUÍ*/
-#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3, #ni-naiz h2, #ni-naiz, .youtube h2, .youtube h3, #carteles h2, #carteles h3 {
+#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3, #ni-naiz h2, #ni-naiz, .youtube h2, .youtube h3, #carteles h2, #carteles h3, #editorial h2, #editorial h3 {
   color: #2278F4;
 }
 
@@ -1021,6 +1037,10 @@ header h2 {
 }
 
 #neskatxo #olentzero img {
+  width: 40%;
+}
+
+#editorial #portada figure img {
   width: 40%;
 }
 
