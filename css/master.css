@@ -336,7 +336,7 @@ p {
   display: none;
 }
 
-#humor h3 {
+#humor h3, #editorial h3 {
   text-align: center;
 }
 
@@ -559,6 +559,10 @@ p {
 
 /*** Tesla */
 
+.aumentar_el_margin_top {
+  margin-top: 1rem;
+}
+
 .youtube {
   background-color: white;
   color: #464747;
@@ -766,10 +770,10 @@ header h2 {
   text-align: left;
 }
 
-h3 {
+/* h3 {
   padding: 0 20% 0 0;
   text-align: left;
-}
+} */
 
 header h2 {
   color: #2278F4;
@@ -1094,6 +1098,17 @@ header h2 {
   padding-bottom: 120px;
 }
 
+#pag1, #pag2 {
+  display: inline-block;
+  width: 47%;
+  height: auto;
+}
+
+#portada figure img {
+  height: 95vh;
+  width: auto;
+}
+
 #proyecto_actual {
   height: auto;
 }
@@ -1124,9 +1139,7 @@ header h2 {
   font-weight: bold;
 }
 
-.aumentar_el_margin_top {
-  margin-top: 0;
-}
+
 
 .texto_reducir_low {
   font-size: 1rem;
