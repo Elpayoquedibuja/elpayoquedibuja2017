@@ -595,6 +595,10 @@ p {
   text-align: left;
 }
 
+.alinear_al_centro {
+  text-align: center;
+}
+
 .aumentar_el_texto {
   font-size: 140%;
 }
@@ -623,6 +627,12 @@ p {
 .intros {
   color: #424242;
   padding-left: 1rem;
+}
+
+.intros2 h2 {
+  color: #424242;
+  text-align: center;
+  margin-top: 4rem;
 }
 
 .links {
