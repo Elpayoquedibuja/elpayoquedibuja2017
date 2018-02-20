@@ -750,6 +750,10 @@ header {
   background-color: yellow;
 }
 
+#ni-naiz-athletic header {
+  height:auto;
+}
+
 header figure img {
   width: 15%;
 }
