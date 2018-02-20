@@ -1,0 +1,174 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+article {
+
+}
+
+body {
+  background-color: red;
+  font-family: sans-serif;
+}
+
+figure {
+  margin: 0;
+}
+
+footer {
+  height: 60px;
+  color: white;
+  text-align: center;
+  margin: 120px 0 100px 0;
+}
+
+h2, h3 {
+  padding-left: 20px;
+  color: #2E2A27;
+}
+
+header img {
+  width: 40%;
+}
+#main {
+  background-color: white;
+  height: auto;
+  margin: 1% auto;
+  max-width: 1000px;
+  width: 100%;
+  padding-bottom: 0px;
+}
+
+#section-dibujo-principal {
+  width: 100%;
+}
+
+#article-dibujo-principal {
+  width: 100%; /* 60% */
+  display: inline-block;
+}
+
+#section-miniaturas-dibujo-principal {
+  width: 100%; /* 39% */
+  height: auto;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#contenedor-miniaturas {
+  display: flex;
+  flex-direction: column;
+  flex-grow: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10% 10% 10%;
+  text-align: center;
+
+}
+
+#section-miniaturas-dibujo-principal, #contenedor-miniaturas, #article-dibujo-principal {
+  height: auto; /* 500px para que conincida con
+  el section contenedor de las miniaturas */
+}
+
+.miniatura {
+  width: 100%;
+  padding-top: 4px;
+
+  border-bottom: 1px solid #b5b6b6; /* border-left */
+}
+
+#m_escudo {
+  border-top: 1px solid #d3d4d5; /* sin border top */
+}
+
+
+.miniatura img {
+  width: 100%;
+}
+
+#laminas {
+  width: 90%;
+  display: block;
+  margin: 5% auto;
+  padding-bottom: 130px;
+}
+
+#laminas article {
+  width: 100%;
+
+}
+
+#laminas img {
+  width: 100%;
+  border: 1px solid #313133;
+}
+
+#rolling-stones {
+  width:100%;
+  background-color: #1D1D1B;
+}
+
+#rolling-stones h2 {
+  padding-top: 20px;
+  color: #8C8C8B;
+}
+
+#rolling-stones article {
+  text-align: center;
+}
+
+#rolling-stones img {
+  width:80%;
+}
+
+#article-dibujo-principal img {
+  width: 100%;
+}
+
+#gabarra img {
+  width: 100%;
+}
+
+#kris img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px)
+{
+  #article-dibujo-principal {
+    width: 60%; /* 60% */
+    height: 500px;
+  }
+
+  #section-miniaturas-dibujo-principal {
+    width: 39%; /* 39% */
+    height: 500px;
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  #contenedor-miniaturas {
+    height: 500px;
+  }
+
+  .miniatura {
+    width: 100%;
+    padding-top: 4px;
+
+    border-left: 1px solid #b5b6b6; /* border-left */
+    border-bottom: none; /* sin border top */
+  }
+
+  #m_escudo {
+    border-top: none;
+  }
+  header {
+    width: 100%;
+    max-width: 1000px;
+    margin: 1% auto;
+  }
+
+  #rolling-stones img {
+    width:60%;
+  }
+
+}
