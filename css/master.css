@@ -501,7 +501,10 @@ p {
 }
 
 #ni-naiz-athletic header  {
+  height: auto;
+  padding-left: 1rem;
   background-color: red;
+  padding-bottom: 30px;
 }
 
 #ni-naiz-athletic header img {
@@ -751,6 +754,7 @@ header {
 }
 
 #ni-naiz-athletic header {
+  padding-top: 1rem;
   height:auto;
 }
 
