@@ -454,6 +454,10 @@ p {
   width: 100%;
 }
 
+#laminas-colorear img {
+  width: 100%;
+}
+
 #logo {
   background-color: red;
   color: #1B75BB;
@@ -656,6 +660,10 @@ p {
   color: #424242;
   text-align: center;
   margin-top: 4rem;
+}
+
+.laminas {
+  border: 1px solid gray;
 }
 
 .links {
@@ -1041,6 +1049,10 @@ header h2 {
   margin: 0 5%;
 }
 
+#laminas-colorear article {
+  width: 40%;
+}
+
 #logo{
   background-color: red;
   height: auto;
@@ -1188,7 +1200,10 @@ header h2 {
   font-weight: bold;
 }
 
-
+.laminas {
+  display: inline;
+  width: 30%;
+}
 
 .texto_reducir_low {
   font-size: 1rem;
