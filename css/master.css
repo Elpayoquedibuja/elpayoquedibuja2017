@@ -7,15 +7,15 @@ body {
   width: 100%;
 }
 
-figure {
+/* figure {
   margin: 0px;
   width: 100%;
-}
+} */
 
-figure, #anterior figure {
+/* figure, #anterior figure {
   height: auto;
   width: 100%;
-}
+} */
 
 footer {
   color: #3B404C;
@@ -450,6 +450,15 @@ p {
   display: none;
 }
 
+#kris {
+  width: 100%;
+}
+
+#kris figure {
+  padding: 0;
+  margin: 0;
+}
+
 #kris img {
   width: 100%;
 }
@@ -466,6 +475,16 @@ p {
 
 #logo_img {
   width: 80%;
+}
+
+#logo-ni-naiz {
+  background-color: red;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+#logo-ni-naiz img {
+  width: 40%;
 }
 
 #mi-foto {
@@ -496,20 +515,21 @@ p {
   background-color: white;
 }
 
-#ni-naiz-athletic {
+#ni-naiz-athletic, #ni-naiz-1, #ni-naiz-2 {
+  display: block;
+  width: 100%;
   height: auto;
 }
 
-#ni-naiz-athletic header  {
-  height: auto;
-  padding-left: 1rem;
-  background-color: red;
-  padding-bottom: 30px;
+
+
+
+
+#ni-naiz-athletic figure {
+  margin: 0;
 }
 
-#ni-naiz-athletic header img {
-  width: 40%;
-}
+
 
 #ni-naiz h2 {
   color: #464747;
@@ -517,7 +537,10 @@ p {
 
 #ni-naiz-principal img {
   width: 80%;
+  border: 2px solid red;
 }
+
+
 
 #nombre {
   background-image: url(../img/lineas-h1-01.png);
@@ -1103,7 +1126,29 @@ header h2 {
 }
 
 #ni-naiz img {
+  width: 100%;
+}
+
+#ni-naiz-principal {
   width: 40%;
+  background-color: yellow;
+}
+
+#miniaturas {
+  width: 40%;
+  background-color: red;
+
+}
+
+#ni-naiz-principal, #miniaturas {
+  width: 100%;
+  display: inline;
+}
+
+#ni-naiz-1, #ni-naiz-2 {
+  display: inline;
+  width: 40%;
+  height: auto;
 }
 
 #nombre {
@@ -1188,7 +1233,10 @@ header h2 {
   font-weight: bold;
 }
 
-
+.display-en-linea {
+  display: inline;
+  width: 40%;
+}
 
 .texto_reducir_low {
   font-size: 1rem;
