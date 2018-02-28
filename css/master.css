@@ -537,7 +537,6 @@ p {
 
 #ni-naiz-principal img {
   width: 80%;
-  border: 2px solid red;
 }
 
 
@@ -598,6 +597,51 @@ p {
   color: red;
   font-size: 12px;
 }
+
+#ninaiz-merchandising {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+#ninaiz-m-principal {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid gray;
+}
+
+#ninaiz-merchandising #ninaiz-m-principal img {
+  width: 100%;
+}
+
+#miniaturas img {
+  width: 80%;
+}
+
+#miniaturas {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  padding: 0;
+}
+#miniatura1, #miniatura2 {
+
+}
+
+#miniatura1 {
+  width: 100%;
+  height: auto;
+}
+#miniatura1 {
+  margin-top: 0.4rem;
+}
+
+#miniatura2 {
+  border-top: 1px solid gray;
+  width: 70%;
+  height: auto;
+}
+
 
 /*** Tesla */
 
@@ -1112,6 +1156,8 @@ header h2 {
   width: 100%;
 }
 
+
+
 #neskatxo #olentzero img {
   width: 40%;
 }
@@ -1129,18 +1175,34 @@ header h2 {
   width: 100%;
 }
 
-#ni-naiz-principal {
-  width: 40%;
-  background-color: yellow;
+#ninaiz-m-principal {
+  display: inline-block;
+  width: 60%;
+  border: 0;
+
 }
 
 #miniaturas {
-  width: 40%;
-  background-color: red;
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
 
 }
 
-#ni-naiz-principal, #miniaturas {
+#miniatura1 {
+  border: 0;
+  width: 100%;
+}
+
+#miniatura2 img {
+  width: 70%;
+}
+
+#miniatura1, #miniatura2 {
+  padding: 20% 0;
+}
+
+#ni-naiz-principal {
   width: 100%;
   display: inline;
 }
