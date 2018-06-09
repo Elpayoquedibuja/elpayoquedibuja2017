@@ -7,21 +7,25 @@ body {
   width: 100%;
 }
 
-figure {
+/* figure {
   margin: 0px;
   width: 100%;
-}
+} */
 
-figure, #anterior figure {
+/* figure, #anterior figure {
   height: auto;
   width: 100%;
-}
+} */
 
 footer {
   color: #3B404C;
   height: 100px;
   text-align: center;
   width: 100%;
+}
+
+figure {
+  margin: 0;
 }
 
 h1 {
@@ -450,6 +454,15 @@ p {
   display: none;
 }
 
+#kris {
+  width: 100%;
+}
+
+#kris figure {
+  padding: 0;
+  margin: 0;
+}
+
 #kris img {
   width: 100%;
 }
@@ -470,6 +483,16 @@ p {
 
 #logo_img {
   width: 80%;
+}
+
+#logo-ni-naiz {
+  background-color: red;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+#logo-ni-naiz img {
+  width: 40%;
 }
 
 #mi-foto {
@@ -500,20 +523,21 @@ p {
   background-color: white;
 }
 
-#ni-naiz-athletic {
+#ni-naiz-athletic, #ni-naiz-1, #ni-naiz-2 {
+  display: block;
+  width: 100%;
   height: auto;
 }
 
-#ni-naiz-athletic header  {
-  height: auto;
-  padding-left: 1rem;
-  background-color: red;
-  padding-bottom: 30px;
+
+
+
+
+#ni-naiz-athletic figure {
+  margin: 0;
 }
 
-#ni-naiz-athletic header img {
-  width: 40%;
-}
+
 
 #ni-naiz h2 {
   color: #464747;
@@ -522,6 +546,8 @@ p {
 #ni-naiz-principal img {
   width: 80%;
 }
+
+
 
 #nombre {
   background-image: url(../img/lineas-h1-01.png);
@@ -579,6 +605,51 @@ p {
   color: red;
   font-size: 12px;
 }
+
+#ninaiz-merchandising {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+#ninaiz-m-principal {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid gray;
+}
+
+#ninaiz-merchandising #ninaiz-m-principal img {
+  width: 100%;
+}
+
+#miniaturas img {
+  width: 80%;
+}
+
+#miniaturas {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  padding: 0;
+}
+#miniatura1, #miniatura2 {
+
+}
+
+#miniatura1 {
+  width: 100%;
+  height: auto;
+}
+#miniatura1 {
+  margin-top: 0.4rem;
+}
+
+#miniatura2 {
+  border-top: 1px solid gray;
+  width: 70%;
+  height: auto;
+}
+
 
 /*** Tesla */
 
@@ -1101,6 +1172,8 @@ header h2 {
   width: 100%;
 }
 
+
+
 #neskatxo #olentzero img {
   width: 40%;
 }
@@ -1115,7 +1188,45 @@ header h2 {
 }
 
 #ni-naiz img {
+  width: 100%;
+}
+
+#ninaiz-m-principal {
+  display: inline-block;
+  width: 60%;
+  border: 0;
+
+}
+
+#miniaturas {
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
+
+}
+
+#miniatura1 {
+  border: 0;
+  width: 100%;
+}
+
+#miniatura2 img {
+  width: 70%;
+}
+
+#miniatura1, #miniatura2 {
+  padding: 20% 0;
+}
+
+#ni-naiz-principal {
+  width: 100%;
+  display: inline;
+}
+
+#ni-naiz-1, #ni-naiz-2 {
+  display: inline;
   width: 40%;
+  height: auto;
 }
 
 #nombre {
@@ -1200,9 +1311,9 @@ header h2 {
   font-weight: bold;
 }
 
-.laminas {
+.display-en-linea {
   display: inline;
-  width: 30%;
+  width: 40%;
 }
 
 .texto_reducir_low {
