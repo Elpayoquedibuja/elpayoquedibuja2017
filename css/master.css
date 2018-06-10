@@ -496,9 +496,45 @@ p {
 }
 
 #marcador-de-lineas {
+  width: 100%;
+  background-color: white;
+}
+
+#ml_section_principal {
   background-color: white;
   height: auto;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding-top: 5%;
 }
+
+#ml_section_principal article {
+  width: 100%; /*  width: 32%;*/
+  vertical-align: top;
+  margin: 0;
+  padding: 0 0 40px 0;
+}
+
+#ml_section_principal article figure img {
+  width: 100%;
+  max-width: 290px; /*225px;*/
+}
+
+#ml_section_principal article .inline {
+
+}
+
+#ml_section_principal article p {
+  padding-left: 6%;
+  padding-right: 10%;
+}
+
+.aumentar_el_padding_right {
+  padding-right: 20%;
+}
+
 
 #mi-foto {
   width: 100%;
@@ -818,7 +854,10 @@ p {
 }
 
 
-
+/* WARNING: MEDIAQUERY */
+/* WARNING: MEDIAQUERY */
+/* WARNING: MEDIAQUERY */
+/* WARNING: MEDIAQUERY */
 
 @media only screen and (min-width: 768px)
 {
@@ -1179,6 +1218,9 @@ header h2 {
 
 
 
+
+
+
 #neskatxo #olentzero img {
   width: 40%;
 }
@@ -1222,6 +1264,28 @@ header h2 {
 #miniatura1, #miniatura2 {
   padding: 20% 0;
 }
+
+#ml_section_principal {
+  background-color: white;
+  height: auto;
+  width: 100%;
+  display: inline;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#ml_section_principal article {
+  width: 33%;
+  display: inline-block;
+  padding-bottom: 40px;
+  vertical-align: top;
+  margin: 0;
+  padding: 0 0 40px 0;
+
+}
+
+
 
 #ni-naiz-principal {
   width: 100%;
