@@ -1185,6 +1185,10 @@ header h2 {
   width: 40%;
 }
 
+#lanzamiento-h3 {
+  margin-bottom: 0;
+}
+
 #logo{
   background-color: red;
   height: auto;
