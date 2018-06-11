@@ -176,7 +176,7 @@ p {
 }
 
 /*sections Añade el nombre del nuevo section AQUÍ*/
-#proyecto_actual, #ni-naiz, #anterior, #humor, #carteles, #editorial {
+#proyecto_actual, #ni-naiz, #anterior, #humor, #carteles, #editorial, #lanzadera {
   padding: 4% 3% 90px 3%;
 }
 
@@ -340,7 +340,7 @@ p {
   display: none;
 }
 
-#humor h3, #editorial h3 {
+#humor h3, #editorial h3, #lanzadera h3 {
   text-align: center;
 }
 
@@ -471,6 +471,20 @@ p {
   width: 100%;
 }
 
+#lanzadera {
+  background-color: white;
+  color: #464747;
+  height: auto;
+  margin: 0px;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+#lanzadera article figure img {
+  width: 100%;
+}
+
 #logo {
   background-color: red;
   color: #1B75BB;
@@ -527,13 +541,10 @@ p {
 }
 
 #ml_section_principal article p {
-  padding-left: 6%;
+  padding-left: 10%;
   padding-right: 10%;
 }
 
-.aumentar_el_padding_right {
-  padding-right: 20%;
-}
 
 
 #mi-foto {
@@ -759,6 +770,12 @@ p {
   padding-left: 30px;
 }
 
+.aumentar_el_padding_right {
+  padding-right: 20%;
+}
+
+
+
 .color_white {
   color: #DEDEE0;
 }
@@ -964,7 +981,7 @@ header h2 {
 }
 
 /*sections Añade el nombre del nuevo section AQUÍ*/
-#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3, #ni-naiz h2, #ni-naiz, .youtube h2, .youtube h3, #carteles h2, #carteles h3, #editorial h2, #editorial h3 {
+#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3, #ni-naiz h2, #ni-naiz, .youtube h2, .youtube h3, #carteles h2, #carteles h3, #editorial h2, #editorial h3, #lanzadera h2, #lanzadera h3 {
   color: #2278F4;
 }
 
@@ -1282,6 +1299,10 @@ header h2 {
   margin-top: 5%;
   padding-bottom: 40px;
 
+}
+
+#ml_section_principal article p {
+  padding-left: 6%;
 }
 
 
