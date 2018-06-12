@@ -815,7 +815,17 @@ p {
   padding-right: 20%;
 }
 
+.cita {
+  font-family: serif;
+  font-style: italic;
+  color: gray;
+  padding: 0 5% 8% 3%;
+  text-align: center;
+}
 
+.cita p {
+    font-size: 20px;
+}
 
 .color_white {
   color: #DEDEE0;
@@ -1449,6 +1459,20 @@ header h2 {
   font-size: 14px;
   font-weight: bold;
 }
+
+.cita {
+  font-family: serif;
+  font-style: italic;
+  color: gray;
+  padding: 0 20% 8% 20%;
+  text-align: center;
+}
+
+.cita p {
+    font-size: 30px;
+}
+
+
 
 .display-en-linea {
   display: inline;
