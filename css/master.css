@@ -189,6 +189,10 @@ p {
   padding: 4% 3% 90px 3%;
 }
 
+#carteles {
+  padding-top: 20%;
+}
+
 #actual_ampliar_info {
   display: none;
 }
@@ -642,6 +646,7 @@ p {
 
 #ni-naiz-athletic figure {
   margin: 0;
+
 }
 
 
@@ -650,8 +655,8 @@ p {
   color: #464747;
 }
 
-#ni-naiz-principal img {
-  width: 80%;
+#ni-naiz-principal figure img {
+  width: 60%;
 }
 
 
@@ -712,6 +717,28 @@ p {
   color: red;
   font-size: 12px;
 }
+
+#sobremi {
+
+}
+
+.sobremi {
+  margin: 30% 10% 10% 10%;
+  font-family: sans-serif;
+  font-style: italic;
+  line-height: 150%;
+  color: gray;
+  padding: 0 5% 8% 3%;
+  text-align: left;
+}
+.sobremi p {
+    font-size: 18px;
+}
+
+.sobremi2 {
+  margin: 24% 10% 10% 10%;
+}
+
 
 #ninaiz-merchandising {
   width: 100%;
@@ -1472,6 +1499,15 @@ header h2 {
 #sectores {
   font-size: 14px;
   font-weight: bold;
+}
+
+.sobremi {
+  margin: 10% 10% 0 10%;
+  line-height: 150%;
+  padding: 0 5% 8% 3%;
+}
+.sobremi p {
+    font-size: 18px;
 }
 
 .cita {
