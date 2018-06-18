@@ -290,6 +290,10 @@ p {
   margin: 0;
 }
 
+#chapa1, #chapa2 {
+  display: none;
+}
+
 #cita {
   padding-bottom: 30%;
 }
@@ -308,7 +312,8 @@ p {
 }
 
 #datos_web_empresa {
-  display: none;
+  margin-top: 30px;
+  display: visibility;
 }
 
 #icono-google img {
@@ -361,9 +366,11 @@ p {
   display: none;
 }
 
-#humor h3, #editorial h3, #lanzadera h3, #merchandising h3 {
+#humor h3, #editorial h3, #lanzadera h3{
   text-align: center;
 }
+
+
 
 #iconos {
   background-color: white;
@@ -609,6 +616,8 @@ p {
 
 
 
+
+
 #mi-foto {
   width: 100%;
   text-align: center;
@@ -643,6 +652,20 @@ p {
 
 #merchandising img {
   width: 80%;
+}
+
+.left h3 {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.left h4, h5 {
+  text-align: left;
+}
+
+
+#merchandising h4 {
+  margin-top: 0;
 }
 
 
@@ -873,6 +896,11 @@ p {
 
 .aumentar_el_padding_right {
   padding-right: 20%;
+}
+
+.borde-articles img {
+  margin-top: 30px;
+  border: 1px solid #dfdfdf;
 }
 
 .cita {
@@ -1244,7 +1272,22 @@ header h2 {
   width: 100%;
 }
 
+#chapas {
+  width: 100%;
+}
+
+#chapa1, #chapa2, #chapa3 {
+  width: 33%;
+  display: inline-block;
+}
+
+#chapa1 figure img, #chapa2 figure img, #chapa3 figure img {
+  width: 100%;
+  height: auto;
+}
+
 #datos_web_empresa {
+
     display: block;
 }
 
@@ -1317,8 +1360,9 @@ header h2 {
 }
 
 #mi-foto {
-  display: none;
-  height: 0px;
+  display: block;
+  width: 100%;
+  height: auto;
 
 }
 
@@ -1383,6 +1427,11 @@ header h2 {
 #merchandising img {
   width: auto;
   height: 80vH;
+}
+
+#merchandising .reducir_img img {
+  width: 40%;
+  height: auto;
 }
 
 #miniaturas {
