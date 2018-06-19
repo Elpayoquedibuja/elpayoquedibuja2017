@@ -290,6 +290,19 @@ p {
   margin: 0;
 }
 
+#chapas {
+
+}
+
+#chapa3 {
+
+}
+
+#merchandising section article figure img {
+  width: 100%;
+  border: 1px solid gray;
+}
+
 #chapa1, #chapa2 {
   display: none;
 }
