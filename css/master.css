@@ -264,6 +264,11 @@ p {
   width: 10%;
 }
 
+#aupa-baraka {
+  width: 100%;
+  background-color: white;
+}
+
 #btn_ocultar_info_jone {
   text-align: right;
 }
@@ -596,7 +601,7 @@ p {
   background-color: white;
 }
 
-#ml_section_principal {
+#ml_section_principal, #ab_section_principal {
   background-color: white;
   height: auto;
   width: 100%;
@@ -606,23 +611,23 @@ p {
   padding-top: 5%;
 }
 
-#ml_section_principal article {
+#ml_section_principal article, #ab_section_principal article {
   width: 100%; /*  width: 32%;*/
   vertical-align: top;
   margin: 0;
   padding: 0 0 40px 0;
 }
 
-#ml_section_principal article figure img {
+#ml_section_principal article figure img, #ab_section_principal article figure img {
   width: 100%;
   max-width: 290px; /*225px;*/
 }
 
-#ml_section_principal article .inline {
+#ml_section_principal article .inline, #ab_section_principal article .inline {
 
 }
 
-#ml_section_principal article p {
+#ml_section_principal article p, #ab_section_principal article p {
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -1467,7 +1472,7 @@ header h2 {
   padding: 20% 0;
 }
 
-#ml_section_principal {
+#ml_section_principal, #ab_section_principal {
   background-color: white;
   height: auto;
   width: 100%;
@@ -1477,7 +1482,7 @@ header h2 {
   padding: 0 0 0 0;
 }
 
-#ml_section_principal article {
+#ml_section_principal article, #ab_section_principal article {
   width: 33%;
   display: inline-block;
   padding-bottom: 40px;
@@ -1488,7 +1493,7 @@ header h2 {
 
 }
 
-#ml_section_principal article p {
+#ml_section_principal article p, #ab_section_principal article p {
   padding-left: 6%;
 }
 
