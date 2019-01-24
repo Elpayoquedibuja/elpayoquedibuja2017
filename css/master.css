@@ -267,6 +267,7 @@ p {
 #aupa-baraka {
   width: 100%;
   background-color: white;
+  margin-bottom: 200px;
 }
 
 #btn_ocultar_info_jone {
@@ -319,6 +320,20 @@ p {
 
 #cohete img {
   width: 50%;
+}
+
+#cojin_txt {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#cojin_txt h3, #cojin_txt p {
+  text-align: center;
+}
+
+.sin_padding-bottom {
+padding: 0 0 0 0;
 }
 
 #contacto {
