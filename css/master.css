@@ -188,7 +188,7 @@ p {
 }
 
 /*sections Añade el nombre del nuevo section AQUÍ*/
-#proyecto_actual, #ni-naiz, #anterior, #humor, #carteles, #editorial, #lanzadera, #laminas, #merchandising  {
+#proyecto_actual, #ni-naiz, #anterior, #humor, #carteles, #editorial, #lanzadera, #laminas, #merchandising, #magikoa  {
   padding: 4% 3% 90px 3%;
 }
 
@@ -396,7 +396,22 @@ padding: 0 0 0 0;
 
 }
 
+#magikoa{
+  background-color: white;
+  color: #464747;
+  height: auto;
+  margin: 0px;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+
+}
+
 #editorial img {
+  width: 100%;
+}
+
+#magikoa img {
   width: 100%;
 }
 
@@ -429,7 +444,7 @@ padding: 0 0 0 0;
   display: none;
 }
 
-#humor h3, #editorial h3, #lanzadera h3{
+#humor h3, #editorial h3, #lanzadera h3, #magikoa h3 {
   text-align: center;
 }
 
@@ -1189,7 +1204,7 @@ header h2 {
 }
 
 /*sections Añade el nombre del nuevo section AQUÍ*/
-#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3, #ni-naiz h2, #ni-naiz, .youtube h2, .youtube h3, #carteles h2, #carteles h3, #editorial h2, #editorial h3, #lanzadera h2, #lanzadera h3, #laminas h2, #laminas h3, #merchandising h2, #merchandising h3 {
+#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3, #ni-naiz h2, #ni-naiz, .youtube h2, .youtube h3, #carteles h2, #carteles h3, #editorial h2, #editorial h3, #lanzadera h2, #lanzadera h3, #laminas h2, #laminas h3, #merchandising h2, #merchandising h3, #magikoa h2, #magikoa h3 {
   color: #2278F4;
 }
 
