@@ -188,7 +188,7 @@ p {
 }
 
 /*sections Añade el nombre del nuevo section AQUÍ*/
-#proyecto_actual, #ni-naiz, #anterior, #humor, #carteles, #editorial, #lanzadera, #laminas, #merchandising {
+#proyecto_actual, #ni-naiz, #anterior, #humor, #carteles, #editorial, #lanzadera, #laminas, #merchandising  {
   padding: 4% 3% 90px 3%;
 }
 
@@ -268,6 +268,11 @@ p {
   width: 100%;
   background-color: white;
   margin-bottom: 200px;
+}
+
+#aupa-baraka h3, #aupa-baraka article p {
+  padding-left: 20px;
+  text-align: center;
 }
 
 #btn_ocultar_info_jone {
@@ -395,6 +400,31 @@ padding: 0 0 0 0;
   width: 100%;
 }
 
+#fundas_movil {
+  height: auto;
+  background-color: white;
+}
+
+#fundas_movil article {
+  width: 100%;
+  display: block;
+  background-color: white;
+  color: #464747;
+  height: auto;
+  margin: 0px;
+  text-align: center;
+}
+
+#fundas_movil article h3, #fundas_movil article h5 {
+  text-align: center;
+}
+
+
+
+#fundas_movil article img {
+  width: 100%;
+}
+
 #header-consejos {
   display: none;
 }
@@ -402,8 +432,6 @@ padding: 0 0 0 0;
 #humor h3, #editorial h3, #lanzadera h3{
   text-align: center;
 }
-
-
 
 #iconos {
   background-color: white;
@@ -616,6 +644,18 @@ padding: 0 0 0 0;
   background-color: white;
 }
 
+#merchandising {
+  width: 100%;
+  display: block;
+  background-color: white;
+  color: #464747;
+  height: auto;
+  margin: 0px;
+  /* margin-top: 20px; */
+  text-align: center;
+
+}
+
 #ml_section_principal, #ab_section_principal {
   background-color: white;
   height: auto;
@@ -625,6 +665,8 @@ padding: 0 0 0 0;
   margin: 0;
   padding-top: 5%;
 }
+
+
 
 #ml_section_principal article, #ab_section_principal article {
   width: 100%; /*  width: 32%;*/
@@ -645,6 +687,11 @@ padding: 0 0 0 0;
 #ml_section_principal article p, #ab_section_principal article p {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+#ab_section_principal article p {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 
@@ -672,20 +719,9 @@ padding: 0 0 0 0;
   width: 100%;
 }
 
-#merchandising {
-  background-color: white;
-  color: #464747;
-  height: auto;
-  margin: 0px;
-  margin-top: 20px;
-  text-align: center;
-  width: 100%;
 
-}
 
-#merchandising img {
-  width: 80%;
-}
+
 
 .left h3 {
   text-align: left;
@@ -1324,6 +1360,12 @@ header h2 {
     display: block;
 }
 
+#fundas_movil article {
+  width: 45%;
+  display: inline-block;
+  margin: 0 20px;
+}
+
 #header-consejos {
   display: block;
   padding: 0 20% 100px 20%;
@@ -1458,8 +1500,7 @@ header h2 {
 }
 
 #merchandising img {
-  width: auto;
-  height: 80vH;
+
 }
 
 #merchandising .reducir_img img {
@@ -1495,6 +1536,10 @@ header h2 {
   text-align: center;
   margin: 0;
   padding: 0 0 0 0;
+}
+
+#ab_section_principal {
+  text-align: left;
 }
 
 #ml_section_principal article, #ab_section_principal article {
