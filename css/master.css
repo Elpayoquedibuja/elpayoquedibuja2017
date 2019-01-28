@@ -236,6 +236,10 @@ p {
   width: 70%;
 }
 
+#anterior h3 {
+  color: #1565c0;
+}
+
 #ampliar {
   height: 50px;
   display: inline-block;
@@ -442,7 +446,6 @@ padding: 0 0 0 0;
 
 #magikoa{
   background-color: white;
-  color: #464747;
   height: auto;
   margin: 0px;
   margin-top: 20px;
@@ -454,6 +457,15 @@ padding: 0 0 0 0;
 
 #magikoa h3 {
   margin: 0 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  color: #1565c0;
+}
+
+#magikoa #portada p {
+  text-align: left;
+  padding: 0 2rem;
+  margin-top: 30px;
 }
 
 #miniaturas-libro {
@@ -509,7 +521,7 @@ padding: 0 0 0 0;
   display: none;
 }
 
-#humor h3, #editorial h3, #lanzadera h3, #magikoa h3 {
+#humor h3, #editorial h3, #lanzadera h3 {
   text-align: center;
 }
 
@@ -975,6 +987,10 @@ padding: 0 0 0 0;
   height: auto;
 }
 
+#pag1 img, #pag2 img {
+  width: 70%;
+}
+
 
 /*** Tesla */
 
@@ -1372,6 +1388,10 @@ header h2 {
   margin-bottom: 0px;
 }
 
+#anterior h3, #check h3{
+  text-align: center;
+}
+
 #ampliar_logo_info {
   visibility: hidden;
 }
@@ -1616,6 +1636,10 @@ header h2 {
 
 }
 
+#magikoa p {
+  padding: 0 10rem;
+}
+
 #merchandising img {
 
 }
@@ -1734,6 +1758,11 @@ header h2 {
   height: auto;
 }
 
+#pag1 img, #pag2 img {
+  width: 100%;
+}
+
+
 
 
 #proyecto_actual {
@@ -1768,7 +1797,7 @@ header h2 {
 
 .sobremi {
   margin: 10% 10% 0 10%;
-  line-height: 240%;
+  line-height: 180%;
   padding: 0 5% 8% 3%;
 }
 .sobremi p {
