@@ -219,6 +219,10 @@ p {
 
 }
 
+
+
+
+
 #anterior h2 {
  color: #464747;
 }
@@ -308,6 +312,45 @@ p {
 
 #chapa3 {
 
+}
+
+#check {
+  background-color: white;
+  color: #464747;
+  height: auto;
+  margin: 0px;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  padding: 1rem 0;
+  margin-bottom: 24px;
+
+}
+
+#check p {
+  text-align: left;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+#check h3 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: #1565c0;
+}
+
+#check ul {
+  text-align: left;
+  list-style: disc;
+  padding-right: 7rem;
+}
+
+#check ul li {
+  margin-left: 30px;
+}
+
+#check #olentzero img {
+  width: 50%;
 }
 
 #merchandising section article figure img {
@@ -1392,6 +1435,37 @@ header h2 {
   height: auto;
 }
 
+#check {
+
+
+}
+
+#check p {
+  text-align: left;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+#check h3 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+#check ul {
+  text-align: left;
+  list-style: disc;
+  padding-right: 18rem;
+}
+
+#check ul li {
+  margin-left: 180px;
+}
+
+#check #olentzero img {
+  width: 30%;
+}
+
+
 #datos_web_empresa {
 
     display: block;
@@ -1519,6 +1593,8 @@ header h2 {
 #neskatxo #olentzero img {
   width: 40%;
 }
+
+
 
 #ni-naiz {
   height: auto;
