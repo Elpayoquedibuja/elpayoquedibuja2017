@@ -268,6 +268,7 @@ p {
   width: 100%;
   background-color: white;
   margin-bottom: 200px;
+  padding-left: inherit;
 }
 
 #aupa-baraka h3, #aupa-baraka article p {
@@ -404,7 +405,28 @@ padding: 0 0 0 0;
   margin-top: 20px;
   text-align: center;
   width: 100%;
+  padding-bottom: 80px;
 
+}
+
+#magikoa h3 {
+  margin: 0 1rem;
+}
+
+#miniaturas-libro {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#miniaturas-libro article {
+  flex-basis: 33%;
+}
+
+#miniaturas-libro article img {
+  width: 100%;
 }
 
 #editorial img {
@@ -1447,6 +1469,10 @@ header h2 {
 
 #logo_img {
   width: 40%;
+}
+
+#magikoa img {
+  width: 70%;
 }
 
 #mi-foto {
