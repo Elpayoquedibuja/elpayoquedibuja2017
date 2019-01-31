@@ -1,5 +1,8 @@
-
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 /* WARNING:  */
 /*
@@ -11,10 +14,9 @@ Lo primero que tines que hacer si creas un nuevo section es buscar con Cmd + f:
 Y seguir las indicaciones.
 Lo que vas a tener que hacer es donde te lo pide este CSS es añadir tu nuevo sections
 */
-
-
 body {
-  background-color: #eeeeee; /*#D7E0F4;*/
+  background-color: #eeeeee;
+  /*#D7E0F4;*/
   font-family: 'Open Sans', sans-serif;
   width: 100%;
 }
@@ -23,12 +25,10 @@ body {
   margin: 0px;
   width: 100%;
 } */
-
 /* figure, #anterior figure {
   height: auto;
   width: 100%;
 } */
-
 footer {
   color: #3B404C;
   height: 100px;
@@ -74,10 +74,7 @@ header h2 {
   background-repeat: repeat;
   color: #1565c0;
   padding: 10px 0 10px 0;
-
 }
-
-
 
 h2 {
   line-height: 28px;
@@ -87,7 +84,6 @@ h2 {
 }
 
 .sin_margin-bottom {
-
   margin-bottom: 0;
 }
 
@@ -95,7 +91,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-header #profesiones  h3 {
+header #profesiones h3 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #1565c0;
@@ -128,10 +124,6 @@ header {
   padding-bottom: 90px;
 }
 
-
-
-
-
 header ul {
   font-family: 'Abel', sans-serif;
   font-size: 2rem;
@@ -144,13 +136,11 @@ header ul {
 header ul li:nth-child(2) {
   font-size: 20px;
   margin-top: 0.6rem;
-
 }
 
 header ul li:nth-child(1):after {
   content: ".";
 }
-
 
 header ul li {
   display: block;
@@ -163,8 +153,6 @@ header h1 {
 p {
   font-size: 18px;
 }
-
-
 
 #actual {
   background-color: white;
@@ -188,7 +176,7 @@ p {
 }
 
 /*sections Añade el nombre del nuevo section AQUÍ*/
-#proyecto_actual, #ni-naiz, #anterior, #humor, #carteles, #editorial, #lanzadera, #laminas, #merchandising, #magik  {
+#proyecto_actual, #ni-naiz, #anterior, #humor, #carteles, #editorial, #lanzadera, #laminas, #merchandising, #magik {
   padding: 4% 3% 90px 3%;
 }
 
@@ -216,15 +204,10 @@ p {
   margin-top: 20px;
   text-align: center;
   width: 100%;
-
 }
 
-
-
-
-
 #anterior h2 {
- color: #464747;
+  color: #464747;
 }
 
 #anteriorTablets {
@@ -249,7 +232,7 @@ p {
   visibility: visible;
 }
 
-#ampliar_descripcion_btn{
+#ampliar_descripcion_btn {
   width: 15%;
 }
 
@@ -310,13 +293,9 @@ p {
   margin: 0;
 }
 
-#chapas {
+#chapas {}
 
-}
-
-#chapa3 {
-
-}
+#chapa3 {}
 
 #check {
   background-color: white;
@@ -328,7 +307,6 @@ p {
   width: 100%;
   padding: 1rem 0;
   margin-bottom: 24px;
-
 }
 
 #check p {
@@ -370,7 +348,6 @@ p {
   padding-bottom: 30%;
 }
 
-
 #cohete img {
   width: 50%;
 }
@@ -386,7 +363,7 @@ p {
 }
 
 .sin_padding-bottom {
-padding: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 
 #contacto {
@@ -400,6 +377,16 @@ padding: 0 0 0 0;
 #datos_web_empresa {
   margin-top: 30px;
   display: visibility;
+}
+
+#descargar {
+  text-align: left;
+  padding-left: 4rem;
+  padding-right: 3rem;
+}
+
+#descargar p {
+  font-size: 14px;
 }
 
 #icono-google img {
@@ -441,10 +428,9 @@ padding: 0 0 0 0;
   margin-top: 20px;
   text-align: center;
   width: 100%;
-
 }
 
-#magikoa{
+#magikoa {
   background-color: white;
   height: auto;
   margin: 0px;
@@ -452,7 +438,6 @@ padding: 0 0 0 0;
   text-align: center;
   width: 100%;
   padding-bottom: 80px;
-
 }
 
 #magikoa h3 {
@@ -511,8 +496,6 @@ padding: 0 0 0 0;
   text-align: center;
 }
 
-
-
 #fundas_movil article img {
   width: 100%;
 }
@@ -543,7 +526,7 @@ padding: 0 0 0 0;
 
 #iconos figure {
   text-align: right;
-  }
+}
 
 #iconos figure img {
   width: 100%;
@@ -675,13 +658,11 @@ padding: 0 0 0 0;
   text-align: center;
   width: 100%;
   text-align: center;
-
 }
 
 #laminas img {
   width: 100%;
 }
-
 
 #laminas figure {
   width: 100%;
@@ -690,7 +671,6 @@ padding: 0 0 0 0;
 #laminas article {
   width: 100%;
   display: block;
-
 }
 
 #laminas article figure img {
@@ -745,7 +725,6 @@ padding: 0 0 0 0;
   margin: 0px;
   /* margin-top: 20px; */
   text-align: center;
-
 }
 
 #ml_section_principal, #ab_section_principal {
@@ -758,10 +737,9 @@ padding: 0 0 0 0;
   padding-top: 5%;
 }
 
-
-
 #ml_section_principal article, #ab_section_principal article {
-  width: 100%; /*  width: 32%;*/
+  width: 100%;
+  /*  width: 32%;*/
   vertical-align: top;
   margin: 0;
   padding: 0 0 40px 0;
@@ -769,12 +747,11 @@ padding: 0 0 0 0;
 
 #ml_section_principal article figure img, #ab_section_principal article figure img {
   width: 100%;
-  max-width: 290px; /*225px;*/
+  max-width: 290px;
+  /*225px;*/
 }
 
-#ml_section_principal article .inline, #ab_section_principal article .inline {
-
-}
+#ml_section_principal article .inline, #ab_section_principal article .inline {}
 
 #ml_section_principal article p, #ab_section_principal article p {
   padding-left: 10%;
@@ -785,10 +762,6 @@ padding: 0 0 0 0;
   padding-left: 0;
   padding-right: 0;
 }
-
-
-
-
 
 #mi-foto {
   width: 100%;
@@ -811,10 +784,6 @@ padding: 0 0 0 0;
   width: 100%;
 }
 
-
-
-
-
 .left h3 {
   text-align: left;
   margin-bottom: 0;
@@ -824,11 +793,9 @@ padding: 0 0 0 0;
   text-align: left;
 }
 
-
 #merchandising h4 {
   margin-top: 0;
 }
-
 
 #ni-naiz {
   text-align: center;
@@ -843,16 +810,9 @@ padding: 0 0 0 0;
   height: auto;
 }
 
-
-
-
-
 #ni-naiz-athletic figure {
   margin: 0;
-
 }
-
-
 
 #ni-naiz h2 {
   color: #464747;
@@ -861,8 +821,6 @@ padding: 0 0 0 0;
 #ni-naiz-principal figure img {
   width: 60%;
 }
-
-
 
 #nombre {
   background-image: url(../img/lineas-h1-01.png);
@@ -916,7 +874,7 @@ padding: 0 0 0 0;
   width: 100%;
 }
 
-#sectores{
+#sectores {
   color: #AAAAAA;
   list-style-type: none;
 }
@@ -952,14 +910,14 @@ padding: 0 0 0 0;
   text-align: center;
   padding: 0;
 }
-#miniatura1, #miniatura2 {
 
-}
+#miniatura1, #miniatura2 {}
 
 #miniatura1 {
   width: 100%;
   height: auto;
 }
+
 #miniatura1 {
   margin-top: 0.4rem;
 }
@@ -974,14 +932,7 @@ padding: 0 0 0 0;
   width: 70%;
 }
 
-
 /*** Tesla */
-
-
-
-
-
-
 .aumentar_el_margin_top {
   margin-top: 1rem;
 }
@@ -1013,7 +964,6 @@ padding: 0 0 0 0;
 }
 
 /* Fin tesla */
-
 .alinear_a_la_izquierda {
   text-align: left;
 }
@@ -1065,7 +1015,7 @@ padding: 0 0 0 0;
 }
 
 .cita p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .color_white {
@@ -1120,8 +1070,8 @@ padding: 0 0 0 0;
 .miniatura {
   width: 100%;
   padding-top: 4px;
-
-  border-bottom: 1px solid #b5b6b6; /* border-left */
+  border-bottom: 1px solid #b5b6b6;
+  /* border-left */
 }
 
 .miniatura-top {
@@ -1144,8 +1094,6 @@ padding: 0 0 0 0;
   padding-bottom: 0;
 }
 
-
-
 .texto_reducir {
   font-size: 90%;
   font-weight: normal;
@@ -1157,8 +1105,6 @@ padding: 0 0 0 0;
   font-weight: normal;
   width: 100%;
 }
-
-
 
 .texto_reducir_low {
   font-size: 1.2rem;
@@ -1173,8 +1119,9 @@ padding: 0 0 0 0;
   padding: 0 5% 8% 3%;
   text-align: left;
 }
+
 .sobremi p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .sobremi2 {
@@ -1185,666 +1132,629 @@ padding: 0 0 0 0;
   width: 80%;
 }
 
-
 /* WARNING: MEDIAQUERY */
 /* WARNING: MEDIAQUERY */
 /* WARNING: MEDIAQUERY */
 /* WARNING: MEDIAQUERY */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: #D7E0F4;
+    border: none;
+    padding: 0;
+  }
 
-@media only screen and (min-width: 768px)
-{
+  header {
+    padding-top: 0;
+    height: 500px;
+    text-align: left;
+    margin-bottom: 0px;
+    background-color: yellow;
+  }
 
-body {
-  background-color: #D7E0F4;
-  border: none;
-  padding: 0;
-}
+  #ni-naiz-athletic header {
+    padding-top: 1rem;
+    height: auto;
+  }
 
-header {
-  padding-top: 0;
-  height: 500px;
-  text-align: left;
-  margin-bottom: 0px;
-  background-color: yellow;
-}
+  header figure img {
+    width: 15%;
+  }
 
-#ni-naiz-athletic header {
-  padding-top: 1rem;
-  height:auto;
-}
+  header h1 {
+    color: #464747;
+    font-size: 40px;
+    padding-top: 0px;
+    padding-left: 2%;
+    text-align: left;
+    padding-left: 5%;
+  }
 
-header figure img {
-  width: 15%;
-}
+  #profesiones {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
 
-header h1 {
-  color: #464747;
-  font-size: 40px;
-  padding-top: 0px;
-  padding-left: 2%;
-  text-align: left;
-  padding-left: 5%;
-}
+  header #profesiones h3 {
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    color: #1E86F7;
+    font-size: 16px;
+    padding-right: 5%;
+  }
 
-#profesiones {
+  header ul {
+    text-align: left;
+  }
 
-  position: absolute;
-  top: 0;
-  width: 100%;
+  header ul li {
+    display: inline-block;
+  }
 
-}
+  blockquote::first-letter {
+    font-size: 60px;
+  }
 
-header #profesiones h3 {
-  text-align: right;
-  font-family: 'Roboto', sans-serif;
-  color: #1E86F7;
-  font-size: 16px;
-  padding-right: 5%;
+  #soy {
+    padding: 3%;
+    text-align: left;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
 
-}
+  header h2 {
+    color: #2278F4;
+    padding-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    padding-top: 100px;
+    font-size: 24px;
+    background: none;
+    text-align: left;
+  }
 
-header ul {
-  text-align: left;
-}
-
-header ul li {
-  display: inline-block;
-}
-
-
-blockquote::first-letter {
-  font-size: 60px;
-}
-
-#soy {
-  padding: 3%;
-  text-align: left;
-  max-width: 1300px;
-  margin: 0 auto;
-}
-
-header h2 {
-  color: #2278F4;
-  padding-top: 0px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  padding-top: 100px;
-  font-size: 24px;
-  background: none;
-  text-align: left;
-}
-
-/* h3 {
+  /* h3 {
   padding: 0 20% 0 0;
   text-align: left;
 } */
+  header h2 {
+    color: #2278F4;
+  }
 
-header h2 {
-  color: #2278F4;
-}
+  #ampliar {
+    display: inline-block;
+    width: 40%;
+    visibility: hidden;
+  }
 
+  #anterior {
+    height: auto;
+    background: none;
+  }
 
+  /*sections Añade el nombre del nuevo section AQUÍ*/
+  #actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3, #ni-naiz h2, #ni-naiz, .youtube h2, .youtube h3, #carteles h2, #carteles h3, #editorial h2, #editorial h3, #lanzadera h2, #lanzadera h3, #laminas h2, #laminas h3, #merchandising h2, #merchandising h3, #magikoa h2, #magikoa h3 {
+    color: #2278F4;
+  }
 
-#ampliar {
-  display: inline-block;
-  width: 40%;
-  visibility: hidden;
-}
-#anterior {
-  height: auto;
-  background: none;
-}
+  #ampliar {
+    visibility: visible;
+  }
 
-/*sections Añade el nombre del nuevo section AQUÍ*/
-#actual h2, #anterior h2, #actual h3, #anterior h3, #proyecto_con_jone h2, #proyecto_con_jone, #actual_ampliar_info h3, #ni-naiz h2, #ni-naiz, .youtube h2, .youtube h3, #carteles h2, #carteles h3, #editorial h2, #editorial h3, #lanzadera h2, #lanzadera h3, #laminas h2, #laminas h3, #merchandising h2, #merchandising h3, #magikoa h2, #magikoa h3 {
-  color: #2278F4;
-}
+  #ampliar_btn {
+    height: 50px;
+    margin-top: 30px;
+    display: inline-block;
+  }
 
-#ampliar {
-  visibility: visible;
-}
+  #ampliar_descripcion_btn {
+    width: 10%;
+  }
 
-#ampliar_btn {
-  height: 50px;
-  margin-top: 30px;
-  display: inline-block;
-}
+  #ampliar_logo_info_btn {
+    width: 4%;
+  }
 
-#ampliar_descripcion_btn {
-  width: 10%;
-}
-
-#ampliar_logo_info_btn {
-  width: 4%;
-}
-
-#btn_ocultar_info_jone {
-  display: block;
-  visibility: vivi;
-}
-
-#actual {
-  border: none;
-  vertical-align: top;
-  margin-top: 80px;
-}
-
-#actual figure {
-  width: 100%;
-  text-align: left;
-  height: auto;
-}
-
-#actual figure img {
-  width: 100%;
-}
-
-#actual_ampliar_info {
-  width: 38%;
-  height: auto;
-  display: inline-block;
-  vertical-align: bottom;
-  padding-left: 3%;
-}
-
-#actual_ampliar_info figure {
-  vertical-align: bottom;
-}
-
-#actual_ampliar_info img {
-  vertical-align: bottom;
-  width: 70%;
-}
-
-#actual {
-  width: 60%;
-  height: auto;
-  vertical-align: top;
-  display: inline-block;
-  margin-top: 0;
-}
-
-#anterior {
-  width: 100%;
-  background-color: #8DD3D8;
-  /*padding: 0 3% 0 3%;*/
-  margin-top: 0px;
-}
-
-#anterior figure {
-  text-align: center;
-}
-
-#anteriorPrincipal {
-  display: inline-block;
-  width: 60%;
-  vertical-align: bottom;
-
-}
-
-#anteriorTablets {
-  display: inline-block;
-  width: 34%;
-  vertical-align: top;
-}
-
-
-#anterior {
-  text-align: left;
-  text-align: center;
-  display: inline-block;
-  vertical-align: top;
-  width: 100%;
-  background-color: white;
-  margin-bottom: 0px;
-}
-
-#anterior h3, #check h3{
-  text-align: center;
-}
-
-#ampliar_logo_info {
-  visibility: hidden;
-}
-
-#anterior figure {
-  text-align: center;
-}
-
-#carteles figure img {
-  height: 95vh;
-  width: auto;
-}
-
-#cohete img {
-  width: 22%;
-}
-
-#consejos1 {
-  padding: 0 0 0 3%;
-}
-
-#consejos1 h2 {
-  text-align: center;
-}
-
-#consejos4 {
-  background-color: #8DD3D8;
-  color: #2278F4;
-  display: inline-block;
-  height: 300px;
-  padding-top: 150px;
-  width: 20%;
-}
-
-#consejos1, #consejos2, #consejos3{
-  background-color: #8DD3D8;
-  color: #2278F4;
-  display: inline-block;
-  height: 300px;
-  margin-bottom: 100px;
-  padding: 0 5%;
-  vertical-align: top;
-  width: 26%;
-}
-
-#consejos1 img, #consejos2 img, #consejos3 img {
-  width: 100%;
-}
-
-#chapas {
-  width: 100%;
-}
-
-#chapa1, #chapa2, #chapa3 {
-  width: 33%;
-  display: inline-block;
-}
-
-#chapa1 figure img, #chapa2 figure img, #chapa3 figure img {
-  width: 100%;
-  height: auto;
-}
-
-#check {
-
-
-}
-
-#check p {
-  text-align: left;
-  font-size: 16px;
-  margin-top: 20px;
-}
-
-#check h3 {
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-
-#check ul {
-  text-align: left;
-  list-style: disc;
-  padding-right: 18rem;
-}
-
-#check ul li {
-  margin-left: 180px;
-}
-
-#check #olentzero img {
-  width: 30%;
-}
-
-
-#datos_web_empresa {
-
+  #btn_ocultar_info_jone {
     display: block;
-}
+    visibility: vivi;
+  }
 
-#fundas_movil article {
-  width: 45%;
-  display: inline-block;
-  margin: 0 20px;
-}
+  #actual {
+    border: none;
+    vertical-align: top;
+    margin-top: 80px;
+  }
 
-#header-consejos {
-  display: block;
-  padding: 0 20% 100px 20%;
-  padding-bottom: 100px;
-  width: 100%;
+  #actual figure {
+    width: 100%;
+    text-align: left;
+    height: auto;
+  }
 
-}
+  #actual figure img {
+    width: 100%;
+  }
 
-#header-consejos h2, #header-consejos p {
-  text-align: center;
-}
+  #actual_ampliar_info {
+    width: 38%;
+    height: auto;
+    display: inline-block;
+    vertical-align: bottom;
+    padding-left: 3%;
+  }
 
-#iconos {
-  width: 85%;
-}
+  #actual_ampliar_info figure {
+    vertical-align: bottom;
+  }
 
-#iconos figure img {
-  width: 70%;
-}
+  #actual_ampliar_info img {
+    vertical-align: bottom;
+    width: 70%;
+  }
 
-#icono1-txt {
-  display: block;
-}
+  #actual {
+    width: 60%;
+    height: auto;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 0;
+  }
 
-#icono2-txt {
-  display: block;
-}
+  #anterior {
+    width: 100%;
+    background-color: #8DD3D8;
+    /*padding: 0 3% 0 3%;*/
+    margin-top: 0px;
+  }
 
-#icono3-txt {
-  display: block;
-}
+  #anterior figure {
+    text-align: center;
+  }
 
-#icono1, #icono2, #icono3 {
-  vertical-align: top;
-}
+  #anteriorPrincipal {
+    display: inline-block;
+    width: 60%;
+    vertical-align: bottom;
+  }
 
-#icono1-txt, #icono2-txt, #icono3-txt {
-  vertical-align: top;
-}
+  #anteriorTablets {
+    display: inline-block;
+    width: 34%;
+    vertical-align: top;
+  }
 
-#iconos figure img {
-  margin: 0 5%;
-}
+  #anterior {
+    text-align: left;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 0px;
+  }
 
-#laminas-colorear article {
-  width: 40%;
-}
+  #anterior h3, #check h3 {
+    text-align: center;
+  }
 
-#laminas article figure img {
-  width: 90%;
-  border: 1px solid gray;
-}
+  #ampliar_logo_info {
+    visibility: hidden;
+  }
 
-#lanzamiento-h3 {
-  margin-bottom: 0;
-}
+  #anterior figure {
+    text-align: center;
+  }
 
-#logo{
-  background-color: red;
-  height: auto;
-  padding-bottom: 50px;
-  padding-left: 10px;
-}
+  #carteles figure img {
+    height: 95vh;
+    width: auto;
+  }
 
-#logo_img {
-  width: 40%;
-}
+  #cohete img {
+    width: 22%;
+  }
 
-#magikoa img {
-  width: 70%;
-}
+  #consejos1 {
+    padding: 0 0 0 3%;
+  }
 
-#mi-foto {
-  display: block;
-  width: 100%;
-  height: auto;
+  #consejos1 h2 {
+    text-align: center;
+  }
 
-}
+  #consejos4 {
+    background-color: #8DD3D8;
+    color: #2278F4;
+    display: inline-block;
+    height: 300px;
+    padding-top: 150px;
+    width: 20%;
+  }
 
-#mi-foto img {
-  width: 15%;
-}
+  #consejos1, #consejos2, #consejos3 {
+    background-color: #8DD3D8;
+    color: #2278F4;
+    display: inline-block;
+    height: 300px;
+    margin-bottom: 100px;
+    padding: 0 5%;
+    vertical-align: top;
+    width: 26%;
+  }
 
-#mi-nombre {
-  display: block;;
-  float: left;
-  padding: 0 15%;
-  text-align: center;
-  width: 100%;
-}
+  #consejos1 img, #consejos2 img, #consejos3 img {
+    width: 100%;
+  }
 
-#mi-profesion {
-  display: block;
-  margin-top: 100px;
-  padding: 0 20%;
-  width: 100%;
-}
+  #chapas {
+    width: 100%;
+  }
 
+  #chapa1, #chapa2, #chapa3 {
+    width: 33%;
+    display: inline-block;
+  }
 
-#mi-profesion h1 {
-  font-size: 20px;
-  font-style: normal;
-  color: gray;
-  letter-spacing: 0px;
-  padding: 0 8% 0 8%;
-  text-align: center;
-  text-indent: 20px;
-  width: 100%;
-}
+  #chapa1 figure img, #chapa2 figure img, #chapa3 figure img {
+    width: 100%;
+    height: auto;
+  }
 
+  #check {}
 
+  #check p {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 20px;
+  }
 
+  #check h3 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
 
-#neskatxo #olentzero img {
-  width: 40%;
-}
+  #check ul {
+    text-align: left;
+    list-style: disc;
+    padding-right: 18rem;
+  }
 
+  #check ul li {
+    margin-left: 180px;
+  }
 
+  #check #olentzero img {
+    width: 30%;
+  }
 
-#ni-naiz {
-  height: auto;
-}
+  #datos_web_empresa {
+    display: block;
+  }
 
-#ni-naiz h2 {
-  margin-top: 20px;
+  #fundas_movil article {
+    width: 45%;
+    display: inline-block;
+    margin: 0 20px;
+  }
 
-}
+  #header-consejos {
+    display: block;
+    padding: 0 20% 100px 20%;
+    padding-bottom: 100px;
+    width: 100%;
+  }
 
-#ni-naiz img {
-  width: 100%;
-}
+  #header-consejos h2, #header-consejos p {
+    text-align: center;
+  }
 
-#ninaiz-m-principal {
-  display: inline-block;
-  width: 60%;
-  border: 0;
+  #iconos {
+    width: 85%;
+  }
 
-}
+  #iconos figure img {
+    width: 70%;
+  }
 
-#magikoa p {
-  padding: 0 10rem;
-}
+  #icono1-txt {
+    display: block;
+  }
 
-#merchandising img {
+  #icono2-txt {
+    display: block;
+  }
 
-}
+  #icono3-txt {
+    display: block;
+  }
 
-#merchandising .reducir_img img {
-  width: 40%;
-  height: auto;
-}
+  #icono1, #icono2, #icono3 {
+    vertical-align: top;
+  }
 
-#miniaturas {
-  display: inline-block;
-  width: 35%;
-  vertical-align: top;
+  #icono1-txt, #icono2-txt, #icono3-txt {
+    vertical-align: top;
+  }
 
-}
+  #iconos figure img {
+    margin: 0 5%;
+  }
 
-#miniatura1 {
-  border: 0;
-  width: 100%;
-}
+  #laminas-colorear article {
+    width: 40%;
+  }
 
-#miniatura2 img {
-  width: 70%;
-}
+  #laminas article figure img {
+    width: 90%;
+    border: 1px solid gray;
+  }
 
-#miniatura1, #miniatura2 {
-  padding: 20% 0;
-}
+  #lanzamiento-h3 {
+    margin-bottom: 0;
+  }
 
-#ml_section_principal, #ab_section_principal {
-  background-color: white;
-  height: auto;
-  width: 100%;
-  display: inline;
-  text-align: center;
-  margin: 0;
-  padding: 0 0 0 0;
-}
+  #logo {
+    background-color: red;
+    height: auto;
+    padding-bottom: 50px;
+    padding-left: 10px;
+  }
 
-#ab_section_principal {
-  text-align: left;
-}
+  #logo_img {
+    width: 40%;
+  }
 
-#ml_section_principal article, #ab_section_principal article {
-  width: 33%;
-  display: inline-block;
-  padding-bottom: 40px;
-  vertical-align: top;
-  margin: 0;
-  margin-top: 5%;
-  padding-bottom: 40px;
+  #magikoa img {
+    width: 70%;
+  }
 
-}
+  #mi-foto {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 
-#ml_section_principal article p, #ab_section_principal article p {
-  padding-left: 6%;
-}
+  #mi-foto img {
+    width: 15%;
+  }
 
+  #mi-nombre {
+    display: block;
+    ;
+    float: left;
+    padding: 0 15%;
+    text-align: center;
+    width: 100%;
+  }
 
+  #mi-profesion {
+    display: block;
+    margin-top: 100px;
+    padding: 0 20%;
+    width: 100%;
+  }
 
-#ni-naiz-principal {
-  width: 100%;
-  display: inline;
-}
+  #mi-profesion h1 {
+    font-size: 20px;
+    font-style: normal;
+    color: gray;
+    letter-spacing: 0px;
+    padding: 0 8% 0 8%;
+    text-align: center;
+    text-indent: 20px;
+    width: 100%;
+  }
 
-#ni-naiz-1, #ni-naiz-2 {
-  display: inline;
-  width: 40%;
-  height: auto;
-}
+  #neskatxo #olentzero img {
+    width: 40%;
+  }
 
-#nombre {
-  background: none;
-  /*background-image: url(../img/lineas-h1-vt-01.png);
+  #ni-naiz {
+    height: auto;
+  }
+
+  #ni-naiz h2 {
+    margin-top: 20px;
+  }
+
+  #ni-naiz img {
+    width: 100%;
+  }
+
+  #ninaiz-m-principal {
+    display: inline-block;
+    width: 60%;
+    border: 0;
+  }
+
+  #magikoa p {
+    padding: 0 10rem;
+  }
+
+  #merchandising img {}
+
+  #merchandising .reducir_img img {
+    width: 40%;
+    height: auto;
+  }
+
+  #miniaturas {
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+  }
+
+  #miniatura1 {
+    border: 0;
+    width: 100%;
+  }
+
+  #miniatura2 img {
+    width: 70%;
+  }
+
+  #miniatura1, #miniatura2 {
+    padding: 20% 0;
+  }
+
+  #ml_section_principal, #ab_section_principal {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    display: inline;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 0 0;
+  }
+
+  #ab_section_principal {
+    text-align: left;
+  }
+
+  #ml_section_principal article, #ab_section_principal article {
+    width: 33%;
+    display: inline-block;
+    padding-bottom: 40px;
+    vertical-align: top;
+    margin: 0;
+    margin-top: 5%;
+    padding-bottom: 40px;
+  }
+
+  #ml_section_principal article p, #ab_section_principal article p {
+    padding-left: 6%;
+  }
+
+  #ni-naiz-principal {
+    width: 100%;
+    display: inline;
+  }
+
+  #ni-naiz-1, #ni-naiz-2 {
+    display: inline;
+    width: 40%;
+    height: auto;
+  }
+
+  #nombre {
+    background: none;
+    /*background-image: url(../img/lineas-h1-vt-01.png);
   background-repeat: repeat;
   background-size: 10%;*/
-}
+  }
 
-#olentzero img {
-  width: 30%;
-}
+  #olentzero img {
+    width: 30%;
+  }
 
-#olentzero2 {
-  display: inline-block;
-  background-color: #8DD3D8;
-  padding: 0 10% 160px 10%;
-  vertical-align: bottom;
-  visibility: hidden;
-  width: 44%;
-}
+  #olentzero2 {
+    display: inline-block;
+    background-color: #8DD3D8;
+    padding: 0 10% 160px 10%;
+    vertical-align: bottom;
+    visibility: hidden;
+    width: 44%;
+  }
 
-#olentzero2 h1 {
-  font-weight: bold;
-  font-size: 29px;
-  padding: 0;
-}
+  #olentzero2 h1 {
+    font-weight: bold;
+    font-size: 29px;
+    padding: 0;
+  }
 
-#olentzero2 img {
-  width: 40%;
-}
+  #olentzero2 img {
+    width: 40%;
+  }
 
-#olentzero2-header img {
-  width: 100%;
-}
+  #olentzero2-header img {
+    width: 100%;
+  }
 
-#olentzero3 {
-  display: block;
-  background-color: #8DD3D8;
-  padding-top: 20px;
-  padding-bottom: 120px;
-}
+  #olentzero3 {
+    display: block;
+    background-color: #8DD3D8;
+    padding-top: 20px;
+    padding-bottom: 120px;
+  }
 
-#pag1, #pag2 {
-  display: inline-block;
-  width: 47%;
-  height: auto;
-}
+  #pag1, #pag2 {
+    display: inline-block;
+    width: 47%;
+    height: auto;
+  }
 
-#pag1 img, #pag2 img {
-  width: 100%;
-}
+  #pag1 img, #pag2 img {
+    width: 100%;
+  }
 
+  #proyecto_actual {
+    height: auto;
+  }
 
+  #titulo-jone {
+    display: none;
+    padding-left: 20%;
+  }
 
-
-#proyecto_actual {
-  height: auto;
-}
-
-#titulo-jone {
-  display: none;
-  padding-left: 20%;
-}
-
-#principal {
+  #principal {
     height: 1600px;
     margin: 40px auto 40px auto;
     max-width: 1100px;
-
   }
 
-#proyectos {
+  #proyectos {
     /* text-align: center; */
-}
+  }
 
-#proyecto_actual, #ni-naiz, #anterior, #humor {
-  padding-top: 70px;
-}
+  #proyecto_actual, #ni-naiz, #anterior, #humor {
+    padding-top: 70px;
+  }
 
+  #sectores {
+    font-size: 14px;
+    font-weight: bold;
+  }
 
-#sectores {
-  font-size: 14px;
-  font-weight: bold;
-}
+  .sobremi {
+    margin: 10% 10% 0 10%;
+    line-height: 180%;
+    padding: 0 5% 8% 3%;
+  }
 
-.sobremi {
-  margin: 10% 10% 0 10%;
-  line-height: 180%;
-  padding: 0 5% 8% 3%;
-}
-.sobremi p {
+  .sobremi p {
     font-size: 22px;
-}
+  }
 
-.cita {
-  font-family: serif;
-  font-style: italic;
-  color: gray;
-  padding: 0 20% 8% 20%;
-  text-align: center;
-}
+  .cita {
+    font-family: serif;
+    font-style: italic;
+    color: gray;
+    padding: 0 20% 8% 20%;
+    text-align: center;
+  }
 
-.cita p {
+  .cita p {
     font-size: 24px;
+  }
+
+  .display-en-linea {
+    display: inline;
+    width: 40%;
+  }
+
+  .texto_reducir_low {
+    font-size: 1rem;
+  }
+
+  .youtube iframe {
+    width: 70%;
+  }
+
+  .youtube {
+    width: 45%;
+    display: inline-block;
+  }
 }
 
-
-
-.display-en-linea {
-  display: inline;
-  width: 40%;
-}
-
-.texto_reducir_low {
-  font-size: 1rem;
-}
-
-.youtube iframe {
-  width: 70%;
-}
-
-.youtube {
-  width: 45%;
-  display: inline-block;
-}
-
-} /* Fin del mediaquery */
+/* Fin del mediaquery */
