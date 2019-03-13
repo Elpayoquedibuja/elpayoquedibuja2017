@@ -947,6 +947,8 @@ p {
   vertical-align: top;
 }
 
+
+
 .youtube h2 {
   color: #464747;
 }
@@ -1756,6 +1758,10 @@ p {
   .youtube {
     width: 45%;
     display: inline-block;
+  }
+
+  #youtube_principal {
+    width: 60%;
   }
 }
 
